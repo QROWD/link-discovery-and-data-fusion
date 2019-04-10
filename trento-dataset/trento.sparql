@@ -1,0 +1,42 @@
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX ogc:  <http://www.opengis.net/ont/geosparql#>
+PREFIX fn: <http://jsa.aksw.org/fn/gml/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX todo: <http://todo/>
+
+CONSTRUCT {
+  ?bikerack
+    a lgdo:BicycleParking ;
+    todo:Street ?street ;
+    todo:Area ?area ;
+    lgdo:bicycle_parking ?type ;
+    lgdo:capacity ?capacity ;
+    rdfs:label ?label ;
+    rdfs:comment ?description ;
+    ogc:asWKT ?wkt ;
+    .
+}
+WHERE {
+  # Load the content of the relative URL (interpreted as a reference to a file) as a string into ?src
+  <rastrelliere.gml> url:text ?src .
+
+  # Parse the string as XML
+  BIND(STRDT(?src, xsd:xml) AS ?xml) .
+
+  # Run an XPath expression which yields a list of nodes. Every node becomes a binding to ?o.
+  # test local name
+  ?xml xml:unnest ("//*[local-name()='rastrelliere']" ?node)
+ 
+  # Read out attributes from each (xml) node
+  BIND(xml:path(?node, "//*[local-name()='id']") AS ?id)
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+  BIND(URI(CONCAT(?ns, ?id)) AS ?bikerack)
+  BIND(xml:path(?node, "//*[local-name()='via']") AS ?street)
+  BIND(xml:path(?node, "//*[local-name()='zona']") AS ?area)
+  BIND(xml:path(?node, "//*[local-name()='tipologia']") AS ?type)
+  BIND(xml:path(?node, "//*[local-name()='n_posti']") AS ?capacity)
+  BIND(xml:path(?node, "//*[local-name()='fumetto']") AS ?label)
+  BIND(xml:path(?node, "//*[local-name()='descrizione']") AS ?description)
+  ?node xml:unnest ("//*[local-name()='geometryProperty']/*" ?g )
+  BIND(fn:gml2Wkt(str(?g)) AS ?wkt)
+}
