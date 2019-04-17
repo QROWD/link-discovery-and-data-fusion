@@ -13,6 +13,11 @@ CONSTRUCT {
     lgdo:capacity ?capacity ;
     rdfs:label ?label ;
     rdfs:comment ?description ;
+    ogc:geometry ?geometry ;
+    .
+
+  ?geometry
+    a ogc:Geometry ;
     ogc:asWKT ?wkt ;
     .
 }
@@ -39,4 +44,5 @@ WHERE {
   BIND(xml:path(?node, "//*[local-name()='descrizione']") AS ?description)
   ?node xml:unnest ("//*[local-name()='geometryProperty']/*" ?g )
   BIND(fn:gml2Wkt(str(?g)) AS ?wkt)
+  BIND(URI(CONCAT(?ns, "geometry", ?id)) AS ?geometry)
 }

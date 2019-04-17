@@ -1,908 +1,474 @@
-@prefix ns60:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068378&long=11.123913#> .
-@prefix ns2:   <http://linkedgeodata.org/meta/> .
-@prefix ns1:   <http://linkedgeodata.org/triplify/> .
-@prefix ns4:   <http://geovocab.org/spatial#> .
-@prefix ns3:   <http://linkedgeodata.org/ontology/> .
-@prefix ns53:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066162&long=11.123909#> .
-@prefix ns6:   <http://purl.org/dc/terms/> .
-@prefix ns52:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066101&long=11.123981#> .
-@prefix ns51:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066994&long=11.124493#> .
-@prefix ns8:   <http://linkedgeodata.org/geometry/> .
-@prefix ns50:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065201&long=11.119394#> .
-@prefix ns7:   <http://geovocab.org/geometry#> .
-@prefix ns57:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070755&long=11.121174#> .
-@prefix ns13:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067024&long=11.12012#> .
-@prefix ns56:  <http://gadm.geovocab.org/services/withinRegion?lat=46.06979&long=11.122666#> .
-@prefix ns12:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070854&long=11.119453#> .
-@prefix ns55:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070717&long=11.121938#> .
-@prefix ns11:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069469&long=11.123692#> .
-@prefix ns54:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065063&long=11.122915#> .
-@prefix ns10:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071659&long=11.121141#> .
-@prefix ns17:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067448&long=11.126324#> .
-@prefix ns16:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069614&long=11.120785#> .
-@prefix ns59:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068535&long=11.122636#> .
-@prefix ns15:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068481&long=11.122631#> .
-@prefix ns58:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067825&long=11.122702#> .
-@prefix ns14:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068874&long=11.120698#> .
-@prefix ns19:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068939&long=11.125953#> .
-@prefix ns18:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065624&long=11.123599#> .
-@prefix ns42:  <http://gadm.geovocab.org/services/withinRegion?lat=46.06918&long=11.12456#> .
-@prefix ns85:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068752&long=11.11951#> .
-@prefix ns41:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068726&long=11.12466#> .
-@prefix ns84:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067554&long=11.121825#> .
-@prefix ns40:  <http://gadm.geovocab.org/services/withinRegion?lat=46.07103&long=11.123081#> .
-@prefix ns83:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065952&long=11.127136#> .
-@prefix ns46:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070473&long=11.119019#> .
-@prefix ns45:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068871&long=11.11982#> .
-@prefix ns44:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069431&long=11.126476#> .
-@prefix ns43:  <http://gadm.geovocab.org/services/withinRegion?lat=46.06918&long=11.124459#> .
-@prefix ns49:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071972&long=11.123924#> .
-@prefix ns48:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071918&long=11.124039#> .
-@prefix ns47:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071842&long=11.123815#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix ns82:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067787&long=11.1235#> .
-@prefix ns81:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071854&long=11.119682#> .
-@prefix ns80:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068401&long=11.124164#> .
-@prefix ns75:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068199&long=11.121001#> .
-@prefix ns31:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067253&long=11.12339#> .
-@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix ns74:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069328&long=11.120337#> .
-@prefix ns30:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067207&long=11.123487#> .
-@prefix ns73:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068672&long=11.120111#> .
-@prefix ns72:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071434&long=11.122663#> .
-@prefix ns79:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067757&long=11.118879#> .
-@prefix ns35:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069668&long=11.118688#> .
-@prefix ns78:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069466&long=11.121647#> .
-@prefix ns34:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068073&long=11.125399#> .
-@prefix ns77:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067181&long=11.119016#> .
-@prefix ns33:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069691&long=11.121346#> .
-@prefix ns76:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069099&long=11.122015#> .
-@prefix ns32:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067482&long=11.127189#> .
-@prefix ns39:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070103&long=11.123097#> .
-@prefix ns38:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068939&long=11.122027#> .
-@prefix ns37:  <http://gadm.geovocab.org/services/withinRegion?lat=46.06741&long=11.121821#> .
-@prefix ns36:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066235&long=11.118721#> .
-@prefix ns71:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071266&long=11.121588#> .
-@prefix ns70:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065998&long=11.124673#> .
-@prefix ns64:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067471&long=11.123758#> .
-@prefix ns20:  <http://gadm.geovocab.org/services/withinRegion?lat=46.06712&long=11.126182#> .
-@prefix ns63:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069237&long=11.123477#> .
-@prefix ns62:  <http://gadm.geovocab.org/services/withinRegion?lat=46.068874&long=11.12598#> .
-@prefix ns61:  <http://gadm.geovocab.org/services/withinRegion?lat=46.07209&long=11.119871#> .
-@prefix ns68:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066154&long=11.124031#> .
-@prefix ns24:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066914&long=11.123021#> .
-@prefix ns67:  <http://gadm.geovocab.org/services/withinRegion?lat=46.066002&long=11.124115#> .
+@prefix ns5:   <http://linkedgeodata.org/ontology/> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ns23:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069752&long=11.120113#> .
-@prefix ns66:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070843&long=11.121662#> .
-@prefix ns22:  <http://gadm.geovocab.org/services/withinRegion?lat=46.069809&long=11.120101#> .
-@prefix ns65:  <http://gadm.geovocab.org/services/withinRegion?lat=46.071533&long=11.121097#> .
-@prefix ns21:  <http://gadm.geovocab.org/services/withinRegion?lat=46.067749&long=11.124687#> .
-@prefix ns28:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070148&long=11.123096#> .
-@prefix ns27:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070797&long=11.126002#> .
-@prefix ns26:  <http://gadm.geovocab.org/services/withinRegion?lat=46.070755&long=11.125998#> .
-@prefix ns69:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065708&long=11.124722#> .
-@prefix ns25:  <http://gadm.geovocab.org/services/withinRegion?lat=46.065235&long=11.122528#> .
-@prefix ns29:  <http://gadm.geovocab.org/services/withinRegion?lat=46.064869&long=11.124443#> .
-
-ns1:node1614387739  a    ns2:Node , ns3:Amenity , ns3:BicycleParking , ns4:Feature ;
-        ns7:geometry     ns8:node1614387739 ;
-        ns3:changeset    "10560221"^^xsd:int ;
-        ns3:gadmSameAs   ns38:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-02-01T17:36:14"^^xsd:dateTime ;
-        geo:lat          46.068938200000005168 ;
-        geo:long         11.122027000000000996 .
-
-ns1:node927358861  a     ns4:Feature , ns3:Amenity , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node927358861 ;
-        ns3:changeset    "5886612"^^xsd:int ;
-        ns3:gadmSameAs   ns75:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-27T00:50:36"^^xsd:dateTime ;
-        geo:lat          46.068199400000004573 ;
-        geo:long         11.121001500000000206 .
-
-ns1:node938729359  a     ns2:Node , ns3:BicycleParking , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node938729359 ;
-        ns3:changeset    "8793944"^^xsd:int ;
-        ns3:gadmSameAs   ns51:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-22T01:52:57"^^xsd:dateTime ;
-        geo:lat          46.066995500000004427 ;
-        geo:long         11.124492599999999953 .
-
-ns1:node1461587546  a    ns3:BicycleParking , ns4:Feature , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node1461587546 ;
-        ns3:capacity     "24" ;
-        ns3:changeset    "9524711"^^xsd:int ;
-        ns3:gadmSameAs   ns24:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-10-10T21:03:54"^^xsd:dateTime ;
-        geo:lat          46.066913100000000725 ;
-        geo:long         11.123021200000000164 .
-
-ns1:node892578597  a     ns3:BicycleParking , ns4:Feature , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node892578597 ;
-        ns3:changeset    "5658159"^^xsd:int ;
-        ns3:gadmSameAs   ns72:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-02T00:35:12"^^xsd:dateTime ;
-        geo:lat          46.071432700000002569 ;
-        geo:long         11.122662700000001124 .
-
-ns1:node927359418  a     ns2:Node , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node927359418 ;
-        ns3:changeset    "9828950"^^xsd:int ;
-        ns3:gadmSameAs   ns80:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-11-14T22:10:50"^^xsd:dateTime ;
-        geo:lat          46.068401300000004994 ;
-        geo:long         11.124163700000000432 .
-
-ns1:node1962487950  a    ns2:Node , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node1962487950 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "13478469"^^xsd:int ;
-        ns3:gadmSameAs   ns42:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-10-13T14:37:05"^^xsd:dateTime ;
-        geo:lat          46.06918110000000155 ;
-        geo:long         11.124559900000001278 .
-
-ns1:node1369533465  a    ns4:Feature , ns3:BicycleParking , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node1369533465 ;
-        ns3:capacity     "20" ;
-        ns3:changeset    "9959427"^^xsd:int ;
-        ns3:gadmSameAs   ns21:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-11-26T19:54:38"^^xsd:dateTime ;
-        geo:lat          46.067748200000004033 ;
-        geo:long         11.124686900000000378 .
-
-ns1:node885670019  a     ns3:Amenity , ns3:BicycleParking , ns4:Feature , ns2:Node ;
-        ns7:geometry     ns8:node885670019 ;
-        ns3:changeset    "9828950"^^xsd:int ;
-        ns3:gadmSameAs   ns60:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-11-14T22:10:49"^^xsd:dateTime ;
-        geo:lat          46.068379200000002527 ;
-        geo:long         11.123912600000000594 .
-
-ns1:node998661865  a     ns3:Amenity , ns2:Node , ns3:BicycleParking , ns4:Feature ;
-        ns7:geometry     ns8:node998661865 ;
-        ns3:changeset    "6427180"^^xsd:int ;
-        ns3:gadmSameAs   ns55:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-11-21T22:36:28"^^xsd:dateTime ;
-        geo:lat          46.070717500000000655 ;
-        geo:long         11.12193810000000127 .
-
-ns1:node1271504854  a    ns4:Feature , ns2:Node , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1271504854 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8249083"^^xsd:int ;
-        ns3:gadmSameAs   ns10:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-05-25T23:46:57"^^xsd:dateTime ;
-        geo:lat          46.071658700000000408 ;
-        geo:long         11.121141000000001497 .
-
-ns1:node938729458  a     ns3:Amenity , ns4:Feature , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node938729458 ;
-        ns3:access       "private" ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "11772463"^^xsd:int ;
-        ns3:gadmSameAs   ns53:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-06-02T00:23:21"^^xsd:dateTime ;
-        geo:lat          46.066163100000004249 ;
-        geo:long         11.123908600000000035 .
-
-ns1:node1962487942  a    ns2:Node , ns4:Feature , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1962487942 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "13478469"^^xsd:int ;
-        ns3:gadmSameAs   ns41:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-10-13T14:37:04"^^xsd:dateTime ;
-        geo:lat          46.06872610000000634 ;
-        geo:long         11.124660900000000296 .
-
-ns1:node880591119  a     ns3:BicycleParking , ns2:Node , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node880591119 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "21352361"^^xsd:int ;
-        ns3:gadmSameAs   ns59:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2014-03-27T21:21:16"^^xsd:dateTime ;
-        geo:lat          46.068536200000004044 ;
-        geo:long         11.122635600000000622 .
-
-ns1:node930522335  a     ns2:Node , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node930522335 ;
-        ns3:capacity     "21" ;
-        ns3:changeset    "8482631"^^xsd:int ;
-        ns3:gadmSameAs   ns81:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-19T13:06:44"^^xsd:dateTime ;
-        geo:lat          46.071855400000004011 ;
-        geo:long         11.119682000000000954 .
-
-ns1:node1633007373  a    ns3:Amenity , ns2:Node , ns4:Feature , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1633007373 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "10724109"^^xsd:int ;
-        ns3:gadmSameAs   ns39:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-02-18T21:34:28"^^xsd:dateTime ;
-        geo:lat          46.070103100000004304 ;
-        geo:long         11.123097000000001344 .
-
-ns1:node880590846  a     ns3:Amenity , ns3:BicycleParking , ns4:Feature , ns2:Node ;
-        ns7:geometry     ns8:node880590846 ;
-        ns3:changeset    "5943790"^^xsd:int ;
-        ns3:gadmSameAs   ns57:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-10-03T14:40:44"^^xsd:dateTime ;
-        geo:lat          46.070754600000000778 ;
-        geo:long         11.121174100000001062 .
-
-ns1:node948758405  a     ns3:BicycleParking , ns2:Node , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node948758405 ;
-        ns3:capacity     "44" ;
-        ns3:changeset    "8355707"^^xsd:int ;
-        ns3:gadmSameAs   ns33:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-06T02:49:06"^^xsd:dateTime ;
-        geo:lat          46.069689300000000287 ;
-        geo:long         11.121346800000001309 .
-
-ns1:node938729365  a     ns4:Feature , ns3:Amenity , ns2:Node , ns3:BicycleParking ;
-        ns7:geometry     ns8:node938729365 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8238918"^^xsd:int ;
-        ns3:gadmSameAs   ns52:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-05-24T21:36:23"^^xsd:dateTime ;
-        geo:lat          46.066102900000004183 ;
-        geo:long         11.123981399999999908 .
-
-ns1:node2925010842  a        ns2:Node , ns4:Feature , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry         ns8:node2925010842 ;
-        ns3:access           "public" ;
-        ns3:bicycle_parking  "wall_loops" ;
-        ns3:changeset        "23049195"^^xsd:int ;
-        ns3:covered          "no" ;
-        ns3:gadmSameAs       ns32:point ;
-        ns3:version          "1"^^xsd:int ;
-        ns6:contributor      ns1:user135609 ;
-        ns6:modified         "2014-06-20T19:57:59"^^xsd:dateTime ;
-        geo:lat              46.067480500000002053 ;
-        geo:long             11.12718890000000016 .
-
-ns1:node1331468407  a    ns2:Node , ns3:Amenity , ns4:Feature , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1331468407 ;
-        ns3:changeset    "11509278"^^xsd:int ;
-        ns3:gadmSameAs   ns18:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-05-05T17:46:17"^^xsd:dateTime ;
-        geo:lat          46.065625799999999401 ;
-        geo:long         11.123599300000000412 .
-
-ns1:node1662768771  a    ns3:Amenity , ns3:BicycleParking , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node1662768771 ;
-        ns3:capacity     "13" ;
-        ns3:changeset    "10892662"^^xsd:int ;
-        ns3:gadmSameAs   ns40:point ;
-        ns3:parking      "surface" ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-03-06T18:57:56"^^xsd:dateTime ;
-        geo:lat          46.071031000000004951 ;
-        geo:long         11.123080800000000323 .
-
-ns1:node2673313374  a    ns2:Node , ns4:Feature , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node2673313374 ;
-        ns3:changeset    "20582654"^^xsd:int ;
-        ns3:gadmSameAs   ns47:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        geo:lat          46.071843000000001211 ;
-        geo:long         11.12381490000000106 .
-
-ns1:node1312440679  a    ns4:Feature , ns3:Amenity , ns2:Node , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1312440679 ;
-        ns3:changeset    "15579496"^^xsd:int ;
-        ns3:gadmSameAs   ns13:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2013-04-02T12:13:07"^^xsd:dateTime ;
-        geo:lat          46.067023100000000113 ;
-        geo:long         11.120120299999999958 .
-
-ns1:node1123469919  a    ns3:Amenity , ns4:Feature , ns2:Node , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1123469919 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8355707"^^xsd:int ;
-        ns3:gadmSameAs   ns22:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-06T02:49:01"^^xsd:dateTime ;
-        geo:lat          46.0698076000000043 ;
-        geo:long         11.120100600000000668 .
-
-ns1:node1368300341  a    ns3:Amenity , ns4:Feature , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node1368300341 ;
-        ns3:capacity     "20" ;
-        ns3:changeset    "8782670"^^xsd:int ;
-        ns3:gadmSameAs   ns20:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-20T22:22:29"^^xsd:dateTime ;
-        geo:lat          46.06712020000000507 ;
-        geo:long         11.126182000000000016 .
-
-ns1:node885670138  a     ns3:Amenity , ns4:Feature , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node885670138 ;
-        ns3:capacity     "10" ;
-        ns3:changeset    "8249083"^^xsd:int ;
-        ns3:gadmSameAs   ns65:point ;
-        ns3:version      "6"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-05-25T23:46:56"^^xsd:dateTime ;
-        geo:lat          46.071534800000002008 ;
-        geo:long         11.121096300000001378 .
-
-ns1:node1773068114  a    ns4:Feature , ns3:Amenity , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node1773068114 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "11772304"^^xsd:int ;
-        ns3:gadmSameAs   ns29:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-06-01T23:52:25"^^xsd:dateTime ;
-        geo:lat          46.064867400000004238 ;
-        geo:long         11.12444260000000007 .
-
-ns1:node880590612  a     ns3:BicycleParking , ns2:Node , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node880590612 ;
-        ns3:changeset    "5599305"^^xsd:int ;
-        ns3:gadmSameAs   ns56:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-08-26T15:44:58"^^xsd:dateTime ;
-        geo:lat          46.069788100000003794 ;
-        geo:long         11.122666300000000561 .
-
-ns1:node2407332591  a    ns3:BicycleParking , ns4:Feature , ns3:Amenity , ns2:Node ;
-        ns7:geometry     ns8:node2407332591 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "17220447"^^xsd:int ;
-        ns3:gadmSameAs   ns44:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2013-08-04T23:04:14"^^xsd:dateTime ;
-        geo:lat          46.069432600000006062 ;
-        geo:long         11.12647670000000133 .
-
-ns1:node927359403  a     ns2:Node , ns4:Feature , ns3:BicycleParking , ns3:Amenity ;
-        ns7:geometry     ns8:node927359403 ;
-        ns3:changeset    "5886612"^^xsd:int ;
-        ns3:gadmSameAs   ns79:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-27T00:50:51"^^xsd:dateTime ;
-        geo:lat          46.067757800000002533 ;
-        geo:long         11.118879600000001417 .
-
-ns1:node1300215314  a    ns3:BicycleParking , ns2:Node , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node1300215314 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8249083"^^xsd:int ;
-        ns3:gadmSameAs   ns11:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-05-25T23:46:54"^^xsd:dateTime ;
-        geo:lat          46.069471300000003566 ;
-        geo:long         11.123691400000000229 .
-
-ns1:node927359152  a     ns2:Node , ns3:BicycleParking , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node927359152 ;
-        ns3:changeset    "5886612"^^xsd:int ;
-        ns3:gadmSameAs   ns77:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-27T00:50:44"^^xsd:dateTime ;
-        geo:lat          46.067179100000004155 ;
-        geo:long         11.119015800000001448 .
-
-ns1:node885670132  a     ns4:Feature , ns3:BicycleParking , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node885670132 ;
-        ns3:capacity     "30" ;
-        ns3:changeset    "9524711"^^xsd:int ;
-        ns3:gadmSameAs   ns64:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-10-10T21:03:56"^^xsd:dateTime ;
-        geo:lat          46.067469200000005003 ;
-        geo:long         11.123758700000001554 .
-
-ns1:node890486735  a     ns3:BicycleParking , ns4:Feature , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node890486735 ;
-        ns3:capacity     "12" ;
-        ns3:changeset    "32400360"^^xsd:int ;
-        ns3:gadmSameAs   ns70:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user38643 ;
-        ns6:modified     "2015-07-04T00:41:24"^^xsd:dateTime ;
-        geo:lat          46.065998600000000351 ;
-        geo:long         11.124673000000001366 .
-
-ns1:node1202027599  a    ns3:BicycleParking , ns3:Amenity , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node1202027599 ;
-        ns3:changeset    "7560225"^^xsd:int ;
-        ns3:gadmSameAs   ns35:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-03-14T20:56:08"^^xsd:dateTime ;
-        geo:lat          46.06966960000000455 ;
-        geo:long         11.118688000000000571 .
-
-ns1:node889555365  a     ns4:Feature , ns2:Node , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node889555365 ;
-        ns3:changeset    "5963891"^^xsd:int ;
-        ns3:gadmSameAs   ns67:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-10-05T21:16:48"^^xsd:dateTime ;
-        geo:lat          46.066000200000004838 ;
-        geo:long         11.124114900000000361 .
-
-ns1:node959911107  a     ns3:Amenity , ns4:Feature , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node959911107 ;
-        ns3:capacity     "15" ;
-        ns3:changeset    "9612875"^^xsd:int ;
-        ns3:gadmSameAs   ns54:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-10-21T00:04:41"^^xsd:dateTime ;
-        geo:lat          46.065062700000005691 ;
-        geo:long         11.122914900000001381 .
-
-ns1:node880590952  a     ns2:Node , ns3:Amenity , ns3:BicycleParking , ns4:Feature ;
-        ns7:geometry     ns8:node880590952 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8664160"^^xsd:int ;
-        ns3:gadmSameAs   ns58:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-08T10:57:43"^^xsd:dateTime ;
-        geo:lat          46.067824500000000398 ;
-        geo:long         11.122701199999999844 .
-
-ns1:node1073482343  a    ns2:Node , ns4:Feature , ns3:BicycleParking , ns3:Amenity ;
-        ns7:geometry     ns8:node1073482343 ;
-        ns3:capacity     "20" ;
-        ns3:changeset    "21835552"^^xsd:int ;
-        ns3:gadmSameAs   ns34:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2014-04-21T13:29:44"^^xsd:dateTime ;
-        geo:lat          46.068072900000004211 ;
-        geo:long         11.125398300000000518 .
-
-ns1:node963712275  a     ns4:Feature , ns3:Amenity , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node963712275 ;
-        ns3:changeset    "6160997"^^xsd:int ;
-        ns3:gadmSameAs   ns74:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-10-24T20:51:08"^^xsd:dateTime ;
-        geo:lat          46.069328900000002136 ;
-        geo:long         11.120336100000001167 .
-
-ns1:node1366801180  a    ns3:Amenity , ns2:Node , ns4:Feature , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1366801180 ;
-        ns3:changeset    "8770327"^^xsd:int ;
-        ns3:gadmSameAs   ns19:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-19T18:50:29"^^xsd:dateTime ;
-        geo:lat          46.068940500000003624 ;
-        geo:long         11.125952300000001571 .
-
-ns1:node1313709030  a    ns2:Node , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node1313709030 ;
-        ns3:capacity     "32" ;
-        ns3:changeset    "8355707"^^xsd:int ;
-        ns3:gadmSameAs   ns16:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-06T02:48:58"^^xsd:dateTime ;
-        geo:lat          46.069615300000002378 ;
-        geo:long         11.120784700000001521 .
-
-ns1:node1330657604  a    ns4:Feature , ns2:Node , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node1330657604 ;
-        ns3:capacity     "7" ;
-        ns3:changeset    "8489462"^^xsd:int ;
-        ns3:gadmSameAs   ns17:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-19T23:32:03"^^xsd:dateTime ;
-        geo:lat          46.067446800000006135 ;
-        geo:long         11.126323499999999811 .
-
-ns1:node2673313378  a    ns3:BicycleParking , ns3:Amenity , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node2673313378 ;
-        ns3:changeset    "20582654"^^xsd:int ;
-        ns3:gadmSameAs   ns49:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        geo:lat          46.071971100000006061 ;
-        geo:long         11.123924600000000495 .
-
-ns1:node990462102  a     ns2:Node , ns3:BicycleParking , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node990462102 ;
-        ns3:changeset    "6381338"^^xsd:int ;
-        ns3:gadmSameAs   ns82:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-11-15T23:12:52"^^xsd:dateTime ;
-        geo:lat          46.067788300000003687 ;
-        geo:long         11.123500200000000504 .
-
-ns1:node1307180338  a    ns4:Feature , ns2:Node , ns3:BicycleParking , ns3:Amenity ;
-        ns7:geometry     ns8:node1307180338 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "8770327"^^xsd:int ;
-        ns3:gadmSameAs   ns27:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-19T18:52:12"^^xsd:dateTime ;
-        geo:lat          46.070797900000002301 ;
-        geo:long         11.126001900000000333 .
-
-ns1:node890517069  a     ns3:Amenity , ns4:Feature , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node890517069 ;
-        ns3:changeset    "6043055"^^xsd:int ;
-        ns3:gadmSameAs   ns71:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-10-14T22:48:19"^^xsd:dateTime ;
-        geo:lat          46.071265500000002646 ;
-        geo:long         11.12158810000000031 .
-
-ns1:node2074585048  a    ns4:Feature , ns2:Node , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node2074585048 ;
-        ns3:changeset    "14331570"^^xsd:int ;
-        ns3:gadmSameAs   ns31:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-12-19T15:05:42"^^xsd:dateTime ;
-        geo:lat          46.067252600000003326 ;
-        geo:long         11.123389900000001163 .
-
-ns1:node890486688  a     ns4:Feature , ns2:Node , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node890486688 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8782670"^^xsd:int ;
-        ns3:gadmSameAs   ns69:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-20T22:22:41"^^xsd:dateTime ;
-        geo:lat          46.065709200000000578 ;
-        geo:long         11.124721400000000315 .
-
-ns1:node885670110  a     ns4:Feature , ns3:Amenity , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node885670110 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8249083"^^xsd:int ;
-        ns3:gadmSameAs   ns63:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-05-25T23:46:56"^^xsd:dateTime ;
-        geo:lat          46.069238099999999747 ;
-        geo:long         11.123477300000001122 .
-
-ns1:node1474641648  a    ns2:Node , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node1474641648 ;
-        ns3:capacity     "20" ;
-        ns3:changeset    "9612875"^^xsd:int ;
-        ns3:gadmSameAs   ns25:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-10-21T00:04:04"^^xsd:dateTime ;
-        geo:lat          46.065235700000002339 ;
-        geo:long         11.122528200000001419 .
-
-ns1:node920689213  a     ns3:BicycleParking , ns4:Feature , ns3:Amenity , ns2:Node ;
-        ns7:geometry     ns8:node920689213 ;
-        ns3:changeset    "5840681"^^xsd:int ;
-        ns3:gadmSameAs   ns50:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-21T22:37:52"^^xsd:dateTime ;
-        geo:lat          46.065198900000005722 ;
-        geo:long         11.119393900000000386 .
-
-ns1:node927359322  a     ns2:Node , ns4:Feature , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node927359322 ;
-        ns3:changeset    "5886612"^^xsd:int ;
-        ns3:gadmSameAs   ns78:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-27T00:50:49"^^xsd:dateTime ;
-        geo:lat          46.069463900000002354 ;
-        geo:long         11.121646700000001218 .
-
-ns1:node1214597766  a    ns3:BicycleParking , ns2:Node , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node1214597766 ;
-        ns3:changeset    "7644833"^^xsd:int ;
-        ns3:gadmSameAs   ns37:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-03-23T10:49:08"^^xsd:dateTime ;
-        geo:lat          46.0674085000000062 ;
-        geo:long         11.121821100000000015 .
-
-ns1:node1123469924  a    ns3:Amenity , ns3:BicycleParking , ns4:Feature , ns2:Node ;
-        ns7:geometry     ns8:node1123469924 ;
-        ns3:capacity     "10" ;
-        ns3:changeset    "8355707"^^xsd:int ;
-        ns3:gadmSameAs   ns23:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-06T02:49:01"^^xsd:dateTime ;
-        geo:lat          46.069751500000002409 ;
-        geo:long         11.120113400000001036 .
-
-ns1:node888452720  a     ns3:BicycleParking , ns3:Amenity , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node888452720 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "9563227"^^xsd:int ;
-        ns3:gadmSameAs   ns66:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-10-15T14:48:36"^^xsd:dateTime ;
-        geo:lat          46.070841300000004992 ;
-        geo:long         11.121662500000001117 .
-
-ns1:node560584081  a     ns3:Amenity , ns3:BicycleParking , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node560584081 ;
-        ns3:capacity     "21" ;
-        ns3:changeset    "34661052"^^xsd:int ;
-        ns3:gadmSameAs   ns85:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2015-10-15T20:28:03"^^xsd:dateTime ;
-        geo:lat          46.06875280000000572 ;
-        geo:long         11.119509800000001221 .
-
-ns1:node557197356  a     ns3:Amenity , ns3:BicycleParking , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node557197356 ;
-        ns3:changeset    "5865696"^^xsd:int ;
-        ns3:gadmSameAs   ns84:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-24T21:21:34"^^xsd:dateTime ;
-        geo:lat          46.06755600000000328 ;
-        geo:long         11.121824800000000621 .
-
-ns1:node889555501  a     ns4:Feature , ns3:BicycleParking , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node889555501 ;
-        ns3:changeset    "5963891"^^xsd:int ;
-        ns3:gadmSameAs   ns68:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-10-05T21:16:56"^^xsd:dateTime ;
-        geo:lat          46.066154900000000794 ;
-        geo:long         11.124031000000000446 .
-
-ns1:node2591984558  a    ns4:Feature , ns3:BicycleParking , ns3:Amenity , ns2:Node ;
-        ns7:geometry     ns8:node2591984558 ;
-        ns3:capacity     "5" ;
-        ns3:changeset    "19607056"^^xsd:int ;
-        ns3:gadmSameAs   ns46:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2013-12-23T21:23:47"^^xsd:dateTime ;
-        geo:lat          46.070471500000003573 ;
-        geo:long         11.119018900000000372 .
-
-ns1:way80767213  a           ns3:Amenity , ns4:Feature , ns2:Way , ns3:BicycleParking ;
-        ns7:geometry         ns8:way80767213 ;
-        ns3:bicycle_parking  "wall_loops" ;
-        ns3:changeset        "23190861"^^xsd:int ;
-        ns3:version          "3"^^xsd:int ;
-        ns6:contributor      ns3:user135609 ;
-        ns6:modified         "2014-06-26T17:53:26"^^xsd:dateTime .
-
-ns1:way80767282  a           ns2:Way , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry         ns8:way80767282 ;
-        ns3:bicycle_parking  "wall_loops" ;
-        ns3:changeset        "23190861"^^xsd:int ;
-        ns3:version          "3"^^xsd:int ;
-        ns6:contributor      ns3:user135609 ;
-        ns6:modified         "2014-06-26T17:53:26"^^xsd:dateTime .
-
-ns1:node1307179778  a    ns3:BicycleParking , ns4:Feature , ns3:Amenity , ns2:Node ;
-        ns7:geometry     ns8:node1307179778 ;
-        ns3:capacity     "8" ;
-        ns3:changeset    "8770327"^^xsd:int ;
-        ns3:gadmSameAs   ns26:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-19T18:52:11"^^xsd:dateTime ;
-        geo:lat          46.070753600000003303 ;
-        geo:long         11.125997700000000989 .
-
-ns1:node1313709021  a    ns2:Node , ns3:Amenity , ns3:BicycleParking , ns4:Feature ;
-        ns7:geometry     ns8:node1313709021 ;
-        ns3:capacity     "12" ;
-        ns3:changeset    "21352361"^^xsd:int ;
-        ns3:gadmSameAs   ns15:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2014-03-27T21:21:15"^^xsd:dateTime ;
-        geo:lat          46.068482899999999347 ;
-        geo:long         11.122631000000000157 .
-
-ns1:node885670069  a     ns3:BicycleParking , ns3:Amenity , ns4:Feature , ns2:Node ;
-        ns7:geometry     ns8:node885670069 ;
-        ns3:changeset    "8770327"^^xsd:int ;
-        ns3:gadmSameAs   ns62:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-07-19T18:52:28"^^xsd:dateTime ;
-        geo:lat          46.068874700000002065 ;
-        geo:long         11.125980400000001325 .
-
-ns1:node885670050  a     ns3:Amenity , ns4:Feature , ns2:Node , ns3:BicycleParking ;
-        ns7:geometry     ns8:node885670050 ;
-        ns3:capacity     "42" ;
-        ns3:changeset    "8482631"^^xsd:int ;
-        ns3:gadmSameAs   ns61:point ;
-        ns3:version      "3"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-19T13:06:43"^^xsd:dateTime ;
-        geo:lat          46.072091500000006192 ;
-        geo:long         11.119870999999999839 .
-
-ns1:node2074585041  a    ns3:Amenity , ns2:Node , ns3:BicycleParking , ns4:Feature ;
-        ns7:geometry     ns8:node2074585041 ;
-        ns3:changeset    "14331570"^^xsd:int ;
-        ns3:gadmSameAs   ns30:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-12-19T15:05:42"^^xsd:dateTime ;
-        geo:lat          46.067206000000005872 ;
-        geo:long         11.123487000000000791 .
-
-ns1:node1962487951  a    ns3:BicycleParking , ns4:Feature , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node1962487951 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "13478469"^^xsd:int ;
-        ns3:gadmSameAs   ns43:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-10-13T14:37:05"^^xsd:dateTime ;
-        geo:lat          46.069181300000003887 ;
-        geo:long         11.124459600000001558 .
-
-ns1:node1312440642  a    ns3:BicycleParking , ns2:Node , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node1312440642 ;
-        ns3:capacity     "1" ;
-        ns3:changeset    "8344199"^^xsd:int ;
-        ns3:gadmSameAs   ns12:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-05T01:19:28"^^xsd:dateTime ;
-        geo:lat          46.070855700000002741 ;
-        geo:long         11.119453899999999891 .
-
-ns1:node1211136796  a    ns3:Amenity , ns2:Node , ns3:BicycleParking , ns4:Feature ;
-        ns7:geometry     ns8:node1211136796 ;
-        ns3:changeset    "7622187"^^xsd:int ;
-        ns3:gadmSameAs   ns36:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-03-20T22:40:39"^^xsd:dateTime ;
-        geo:lat          46.06623490000000487 ;
-        geo:long         11.118720700000000789 .
-
-ns1:node927359055  a     ns2:Node , ns3:BicycleParking , ns4:Feature , ns3:Amenity ;
-        ns7:geometry     ns8:node927359055 ;
-        ns3:changeset    "5886612"^^xsd:int ;
-        ns3:gadmSameAs   ns76:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-09-27T00:50:41"^^xsd:dateTime ;
-        geo:lat          46.069101100000004578 ;
-        geo:long         11.122014899999999926 .
-
-ns1:node1638162310  a    ns4:Feature , ns3:BicycleParking , ns2:Node , ns3:Amenity ;
-        ns7:geometry     ns8:node1638162310 ;
-        ns3:capacity     "6" ;
-        ns3:changeset    "10724109"^^xsd:int ;
-        ns3:gadmSameAs   ns28:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2012-02-18T21:34:17"^^xsd:dateTime ;
-        geo:lat          46.070150000000005264 ;
-        geo:long         11.123096300000000269 .
-
-ns1:node1312440696  a    ns2:Node , ns3:BicycleParking , ns3:Amenity , ns4:Feature ;
-        ns7:geometry     ns8:node1312440696 ;
-        ns3:capacity     "3" ;
-        ns3:changeset    "8344199"^^xsd:int ;
-        ns3:gadmSameAs   ns14:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2011-06-05T01:19:31"^^xsd:dateTime ;
-        geo:lat          46.068875500000004308 ;
-        geo:long         11.120697500000000346 .
-
-ns1:node991770499  a     ns4:Feature , ns3:Amenity , ns3:BicycleParking , ns2:Node ;
-        ns7:geometry     ns8:node991770499 ;
-        ns3:changeset    "7926423"^^xsd:int ;
-        ns3:gadmSameAs   ns83:point ;
-        ns3:version      "2"^^xsd:int ;
-        ns6:contributor  ns1:user24966 ;
-        ns6:modified     "2011-04-21T17:20:06"^^xsd:dateTime ;
-        geo:lat          46.065951600000005328 ;
-        geo:long         11.127136100000001306 .
-
-ns1:node969087731  a     ns3:Amenity , ns3:BicycleParking , ns2:Node , ns4:Feature ;
-        ns7:geometry     ns8:node969087731 ;
-        ns3:changeset    "6221701"^^xsd:int ;
-        ns3:gadmSameAs   ns73:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2010-10-29T21:42:35"^^xsd:dateTime ;
-        geo:lat          46.068673600000003887 ;
-        geo:long         11.120111200000000196 .
-
-ns1:node2513343048  a    ns3:BicycleParking , ns3:Amenity , ns4:Feature , ns2:Node ;
-        ns7:geometry     ns8:node2513343048 ;
-        ns3:capacity     "4" ;
-        ns3:changeset    "18608823"^^xsd:int ;
-        ns3:gadmSameAs   ns45:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2013-10-29T22:23:55"^^xsd:dateTime ;
-        geo:lat          46.068870500000002721 ;
-        geo:long         11.119819600000001358 .
-
-ns1:node2673313376  a    ns2:Node , ns4:Feature , ns3:Amenity , ns3:BicycleParking ;
-        ns7:geometry     ns8:node2673313376 ;
-        ns3:changeset    "20582654"^^xsd:int ;
-        ns3:gadmSameAs   ns48:point ;
-        ns3:version      "1"^^xsd:int ;
-        ns6:contributor  ns1:user330007 ;
-        ns6:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        geo:lat          46.071918200000006038 ;
-        geo:long         11.12403830000000049 .
+@prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
+@prefix ogcgs: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1:   <http://linkedgeodata.org/geometry/> .
+@prefix ns4:   <http://linkedgeodata.org/triplify/> .
+
+ns1:node2673313374  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1238149 46.071843)"^^ogcgs:wktLiteral .
+
+ns1:node1202027599  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.118688 46.0696696)"^^ogcgs:wktLiteral .
+
+ns4:node1614387739  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1614387739 .
+
+ns1:node880590952  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1227012 46.0678245)"^^ogcgs:wktLiteral .
+
+ns4:node1123469919  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1123469919 .
+
+ns1:node1962487950  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1245599 46.0691811)"^^ogcgs:wktLiteral .
+
+ns4:node880590846  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node880590846 .
+
+ns4:node1300215314  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1300215314 .
+
+ns4:node880590612  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node880590612 .
+
+ns1:node1614387739  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.122027 46.0689382)"^^ogcgs:wktLiteral .
+
+ns1:node1123469919  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1201006 46.0698076)"^^ogcgs:wktLiteral .
+
+ns4:node892578597  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node892578597 .
+
+ns1:way80767282  a   ogcgs:Geometry ;
+        ogcgs:asWKT  "LINESTRING(11.1200976 46.0666727,11.1200944 46.0666869,11.119822 46.0666577,11.1198252 46.0666434,11.1200976 46.0666727)"^^ogcgs:wktLiteral .
+
+ns4:node885670110  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node885670110 .
+
+ns4:node889555501  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node889555501 .
+
+ns1:node1300215314  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1236914 46.0694713)"^^ogcgs:wktLiteral .
+
+ns4:node1313709030  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1313709030 .
+
+ns4:node2925010842  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2925010842 .
+
+ns1:node1313709030  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1207847 46.0696153)"^^ogcgs:wktLiteral .
+
+ns4:node920689213  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node920689213 .
+
+ns1:node2925010842  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1271889 46.0674805)"^^ogcgs:wktLiteral .
+
+ns4:node1368300341  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1368300341 .
+
+ns4:node888452720  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node888452720 .
+
+ns4:node938729365  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node938729365 .
+
+ns4:node1773068114  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1773068114 .
+
+ns4:node890517069  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node890517069 .
+
+ns1:node892578597  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1226627 46.0714327)"^^ogcgs:wktLiteral .
+
+ns4:node1330657604  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1330657604 .
+
+ns1:node927358861  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1210015 46.0681994)"^^ogcgs:wktLiteral .
+
+ns1:node885670110  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1234773 46.0692381)"^^ogcgs:wktLiteral .
+
+ns1:node1773068114  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1244426 46.0648674)"^^ogcgs:wktLiteral .
+
+ns1:node889555501  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.124031 46.0661549)"^^ogcgs:wktLiteral .
+
+ns1:node938729458  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1239086 46.0661631)"^^ogcgs:wktLiteral .
+
+ns4:node927359322  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node927359322 .
+
+ns1:node1330657604  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1263235 46.0674468)"^^ogcgs:wktLiteral .
+
+ns4:node1307179778  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1307179778 .
+
+ns1:node1307179778  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1259977 46.0707536)"^^ogcgs:wktLiteral .
+
+ns1:node969087731  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1201112 46.0686736)"^^ogcgs:wktLiteral .
+
+ns4:node880591119  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node880591119 .
+
+ns4:node885670050  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node885670050 .
+
+ns1:node927359152  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1190158 46.0671791)"^^ogcgs:wktLiteral .
+
+ns4:way80767213  a      ns5:BicycleParking ;
+        ogcgs:geometry  ns1:way80767213 .
+
+ns4:node1312440642  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1312440642 .
+
+ns4:node2513343048  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2513343048 .
+
+ns4:node930522335  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node930522335 .
+
+ns1:node888452720  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1216625 46.0708413)"^^ogcgs:wktLiteral .
+
+ns4:node2074585048  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2074585048 .
+
+ns1:node1312440642  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1194539 46.0708557)"^^ogcgs:wktLiteral .
+
+ns4:node1331468407  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1331468407 .
+
+ns4:node557197356  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node557197356 .
+
+ns1:node2513343048  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1198196 46.0688705)"^^ogcgs:wktLiteral .
+
+ns1:node2074585048  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1233899 46.0672526)"^^ogcgs:wktLiteral .
+
+ns1:node990462102  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1235002 46.0677883)"^^ogcgs:wktLiteral .
+
+ns4:node560584081  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node560584081 .
+
+ns4:node880590952  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node880590952 .
+
+ns1:node1331468407  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1235993 46.0656258)"^^ogcgs:wktLiteral .
+
+ns4:node890486735  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node890486735 .
+
+ns4:node1312440679  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1312440679 .
+
+ns4:node1962487951  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1962487951 .
+
+ns4:node1214597766  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1214597766 .
+
+ns1:node927359418  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1241637 46.0684013)"^^ogcgs:wktLiteral .
+
+ns4:node889555365  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node889555365 .
+
+ns1:node927359055  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1220149 46.0691011)"^^ogcgs:wktLiteral .
+
+ns1:node1312440679  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1201203 46.0670231)"^^ogcgs:wktLiteral .
+
+ns1:node885670050  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.119871 46.0720915)"^^ogcgs:wktLiteral .
+
+ns1:node1962487951  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1244596 46.0691813)"^^ogcgs:wktLiteral .
+
+ns1:node1214597766  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1218211 46.0674085)"^^ogcgs:wktLiteral .
+
+ns1:node930522335  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.119682 46.0718554)"^^ogcgs:wktLiteral .
+
+ns4:node885670132  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node885670132 .
+
+ns1:node557197356  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1218248 46.067556)"^^ogcgs:wktLiteral .
+
+ns1:node560584081  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1195098 46.0687528)"^^ogcgs:wktLiteral .
+
+ns4:node885670019  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node885670019 .
+
+ns4:node1211136796  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1211136796 .
+
+ns4:node948758405  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node948758405 .
+
+ns4:node885670069  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node885670069 .
+
+ns1:node890486735  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.124673 46.0659986)"^^ogcgs:wktLiteral .
+
+ns4:node927358861  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node927358861 .
+
+ns4:node2673313378  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2673313378 .
+
+ns4:node938729458  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node938729458 .
+
+ns1:node889555365  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1241149 46.0660002)"^^ogcgs:wktLiteral .
+
+ns4:node2591984558  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2591984558 .
+
+ns4:node890486688  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node890486688 .
+
+ns1:node2673313378  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1239246 46.0719711)"^^ogcgs:wktLiteral .
+
+ns4:node959911107  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node959911107 .
+
+ns4:node1271504854  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1271504854 .
+
+ns4:node998661865  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node998661865 .
+
+ns4:way80767282  a      ns5:BicycleParking ;
+        ogcgs:geometry  ns1:way80767282 .
+
+ns4:node969087731  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node969087731 .
+
+ns1:node938729359  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1244926 46.0669955)"^^ogcgs:wktLiteral .
+
+ns1:node885670132  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1237587 46.0674692)"^^ogcgs:wktLiteral .
+
+ns1:node1271504854  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.121141 46.0716587)"^^ogcgs:wktLiteral .
+
+ns4:node927359152  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node927359152 .
+
+ns1:node885670019  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1239126 46.0683792)"^^ogcgs:wktLiteral .
+
+ns4:node1662768771  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1662768771 .
+
+ns1:node948758405  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1213468 46.0696893)"^^ogcgs:wktLiteral .
+
+ns1:node1368300341  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.126182 46.0671202)"^^ogcgs:wktLiteral .
+
+ns1:node1662768771  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1230808 46.071031)"^^ogcgs:wktLiteral .
+
+ns4:node2074585041  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2074585041 .
+
+ns4:node1313709021  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1313709021 .
+
+ns1:node885670069  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1259804 46.0688747)"^^ogcgs:wktLiteral .
+
+ns4:node1366801180  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1366801180 .
+
+ns4:node990462102  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node990462102 .
+
+ns1:node963712275  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1203361 46.0693289)"^^ogcgs:wktLiteral .
+
+ns1:node2074585041  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.123487 46.067206)"^^ogcgs:wktLiteral .
+
+ns1:node890486688  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1247214 46.0657092)"^^ogcgs:wktLiteral .
+
+ns1:node1313709021  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.122631 46.0684829)"^^ogcgs:wktLiteral .
+
+ns1:node1366801180  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1259523 46.0689405)"^^ogcgs:wktLiteral .
+
+ns1:node959911107  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1229149 46.0650627)"^^ogcgs:wktLiteral .
+
+ns1:node927359403  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1188796 46.0677578)"^^ogcgs:wktLiteral .
+
+ns1:node998661865  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1219381 46.0707175)"^^ogcgs:wktLiteral .
+
+ns4:node1461587546  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1461587546 .
+
+ns4:node2407332591  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2407332591 .
+
+ns4:node927359418  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node927359418 .
+
+ns4:node927359055  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node927359055 .
+
+ns1:node880590846  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1211741 46.0707546)"^^ogcgs:wktLiteral .
+
+ns1:node1461587546  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1230212 46.0669131)"^^ogcgs:wktLiteral .
+
+ns4:node885670138  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node885670138 .
+
+ns4:node1307180338  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1307180338 .
+
+ns1:node2407332591  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1264767 46.0694326)"^^ogcgs:wktLiteral .
+
+ns1:node880590612  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1226663 46.0697881)"^^ogcgs:wktLiteral .
+
+ns4:node2673313376  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2673313376 .
+
+ns1:node1307180338  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1260019 46.0707979)"^^ogcgs:wktLiteral .
+
+ns4:node991770499  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node991770499 .
+
+ns1:node2673313376  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1240383 46.0719182)"^^ogcgs:wktLiteral .
+
+ns1:way80767213  a   ogcgs:Geometry ;
+        ogcgs:asWKT  "LINESTRING(11.1192099 46.0665817,11.1194833 46.066611,11.1194802 46.0666246,11.1192068 46.0665953,11.1192099 46.0665817)"^^ogcgs:wktLiteral .
+
+ns1:node920689213  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1193939 46.0651989)"^^ogcgs:wktLiteral .
+
+ns4:node1312440696  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1312440696 .
+
+ns4:node1638162310  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1638162310 .
+
+ns1:node938729365  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1239814 46.0661029)"^^ogcgs:wktLiteral .
+
+ns1:node885670138  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1210963 46.0715348)"^^ogcgs:wktLiteral .
+
+ns1:node890517069  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1215881 46.0712655)"^^ogcgs:wktLiteral .
+
+ns1:node1312440696  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1206975 46.0688755)"^^ogcgs:wktLiteral .
+
+ns1:node1638162310  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1230963 46.07015)"^^ogcgs:wktLiteral .
+
+ns4:node938729359  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node938729359 .
+
+ns1:node927359322  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1216467 46.0694639)"^^ogcgs:wktLiteral .
+
+ns1:node991770499  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1271361 46.0659516)"^^ogcgs:wktLiteral .
+
+ns4:node1123469924  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1123469924 .
+
+ns4:node1073482343  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1073482343 .
+
+ns4:node1474641648  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1474641648 .
+
+ns4:node1633007373  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1633007373 .
+
+ns1:node880591119  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1226356 46.0685362)"^^ogcgs:wktLiteral .
+
+ns4:node1962487942  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1962487942 .
+
+ns1:node1123469924  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1201134 46.0697515)"^^ogcgs:wktLiteral .
+
+ns1:node1474641648  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1225282 46.0652357)"^^ogcgs:wktLiteral .
+
+ns1:node1073482343  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1253983 46.0680729)"^^ogcgs:wktLiteral .
+
+ns4:node1369533465  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1369533465 .
+
+ns1:node1211136796  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1187207 46.0662349)"^^ogcgs:wktLiteral .
+
+ns4:node963712275  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node963712275 .
+
+ns1:node1633007373  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.123097 46.0701031)"^^ogcgs:wktLiteral .
+
+ns1:node1962487942  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1246609 46.0687261)"^^ogcgs:wktLiteral .
+
+ns1:node1369533465  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1246869 46.0677482)"^^ogcgs:wktLiteral .
+
+ns4:node2673313374  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node2673313374 .
+
+ns4:node1202027599  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1202027599 .
+
+ns4:node927359403  a    ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node927359403 .
+
+ns4:node1962487950  a   ns5:BicycleParking ;
+        ogcgs:geometry  ns1:node1962487950 .
+
+ns1:node2591984558  a  ogcgs:Geometry ;
+        ogcgs:asWKT  "POINT(11.1190189 46.0704715)"^^ogcgs:wktLiteral .
