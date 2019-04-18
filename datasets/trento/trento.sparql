@@ -1,5 +1,5 @@
 PREFIX lgdo: <http://linkedgeodata.org/ontology/>
-PREFIX ogc:  <http://www.opengis.net/ont/geosparql#>
+PREFIX ogcgs:  <http://www.opengis.net/ont/geosparql#>
 PREFIX fn: <http://jsa.aksw.org/fn/gml/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX todo: <http://todo/>
@@ -7,18 +7,23 @@ PREFIX todo: <http://todo/>
 CONSTRUCT {
   ?bikerack
     a lgdo:BicycleParking ;
-    todo:Street ?street ;
-    todo:Area ?area ;
+    lgdo:near _:street ;
+    todo:area ?area ;
     lgdo:bicycle_parking ?type ;
     lgdo:capacity ?capacity ;
     rdfs:label ?label ;
     rdfs:comment ?description ;
-    ogc:geometry ?geometry ;
+    ogcgs:geometry ?geometry ;
     .
 
   ?geometry
-    a ogc:Geometry ;
-    ogc:asWKT ?wkt ;
+    a ogcgs:Geometry ;
+    ogcgs:asWKT ?wkt ;
+    .
+
+  _:street
+    a lgdo:HighwayThing ;
+    rdfs:label ?streetName
     .
 }
 WHERE {
@@ -33,10 +38,10 @@ WHERE {
   ?xml xml:unnest ("//*[local-name()='rastrelliere']" ?node)
  
   # Read out attributes from each (xml) node
-  BIND(xml:path(?node, "//*[local-name()='id']") AS ?id)
+  BIND(xml:path(?node, "//@*[local-name()='fid']") AS ?id)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
   BIND(URI(CONCAT(?ns, ?id)) AS ?bikerack)
-  BIND(xml:path(?node, "//*[local-name()='via']") AS ?street)
+  BIND(xml:path(?node, "//*[local-name()='via']") AS ?streetName)
   BIND(xml:path(?node, "//*[local-name()='zona']") AS ?area)
   BIND(xml:path(?node, "//*[local-name()='tipologia']") AS ?type)
   BIND(xml:path(?node, "//*[local-name()='n_posti']") AS ?capacity)
