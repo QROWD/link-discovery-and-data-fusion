@@ -7,29 +7,29 @@
 
 limes:linkedgeodataTOlinkedgeodataSource
       a       limes:SourceDataset ;
-      limes:endPoint "./../../datasets/osm/osm.ttl" ;
+      limes:endPoint "./../../datasets/trento/trento.nt" ;
       limes:pageSize "2000" ;
       limes:property "geos:geometry/geos:asWKT RENAME wkt" ;
       limes:restriction "?x a lgdo:BicycleParking" ;
-      limes:type "TURTLE" ;
+      limes:type "N-TRIPLE" ;
       limes:variable "?x" ;
-      rdfs:label "osm" ;
+      rdfs:label "trento" ;
       .
 
 limes:linkedgeodataTOlinkedgeodataTarget
       a       limes:TargetDataset ;
-      limes:endPoint "./../../datasets/trento/trento.nt" ;
+      rdfs:label "qrowd" ;
+      limes:endPoint "./../../datasets/qrowd/qrowd.nt" ;
       limes:pageSize "2000" ;
       limes:property "geos:geometry/geos:asWKT RENAME wkt" ;
       limes:restriction "?y a lgdo:BicycleParking" ;
       limes:type "N-TRIPLE" ;
       limes:variable "?y" ;
-      rdfs:label "trento" ;
       .
 
 limes:linkedgeodataTOlinkedgeodataMetric
       a       limes:Metric ;
-      limes:expression "geo_hausdorff(x.wkt, y.wkt)" .
+      limes:expression "geo_link(x.wkt, y.wkt)" .
 
 limes:linkedgeodataTOlinkedgeodata
       a       limes:LimesSpecs ;
