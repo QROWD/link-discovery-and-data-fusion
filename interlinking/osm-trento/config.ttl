@@ -51,14 +51,14 @@ limes:executionParameters
 
 limes:linkedgeodataTOlinkedgeodataReview
       a       limes:Review ;
-      limes:file "lgd_relaybox_near.nt" ;
+      limes:file "osm-trento-near.nt" ;
       limes:relation "lgdo:near" ;
       limes:threshold "0.9" .
 
 limes:linkedgeodataTOlinkedgeodataAcceptance
       a       limes:Acceptance ;
-      limes:file "lgd_relaybox_verynear.nt" ;
-      limes:relation "lgdo:near" ;
+      limes:file "osm-trento-verynear.nt" ;
+      limes:relation "lgdo:veryNear" ;
       limes:threshold "0.99" .
 
 

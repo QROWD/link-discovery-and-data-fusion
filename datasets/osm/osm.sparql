@@ -15,13 +15,13 @@ CONSTRUCT {
     lgdo:capacity ?capacity ;
     lgdo:covered ?covered ;
     lgdo:parking ?parking ;
-    ogcgs:geometry ?geometry ;
+    geom:geometry ?geometry ;
     rdfs:comment ?description ;
     rdfs:label ?label ;
     .
 
   ?geometry
-    a ogcgs:geometry ;
+    a ogcgs:Geometry ;
     ogcgs:asWKT ?wkt ;
     .
 }

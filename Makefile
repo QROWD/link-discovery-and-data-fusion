@@ -3,12 +3,10 @@ interlinking := $(wildcard interlinking/*/.)
 
 interlinking: datasets $(interlinking)
 $(interlinking):
-	$(MAKE) -C $@
+	$(MAKE) -C $@ $(TARGET)
 
 datasets: $(datasets)
 $(datasets):
-	$(MAKE) -C $@
+	$(MAKE) -C $@ $(TARGET)
 
-.PHONY: datasets $(datasets)
-.PHONY: interlinking $(interlinking)
-.PHONY: all
+.PHONY: all interlinking $(interlinking) datasets $(datasets)
