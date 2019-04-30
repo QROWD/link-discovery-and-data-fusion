@@ -1,0 +1,62 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom:    <http://geovocab.org/geometry#> .
+@prefix geos:    <http://www.opengis.net/ont/geosparql#> .
+@prefix lgdo:    <http://linkedgeodata.org/ontology/> .
+@prefix limes:   <http://limes.sf.net/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+
+limes:linkedgeodataTOlinkedgeodataSource
+      a       limes:SourceDataset ;
+      rdfs:label "qrowd" ;
+      limes:endPoint "./../../datasets/qrowd/qrowd.nt" ;
+      limes:variable "?x" ;
+      limes:restriction "?x a lgdo:BicycleParking" ;
+      limes:pageSize "2000" ;
+      limes:type "N-TRIPLE" ;
+      limes:property "geos:geometry/geos:asWKT RENAME wkt" ;
+      .
+
+limes:linkedgeodataTOlinkedgeodataTarget
+      a       limes:TargetDataset ;
+      rdfs:label "osm" ;
+      limes:endPoint "./../../datasets/osm/osm.ttl" ;
+      limes:variable "?y" ;
+      limes:restriction "?y a lgdo:BicycleParking" ;
+      limes:pageSize "2000" ;
+      limes:type "TURTLE" ;
+      limes:property "geos:geometry/geos:asWKT RENAME wkt" ;
+      .
+
+limes:linkedgeodataTOlinkedgeodataMetric
+      a       limes:Metric ;
+      limes:expression "geo_link(x.wkt, y.wkt)" .
+
+limes:linkedgeodataTOlinkedgeodata
+      a       limes:LimesSpecs ;
+      limes:hasExecutionParameters limes:executionParameters ;
+      limes:granularity "2" ;
+      limes:hasAcceptance limes:linkedgeodataTOlinkedgeodataAcceptance ;
+      limes:hasMetric limes:linkedgeodataTOlinkedgeodataMetric ;
+      limes:hasReview limes:linkedgeodataTOlinkedgeodataReview ;
+      limes:hasSource limes:linkedgeodataTOlinkedgeodataSource ;
+      limes:hasTarget limes:linkedgeodataTOlinkedgeodataTarget ;
+      limes:outputFormat "N3" .
+
+limes:executionParameters
+      a limes:ExecutionParameters ;
+      limes:executionPlanner "default" ;
+      limes:executionRewriter "default" ;
+      limes:executionEngine "default" .
+
+
+limes:linkedgeodataTOlinkedgeodataReview
+      a       limes:Review ;
+      limes:file "qrowd-osm-near.nt" ;
+      limes:relation "lgdo:near" ;
+      limes:threshold "0.9" .
+
+limes:linkedgeodataTOlinkedgeodataAcceptance
+      a       limes:Acceptance ;
+      limes:file "qrowd-osm-sameas.nt" ;
+      limes:relation "owl:sameAs" ;

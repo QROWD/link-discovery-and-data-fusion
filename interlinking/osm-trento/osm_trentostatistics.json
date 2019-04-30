@@ -1,23 +1,23 @@
 {
-	"mappingTime" : 58,
+	"mappingTime" : 81,
 	"inputSizes" : {
-		"source" : 0,
+		"source" : 78,
 		"target" : 39
 	},
 	"outputSizes" : {
-		"verification" : 0,
-		"acceptance" : 0
+		"verification" : 193,
+		"acceptance" : 2
 	},
 	"pseudoPRF" : {
 		"acceptance" : {
-			"precision" : 0.000000,
-			"recall" : 0.000000,
-			"f-measure" : 0.000000
+			"precision" : 1.000000,
+			"recall" : 0.034188,
+			"f-measure" : 0.066116
 		},
 		"all" : {
-			"precision" : 0.000000,
-			"recall" : 0.000000,
-			"f-measure" : 0.000000
+			"precision" : 0.251282,
+			"recall" : 0.837607,
+			"f-measure" : 0.386588
 		},
 	}
 }

@@ -9,7 +9,6 @@ SOURCES = \
 fusion-sameas-clusters.nt: fusion-input.ttl fusion-sameas-clusters.sparql
 	sparql-integrate fusion-sameas-clusters.sparql > fusion-sameas-clusters.nt
 
-
 fusion-input.ttl: $(SOURCES)
 	riot --output=TURTLE $(SOURCES) > fusion-input.ttl
 

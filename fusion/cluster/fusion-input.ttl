@@ -1,1251 +1,1250 @@
 @prefix ns5:  <http://linkedgeodata.org/ontology/> .
-@prefix ns8:  <http://geovocab.org/geometry#> .
+@prefix ns8:  <http://todo/> .
 @prefix ns7:  <http://purl.org/dc/terms/> .
-@prefix ns9:  <http://todo/> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix virtrdf:  <http://www.openlinksw.com/schemas/virtrdf#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix ogcgs:  <http://www.opengis.net/ont/geosparql#> .
+@prefix ns2:  <http://geovocab.org/geometry#> .
 @prefix ns1:  <http://linkedgeodata.org/geometry/> .
 @prefix ns4:  <http://linkedgeodata.org/triplify/> .
 
-ns1:node2673313374  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1238149 46.071843)"^^virtrdf:Geometry .
+ns1:node2673313374  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1238149 46.071843)"^^virtrdf:Geometry .
 
-ns1:node1202027599  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.118688 46.0696696)"^^virtrdf:Geometry .
+ns1:node1202027599  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.118688 46.0696696)"^^virtrdf:Geometry .
 
 ns4:node1614387739  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1614387739 ;
+        ns2:geometry     ns1:node1614387739 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-02-01T17:36:14"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node880590952  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1227012 46.0678245)"^^virtrdf:Geometry .
+ns1:node880590952  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1227012 46.0678245)"^^virtrdf:Geometry .
 
 ns4:node1123469919  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1123469919 ;
+        ns2:geometry     ns1:node1123469919 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-06T02:49:01"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1962487950  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1245599 46.0691811)"^^virtrdf:Geometry .
+ns1:node1962487950  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1245599 46.0691811)"^^virtrdf:Geometry .
 
 ns4:node880590846  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node880590846 ;
+        ns2:geometry     ns1:node880590846 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-10-03T14:40:44"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1300215314  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1300215314 ;
+        ns2:geometry     ns1:node1300215314 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-05-25T23:46:54"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node880590612  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node880590612 ;
+        ns2:geometry     ns1:node880590612 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-08-26T15:44:58"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1614387739  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.122027 46.0689382)"^^virtrdf:Geometry .
+ns1:node1614387739  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.122027 46.0689382)"^^virtrdf:Geometry .
 
-ns1:node1123469919  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1201006 46.0698076)"^^virtrdf:Geometry .
+ns1:node1123469919  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1201006 46.0698076)"^^virtrdf:Geometry .
 
 ns4:node892578597  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node892578597 ;
+        ns2:geometry     ns1:node892578597 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-02T00:35:12"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:way80767282  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING(11.1200976 46.0666727,11.1200944 46.0666869,11.119822 46.0666577,11.1198252 46.0666434,11.1200976 46.0666727)"^^virtrdf:Geometry .
+ns1:way80767282  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "LINESTRING(11.1200976 46.0666727,11.1200944 46.0666869,11.119822 46.0666577,11.1198252 46.0666434,11.1200976 46.0666727)"^^virtrdf:Geometry .
 
 ns4:node885670110  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node885670110 ;
+        ns2:geometry     ns1:node885670110 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-05-25T23:46:56"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node889555501  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node889555501 ;
+        ns2:geometry     ns1:node889555501 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-10-05T21:16:56"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1300215314  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1236914 46.0694713)"^^virtrdf:Geometry .
+ns1:node1300215314  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1236914 46.0694713)"^^virtrdf:Geometry .
 
 ns4:node1313709030  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1313709030 ;
+        ns2:geometry     ns1:node1313709030 ;
         ns5:capacity     "32" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-06T02:48:58"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node2925010842  rdf:type  ns5:BicycleParking ;
-        ns8:geometry         ns1:node2925010842 ;
+        ns2:geometry         ns1:node2925010842 ;
         ns5:access           "public" ;
         ns5:bicycle_parking  "wall_loops" ;
         ns5:covered          "no" ;
         ns7:contributor      ns4:user135609 ;
         ns7:modified         "2014-06-20T19:57:59"^^xsd:dateTime ;
-        ns9:prove            "osm" .
+        ns8:prove            "osm" .
 
-ns1:node1313709030  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1207847 46.0696153)"^^virtrdf:Geometry .
+ns1:node1313709030  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1207847 46.0696153)"^^virtrdf:Geometry .
 
 ns4:node920689213  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node920689213 ;
+        ns2:geometry     ns1:node920689213 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-21T22:37:52"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node2925010842  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1271889 46.0674805)"^^virtrdf:Geometry .
+ns1:node2925010842  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1271889 46.0674805)"^^virtrdf:Geometry .
 
 ns4:node1368300341  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1368300341 ;
+        ns2:geometry     ns1:node1368300341 ;
         ns5:capacity     "20" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-20T22:22:29"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node888452720  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node888452720 ;
+        ns2:geometry     ns1:node888452720 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-10-15T14:48:36"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node938729365  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node938729365 ;
+        ns2:geometry     ns1:node938729365 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-05-24T21:36:23"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1773068114  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1773068114 ;
+        ns2:geometry     ns1:node1773068114 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-06-01T23:52:25"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node890517069  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node890517069 ;
+        ns2:geometry     ns1:node890517069 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-10-14T22:48:19"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node892578597  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1226627 46.0714327)"^^virtrdf:Geometry .
+ns1:node892578597  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1226627 46.0714327)"^^virtrdf:Geometry .
 
 ns4:node1330657604  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1330657604 ;
+        ns2:geometry     ns1:node1330657604 ;
         ns5:capacity     "7" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-19T23:32:03"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node927358861  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1210015 46.0681994)"^^virtrdf:Geometry .
+ns1:node927358861  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1210015 46.0681994)"^^virtrdf:Geometry .
 
-ns1:node885670110  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1234773 46.0692381)"^^virtrdf:Geometry .
+ns1:node885670110  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1234773 46.0692381)"^^virtrdf:Geometry .
 
-ns1:node1773068114  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1244426 46.0648674)"^^virtrdf:Geometry .
+ns1:node1773068114  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1244426 46.0648674)"^^virtrdf:Geometry .
 
-ns1:node889555501  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.124031 46.0661549)"^^virtrdf:Geometry .
+ns1:node889555501  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.124031 46.0661549)"^^virtrdf:Geometry .
 
-ns1:node938729458  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1239086 46.0661631)"^^virtrdf:Geometry .
+ns1:node938729458  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1239086 46.0661631)"^^virtrdf:Geometry .
 
 ns4:node927359322  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node927359322 ;
+        ns2:geometry     ns1:node927359322 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-27T00:50:49"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1330657604  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1263235 46.0674468)"^^virtrdf:Geometry .
+ns1:node1330657604  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1263235 46.0674468)"^^virtrdf:Geometry .
 
 ns4:node1307179778  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1307179778 ;
+        ns2:geometry     ns1:node1307179778 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-19T18:52:11"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1307179778  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1259977 46.0707536)"^^virtrdf:Geometry .
+ns1:node1307179778  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1259977 46.0707536)"^^virtrdf:Geometry .
 
-ns1:node969087731  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1201112 46.0686736)"^^virtrdf:Geometry .
+ns1:node969087731  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1201112 46.0686736)"^^virtrdf:Geometry .
 
 ns4:node880591119  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node880591119 ;
+        ns2:geometry     ns1:node880591119 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2014-03-27T21:21:16"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node885670050  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node885670050 ;
+        ns2:geometry     ns1:node885670050 ;
         ns5:capacity     "42" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-19T13:06:43"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node927359152  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1190158 46.0671791)"^^virtrdf:Geometry .
+ns1:node927359152  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1190158 46.0671791)"^^virtrdf:Geometry .
 
 ns4:way80767213  rdf:type    ns5:BicycleParking ;
-        ns8:geometry         ns1:way80767213 ;
+        ns2:geometry         ns1:way80767213 ;
         ns5:bicycle_parking  "wall_loops" ;
         ns7:contributor      ns5:user135609 ;
         ns7:modified         "2014-06-26T17:53:26"^^xsd:dateTime ;
-        ns9:prove            "osm" .
+        ns8:prove            "osm" .
 
 ns4:node1312440642  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1312440642 ;
+        ns2:geometry     ns1:node1312440642 ;
         ns5:capacity     "1" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-05T01:19:28"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node2513343048  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2513343048 ;
+        ns2:geometry     ns1:node2513343048 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2013-10-29T22:23:55"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node930522335  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node930522335 ;
+        ns2:geometry     ns1:node930522335 ;
         ns5:capacity     "21" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-19T13:06:44"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node888452720  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1216625 46.0708413)"^^virtrdf:Geometry .
+ns1:node888452720  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1216625 46.0708413)"^^virtrdf:Geometry .
 
 ns4:node2074585048  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2074585048 ;
+        ns2:geometry     ns1:node2074585048 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-12-19T15:05:42"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1312440642  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1194539 46.0708557)"^^virtrdf:Geometry .
+ns1:node1312440642  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1194539 46.0708557)"^^virtrdf:Geometry .
 
 ns4:node1331468407  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1331468407 ;
+        ns2:geometry     ns1:node1331468407 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-05-05T17:46:17"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node557197356  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node557197356 ;
+        ns2:geometry     ns1:node557197356 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-24T21:21:34"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node2513343048  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1198196 46.0688705)"^^virtrdf:Geometry .
+ns1:node2513343048  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1198196 46.0688705)"^^virtrdf:Geometry .
 
-ns1:node2074585048  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1233899 46.0672526)"^^virtrdf:Geometry .
+ns1:node2074585048  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1233899 46.0672526)"^^virtrdf:Geometry .
 
-ns1:node990462102  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1235002 46.0677883)"^^virtrdf:Geometry .
+ns1:node990462102  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1235002 46.0677883)"^^virtrdf:Geometry .
 
 ns4:node560584081  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node560584081 ;
+        ns2:geometry     ns1:node560584081 ;
         ns5:capacity     "21" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2015-10-15T20:28:03"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node880590952  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node880590952 ;
+        ns2:geometry     ns1:node880590952 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-08T10:57:43"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1331468407  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1235993 46.0656258)"^^virtrdf:Geometry .
+ns1:node1331468407  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1235993 46.0656258)"^^virtrdf:Geometry .
 
 ns4:node890486735  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node890486735 ;
+        ns2:geometry     ns1:node890486735 ;
         ns5:capacity     "12" ;
         ns7:contributor  ns4:user38643 ;
         ns7:modified     "2015-07-04T00:41:24"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1312440679  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1312440679 ;
+        ns2:geometry     ns1:node1312440679 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2013-04-02T12:13:07"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1962487951  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1962487951 ;
+        ns2:geometry     ns1:node1962487951 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-10-13T14:37:05"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1214597766  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1214597766 ;
+        ns2:geometry     ns1:node1214597766 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-03-23T10:49:08"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node927359418  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1241637 46.0684013)"^^virtrdf:Geometry .
+ns1:node927359418  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1241637 46.0684013)"^^virtrdf:Geometry .
 
 ns4:node889555365  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node889555365 ;
+        ns2:geometry     ns1:node889555365 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-10-05T21:16:48"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node927359055  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1220149 46.0691011)"^^virtrdf:Geometry .
+ns1:node927359055  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1220149 46.0691011)"^^virtrdf:Geometry .
 
-ns1:node1312440679  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1201203 46.0670231)"^^virtrdf:Geometry .
+ns1:node1312440679  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1201203 46.0670231)"^^virtrdf:Geometry .
 
-ns1:node885670050  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.119871 46.0720915)"^^virtrdf:Geometry .
+ns1:node885670050  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.119871 46.0720915)"^^virtrdf:Geometry .
 
-ns1:node1962487951  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1244596 46.0691813)"^^virtrdf:Geometry .
+ns1:node1962487951  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1244596 46.0691813)"^^virtrdf:Geometry .
 
-ns1:node1214597766  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1218211 46.0674085)"^^virtrdf:Geometry .
+ns1:node1214597766  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1218211 46.0674085)"^^virtrdf:Geometry .
 
-ns1:node930522335  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.119682 46.0718554)"^^virtrdf:Geometry .
+ns1:node930522335  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.119682 46.0718554)"^^virtrdf:Geometry .
 
 ns4:node885670132  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node885670132 ;
+        ns2:geometry     ns1:node885670132 ;
         ns5:capacity     "30" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-10-10T21:03:56"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node557197356  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1218248 46.067556)"^^virtrdf:Geometry .
+ns1:node557197356  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1218248 46.067556)"^^virtrdf:Geometry .
 
-ns1:node560584081  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1195098 46.0687528)"^^virtrdf:Geometry .
+ns1:node560584081  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1195098 46.0687528)"^^virtrdf:Geometry .
 
 ns4:node885670019  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node885670019 ;
+        ns2:geometry     ns1:node885670019 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-11-14T22:10:49"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1211136796  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1211136796 ;
+        ns2:geometry     ns1:node1211136796 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-03-20T22:40:39"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node948758405  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node948758405 ;
+        ns2:geometry     ns1:node948758405 ;
         ns5:capacity     "44" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-06T02:49:06"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node885670069  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node885670069 ;
+        ns2:geometry     ns1:node885670069 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-19T18:52:28"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node890486735  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.124673 46.0659986)"^^virtrdf:Geometry .
+ns1:node890486735  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.124673 46.0659986)"^^virtrdf:Geometry .
 
 ns4:node927358861  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node927358861 ;
+        ns2:geometry     ns1:node927358861 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-27T00:50:36"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node2673313378  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2673313378 ;
+        ns2:geometry     ns1:node2673313378 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node938729458  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node938729458 ;
+        ns2:geometry     ns1:node938729458 ;
         ns5:access       "private" ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-06-02T00:23:21"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node889555365  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1241149 46.0660002)"^^virtrdf:Geometry .
+ns1:node889555365  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1241149 46.0660002)"^^virtrdf:Geometry .
 
 ns4:node2591984558  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2591984558 ;
+        ns2:geometry     ns1:node2591984558 ;
         ns5:capacity     "5" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2013-12-23T21:23:47"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node890486688  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node890486688 ;
+        ns2:geometry     ns1:node890486688 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-20T22:22:41"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node2673313378  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1239246 46.0719711)"^^virtrdf:Geometry .
+ns1:node2673313378  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1239246 46.0719711)"^^virtrdf:Geometry .
 
 ns4:node959911107  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node959911107 ;
+        ns2:geometry     ns1:node959911107 ;
         ns5:capacity     "15" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-10-21T00:04:41"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1271504854  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1271504854 ;
+        ns2:geometry     ns1:node1271504854 ;
         ns5:capacity     "8" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-05-25T23:46:57"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node998661865  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node998661865 ;
+        ns2:geometry     ns1:node998661865 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-11-21T22:36:28"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:way80767282  rdf:type    ns5:BicycleParking ;
-        ns8:geometry         ns1:way80767282 ;
+        ns2:geometry         ns1:way80767282 ;
         ns5:bicycle_parking  "wall_loops" ;
         ns7:contributor      ns5:user135609 ;
         ns7:modified         "2014-06-26T17:53:26"^^xsd:dateTime ;
-        ns9:prove            "osm" .
+        ns8:prove            "osm" .
 
 ns4:node969087731  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node969087731 ;
+        ns2:geometry     ns1:node969087731 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-10-29T21:42:35"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node938729359  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1244926 46.0669955)"^^virtrdf:Geometry .
+ns1:node938729359  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1244926 46.0669955)"^^virtrdf:Geometry .
 
-ns1:node885670132  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1237587 46.0674692)"^^virtrdf:Geometry .
+ns1:node885670132  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1237587 46.0674692)"^^virtrdf:Geometry .
 
-ns1:node1271504854  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.121141 46.0716587)"^^virtrdf:Geometry .
+ns1:node1271504854  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.121141 46.0716587)"^^virtrdf:Geometry .
 
 ns4:node927359152  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node927359152 ;
+        ns2:geometry     ns1:node927359152 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-27T00:50:44"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node885670019  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1239126 46.0683792)"^^virtrdf:Geometry .
+ns1:node885670019  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1239126 46.0683792)"^^virtrdf:Geometry .
 
 ns4:node1662768771  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1662768771 ;
+        ns2:geometry     ns1:node1662768771 ;
         ns5:capacity     "13" ;
         ns5:parking      "surface" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-03-06T18:57:56"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node948758405  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1213468 46.0696893)"^^virtrdf:Geometry .
+ns1:node948758405  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1213468 46.0696893)"^^virtrdf:Geometry .
 
-ns1:node1368300341  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.126182 46.0671202)"^^virtrdf:Geometry .
+ns1:node1368300341  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.126182 46.0671202)"^^virtrdf:Geometry .
 
-ns1:node1662768771  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1230808 46.071031)"^^virtrdf:Geometry .
+ns1:node1662768771  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1230808 46.071031)"^^virtrdf:Geometry .
 
 ns4:node2074585041  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2074585041 ;
+        ns2:geometry     ns1:node2074585041 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-12-19T15:05:42"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1313709021  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1313709021 ;
+        ns2:geometry     ns1:node1313709021 ;
         ns5:capacity     "12" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2014-03-27T21:21:15"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node885670069  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1259804 46.0688747)"^^virtrdf:Geometry .
+ns1:node885670069  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1259804 46.0688747)"^^virtrdf:Geometry .
 
 ns4:node1366801180  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1366801180 ;
+        ns2:geometry     ns1:node1366801180 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-19T18:50:29"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node990462102  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node990462102 ;
+        ns2:geometry     ns1:node990462102 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-11-15T23:12:52"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node963712275  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1203361 46.0693289)"^^virtrdf:Geometry .
+ns1:node963712275  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1203361 46.0693289)"^^virtrdf:Geometry .
 
-ns1:node2074585041  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.123487 46.067206)"^^virtrdf:Geometry .
+ns1:node2074585041  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.123487 46.067206)"^^virtrdf:Geometry .
 
-ns1:node890486688  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1247214 46.0657092)"^^virtrdf:Geometry .
+ns1:node890486688  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1247214 46.0657092)"^^virtrdf:Geometry .
 
-ns1:node1313709021  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.122631 46.0684829)"^^virtrdf:Geometry .
+ns1:node1313709021  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.122631 46.0684829)"^^virtrdf:Geometry .
 
-ns1:node1366801180  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1259523 46.0689405)"^^virtrdf:Geometry .
+ns1:node1366801180  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1259523 46.0689405)"^^virtrdf:Geometry .
 
-ns1:node959911107  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1229149 46.0650627)"^^virtrdf:Geometry .
+ns1:node959911107  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1229149 46.0650627)"^^virtrdf:Geometry .
 
-ns1:node927359403  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1188796 46.0677578)"^^virtrdf:Geometry .
+ns1:node927359403  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1188796 46.0677578)"^^virtrdf:Geometry .
 
-ns1:node998661865  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1219381 46.0707175)"^^virtrdf:Geometry .
+ns1:node998661865  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1219381 46.0707175)"^^virtrdf:Geometry .
 
 ns4:node1461587546  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1461587546 ;
+        ns2:geometry     ns1:node1461587546 ;
         ns5:capacity     "24" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-10-10T21:03:54"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node2407332591  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2407332591 ;
+        ns2:geometry     ns1:node2407332591 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2013-08-04T23:04:14"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node927359418  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node927359418 ;
+        ns2:geometry     ns1:node927359418 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-11-14T22:10:50"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node927359055  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node927359055 ;
+        ns2:geometry     ns1:node927359055 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-27T00:50:41"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node880590846  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1211741 46.0707546)"^^virtrdf:Geometry .
+ns1:node880590846  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1211741 46.0707546)"^^virtrdf:Geometry .
 
-ns1:node1461587546  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1230212 46.0669131)"^^virtrdf:Geometry .
+ns1:node1461587546  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1230212 46.0669131)"^^virtrdf:Geometry .
 
 ns4:node885670138  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node885670138 ;
+        ns2:geometry     ns1:node885670138 ;
         ns5:capacity     "10" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-05-25T23:46:56"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1307180338  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1307180338 ;
+        ns2:geometry     ns1:node1307180338 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-19T18:52:12"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node2407332591  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1264767 46.0694326)"^^virtrdf:Geometry .
+ns1:node2407332591  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1264767 46.0694326)"^^virtrdf:Geometry .
 
-ns1:node880590612  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1226663 46.0697881)"^^virtrdf:Geometry .
+ns1:node880590612  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1226663 46.0697881)"^^virtrdf:Geometry .
 
 ns4:node2673313376  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2673313376 ;
+        ns2:geometry     ns1:node2673313376 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1307180338  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1260019 46.0707979)"^^virtrdf:Geometry .
+ns1:node1307180338  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1260019 46.0707979)"^^virtrdf:Geometry .
 
 ns4:node991770499  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node991770499 ;
+        ns2:geometry     ns1:node991770499 ;
         ns7:contributor  ns4:user24966 ;
         ns7:modified     "2011-04-21T17:20:06"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node2673313376  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1240383 46.0719182)"^^virtrdf:Geometry .
+ns1:node2673313376  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1240383 46.0719182)"^^virtrdf:Geometry .
 
-ns1:way80767213  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING(11.1192099 46.0665817,11.1194833 46.066611,11.1194802 46.0666246,11.1192068 46.0665953,11.1192099 46.0665817)"^^virtrdf:Geometry .
+ns1:way80767213  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "LINESTRING(11.1192099 46.0665817,11.1194833 46.066611,11.1194802 46.0666246,11.1192068 46.0665953,11.1192099 46.0665817)"^^virtrdf:Geometry .
 
-ns1:node920689213  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1193939 46.0651989)"^^virtrdf:Geometry .
+ns1:node920689213  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1193939 46.0651989)"^^virtrdf:Geometry .
 
 ns4:node1312440696  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1312440696 ;
+        ns2:geometry     ns1:node1312440696 ;
         ns5:capacity     "3" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-05T01:19:31"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1638162310  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1638162310 ;
+        ns2:geometry     ns1:node1638162310 ;
         ns5:capacity     "6" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-02-18T21:34:17"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node938729365  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1239814 46.0661029)"^^virtrdf:Geometry .
+ns1:node938729365  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1239814 46.0661029)"^^virtrdf:Geometry .
 
-ns1:node885670138  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1210963 46.0715348)"^^virtrdf:Geometry .
+ns1:node885670138  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1210963 46.0715348)"^^virtrdf:Geometry .
 
-ns1:node890517069  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1215881 46.0712655)"^^virtrdf:Geometry .
+ns1:node890517069  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1215881 46.0712655)"^^virtrdf:Geometry .
 
-ns1:node1312440696  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1206975 46.0688755)"^^virtrdf:Geometry .
+ns1:node1312440696  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1206975 46.0688755)"^^virtrdf:Geometry .
 
-ns1:node1638162310  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1230963 46.07015)"^^virtrdf:Geometry .
+ns1:node1638162310  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1230963 46.07015)"^^virtrdf:Geometry .
 
 ns4:node938729359  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node938729359 ;
+        ns2:geometry     ns1:node938729359 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-07-22T01:52:57"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node927359322  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1216467 46.0694639)"^^virtrdf:Geometry .
+ns1:node927359322  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1216467 46.0694639)"^^virtrdf:Geometry .
 
-ns1:node991770499  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1271361 46.0659516)"^^virtrdf:Geometry .
+ns1:node991770499  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1271361 46.0659516)"^^virtrdf:Geometry .
 
 ns4:node1123469924  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1123469924 ;
+        ns2:geometry     ns1:node1123469924 ;
         ns5:capacity     "10" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-06-06T02:49:01"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1073482343  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1073482343 ;
+        ns2:geometry     ns1:node1073482343 ;
         ns5:capacity     "20" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2014-04-21T13:29:44"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1474641648  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1474641648 ;
+        ns2:geometry     ns1:node1474641648 ;
         ns5:capacity     "20" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-10-21T00:04:04"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1633007373  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1633007373 ;
+        ns2:geometry     ns1:node1633007373 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-02-18T21:34:28"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node880591119  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1226356 46.0685362)"^^virtrdf:Geometry .
+ns1:node880591119  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1226356 46.0685362)"^^virtrdf:Geometry .
 
 ns4:node1962487942  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1962487942 ;
+        ns2:geometry     ns1:node1962487942 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-10-13T14:37:04"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1123469924  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1201134 46.0697515)"^^virtrdf:Geometry .
+ns1:node1123469924  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1201134 46.0697515)"^^virtrdf:Geometry .
 
-ns1:node1474641648  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1225282 46.0652357)"^^virtrdf:Geometry .
+ns1:node1474641648  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1225282 46.0652357)"^^virtrdf:Geometry .
 
-ns1:node1073482343  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1253983 46.0680729)"^^virtrdf:Geometry .
+ns1:node1073482343  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1253983 46.0680729)"^^virtrdf:Geometry .
 
 ns4:node1369533465  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1369533465 ;
+        ns2:geometry     ns1:node1369533465 ;
         ns5:capacity     "20" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-11-26T19:54:38"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1211136796  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1187207 46.0662349)"^^virtrdf:Geometry .
+ns1:node1211136796  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1187207 46.0662349)"^^virtrdf:Geometry .
 
 ns4:node963712275  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node963712275 ;
+        ns2:geometry     ns1:node963712275 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-10-24T20:51:08"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node1633007373  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.123097 46.0701031)"^^virtrdf:Geometry .
+ns1:node1633007373  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.123097 46.0701031)"^^virtrdf:Geometry .
 
-ns1:node1962487942  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1246609 46.0687261)"^^virtrdf:Geometry .
+ns1:node1962487942  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1246609 46.0687261)"^^virtrdf:Geometry .
 
-ns1:node1369533465  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1246869 46.0677482)"^^virtrdf:Geometry .
+ns1:node1369533465  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1246869 46.0677482)"^^virtrdf:Geometry .
 
 ns4:node2673313374  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node2673313374 ;
+        ns2:geometry     ns1:node2673313374 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1202027599  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1202027599 ;
+        ns2:geometry     ns1:node1202027599 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2011-03-14T20:56:08"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node927359403  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node927359403 ;
+        ns2:geometry     ns1:node927359403 ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2010-09-27T00:50:51"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
 ns4:node1962487950  rdf:type  ns5:BicycleParking ;
-        ns8:geometry     ns1:node1962487950 ;
+        ns2:geometry     ns1:node1962487950 ;
         ns5:capacity     "4" ;
         ns7:contributor  ns4:user330007 ;
         ns7:modified     "2012-10-13T14:37:05"^^xsd:dateTime ;
-        ns9:prove        "osm" .
+        ns8:prove        "osm" .
 
-ns1:node2591984558  rdf:type  ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT(11.1190189 46.0704715)"^^virtrdf:Geometry .
+ns1:node2591984558  rdf:type  ns2:Geometry ;
+        ns2:asWKT  "POINT(11.1190189 46.0704715)"^^virtrdf:Geometry .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack0>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "0" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack0> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack0> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack0>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1207363536 46.0696127214)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1207363536 46.0696127214)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack1>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "1" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack1> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack1> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack1>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1214521435 46.0696817002)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1214521435 46.0696817002)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack2>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "2" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack2> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack2> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack2>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1216423305 46.0697098545)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1216423305 46.0697098545)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack3>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "3" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack3> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack3> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack3>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1240523371 46.069898792)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1240523371 46.069898792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack4>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "4" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack4> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack4> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack4>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1245305078 46.0692045646)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1245305078 46.0692045646)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack5>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "5" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack5> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack5> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack5>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1230164039 46.0669560567)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1230164039 46.0669560567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack6>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "6" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack6> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack6> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack6>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1226542426 46.0684144598)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1226542426 46.0684144598)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "7" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack7> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack7> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack7>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1226556181 46.0685283818)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1226556181 46.0685283818)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack8>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "8" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack8> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack8> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack8>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1235190179 46.0677833473)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1235190179 46.0677833473)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack9>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "9" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack9> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack9> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack9>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1227971231 46.067803012)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1227971231 46.067803012)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack10>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "10" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack10> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack10> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack10>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.124028386 46.065932833)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124028386 46.065932833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "11" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack11> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack11> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack11>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1241658465 46.0659969557)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1241658465 46.0659969557)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "12" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack12> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack12> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack12>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1241079649 46.0684338942)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1241079649 46.0684338942)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack13>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "13" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack13> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack13> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack13>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1244586258 46.0684404551)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1244586258 46.0684404551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "14" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack14> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack14> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack14>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1239084635 46.0684084395)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1239084635 46.0684084395)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack15>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "15" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack15> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack15> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack15>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1229762692 46.0650817962)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1229762692 46.0650817962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack16>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "16" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack16> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack16> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack16>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1225211733 46.0652552203)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1225211733 46.0652552203)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "17" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack17> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack17> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack17>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1223396013 46.0652832904)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1223396013 46.0652832904)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "18" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack18> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack18> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack18>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1259851653 46.0689192952)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1259851653 46.0689192952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack19>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "19" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack19> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack19> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack19>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1255739197 46.0695314957)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1255739197 46.0695314957)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "20" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack20> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack20> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack20>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1260397836 46.0707322854)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1260397836 46.0707322854)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack21>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "21" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack21> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack21> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack21>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1234124245 46.0672646223)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1234124245 46.0672646223)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack22>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "22" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack22> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack22> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack22>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1237345508 46.0674838567)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1237345508 46.0674838567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "23" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack23> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack23> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack23>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1247100774 46.065745297)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1247100774 46.065745297)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack24>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "24" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack24> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack24> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack24>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1235802942 46.0656540988)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1235802942 46.0656540988)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack25>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "25" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack25> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack25> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack25>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1253534385 46.0681072205)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1253534385 46.0681072205)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack26>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "26" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack26> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack26> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack26>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1201655035 46.0686774681)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1201655035 46.0686774681)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack27>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "27" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack27> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack27> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack27>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1241704311 46.0668197466)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1241704311 46.0668197466)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack28>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "28" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack28> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack28> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack28>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1234560031 46.0692200013)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1234560031 46.0692200013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "29" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack29> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack29> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack29>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1247174965 46.0678191594)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1247174965 46.0678191594)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack30>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "30" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack30> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack30> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack30>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1199133646 46.0666810754)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1199133646 46.0666810754)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack31>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "31" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack31> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack31> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack31>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1193849947 46.0666094995)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1193849947 46.0666094995)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack32>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "32" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack32> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack32> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack32>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1201652146 46.0670909963)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1201652146 46.0670909963)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack33>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "33" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack33> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack33> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack33>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1218097912 46.0673798839)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1218097912 46.0673798839)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack34>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "34" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack34> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack34> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack34>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1193635627 46.0688038833)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1193635627 46.0688038833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack35>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "35" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack35> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack35> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack35>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1252066668 46.0672470962)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1252066668 46.0672470962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack36>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "36" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack36> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack36> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack36>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1246841726 46.0711539162)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1246841726 46.0711539162)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack37>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "37" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack37> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack37> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack37>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1240690252 46.0669032779)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1240690252 46.0669032779)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack38>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "38" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack38> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack38> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack38>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1187184272 46.0697027826)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1187184272 46.0697027826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "39" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack39> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack39> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack39>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1266606537 46.0705009668)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1266606537 46.0705009668)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack40>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "40" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack40> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack40> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack40>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.124179808 46.0672809211)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.124179808 46.0672809211)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack41>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "41" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack41> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack41> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack41>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1266870735 46.0694846896)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1266870735 46.0694846896)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack42>
         rdf:type        ns5:BicycleParking ;
         ns7:identifier  "42" ;
-        ogcgs:geometry  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack42> ;
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack42> ;
         <http://www.example.org/source>  <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-        ns9:prove       "qrowd" .
+        ns8:prove       "qrowd" .
 
 <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack42>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "POINT (11.1247105539 46.0695750693)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "POINT (11.1247105539 46.0695750693)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://qrowd-project.eu/resource/rastrelliere.0>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b0 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "10" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "passaggio Peterlongo  n.posti  10  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "passaggio Peterlongo  n.posti  10  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.0> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.0> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.0>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.12011600889509 46.06974332787273, 11.120095457435852 46.06982923685294)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.12011600889509 46.06974332787273, 11.120095457435852 46.06982923685294)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b0    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "passaggio Peterlongo" .
@@ -1253,17 +1252,17 @@ _:b0    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.1>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b1 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "passaggio Peterlongo  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "passaggio Peterlongo  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.1> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.1> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.1>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.120087808597471 46.06986895126588, 11.120073561819622 46.06992793608558)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.120087808597471 46.06986895126588, 11.120073561819622 46.06992793608558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b1    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "passaggio Peterlongo" .
@@ -1271,17 +1270,17 @@ _:b1    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.2>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b2 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "12" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza della Portella  n.posti  12  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza della Portella  n.posti  12  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.2> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.2> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.2>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.1187281760855 46.06963695257342, 11.118705985106695 46.06972799783253)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.1187281760855 46.06963695257342, 11.118705985106695 46.06972799783253)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b2    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza della Portella" .
@@ -1289,17 +1288,17 @@ _:b2    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.3>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b3 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "32" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Roma  n.posti  32  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Roma  n.posti  32  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.3> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.3> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.3>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.120688967878909 46.06963120972962, 11.120822572033136 46.069647877648336)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.120688967878909 46.06963120972962, 11.120822572033136 46.069647877648336)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b3    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Roma" .
@@ -1307,17 +1306,17 @@ _:b3    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.4>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b4 ;
-        ns9:area             "ZTLL" ;
+        ns8:area             "ZTLL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "12" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Manci  n.posti  12  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Manci  n.posti  12  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.4> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.4> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.4>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.121699296444742 46.06973340278505, 11.121581416536442 46.06972027348952)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.121699296444742 46.06973340278505, 11.121581416536442 46.06972027348952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b4    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Manci" .
@@ -1325,17 +1324,17 @@ _:b4    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.5>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b5 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "32" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Manci  n.posti  32  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Manci  n.posti  32  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.5> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.5> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.5>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.121567139727823 46.06971862381072, 11.121317152173912 46.06969199073548)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.121567139727823 46.06971862381072, 11.121317152173912 46.06969199073548)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b5    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Manci" .
@@ -1343,17 +1342,17 @@ _:b5    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.6>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b6 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "4" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via della Mostra  n.posti  4  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via della Mostra  n.posti  4  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.6> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.6> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.6>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.126012636671545 46.0708011393871, 11.126011730174229 46.07077754042442)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.126012636671545 46.0708011393871, 11.126011730174229 46.07077754042442)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b6    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via della Mostra" .
@@ -1361,17 +1360,17 @@ _:b6    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.7>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b7 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via della Mostra  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via della Mostra  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.7> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.7> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.7>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.126011484934207 46.07076669235656, 11.126008584559779 46.070723986754295)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.126011484934207 46.07076669235656, 11.126008584559779 46.070723986754295)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b7    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via della Mostra" .
@@ -1379,17 +1378,17 @@ _:b7    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.8>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b8 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "4" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Marco  n.posti  4  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via S. Marco  n.posti  4  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.8> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.8> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.8>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.126645594271075 46.07049639512551, 11.126682150737663 46.070493161584466)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.126645594271075 46.07049639512551, 11.126682150737663 46.070493161584466)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b8    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Marco" .
@@ -1397,17 +1396,17 @@ _:b8    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.9>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b9 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "12" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Marco  n.posti  12  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via S. Marco  n.posti  12  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.9> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.9> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.9>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.123951873553324 46.069911430592434, 11.124063157811932 46.06994382803821)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.123951873553324 46.069911430592434, 11.124063157811932 46.06994382803821)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b9    rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Marco" .
@@ -1415,17 +1414,17 @@ _:b9    rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.10>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b10 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza C. Battisti  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza C. Battisti  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.10> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.10> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.10>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.12365219058602 46.06950978794351, 11.123588913638981 46.06950968759118)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.12365219058602 46.06950978794351, 11.123588913638981 46.06950968759118)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b10   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza C. Battisti" .
@@ -1433,17 +1432,17 @@ _:b10   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.11>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b11 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza C. Battisti  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza C. Battisti  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.11> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.11> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.11>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.123416347706865 46.06929014026655, 11.12342015742714 46.0692460291172)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.123416347706865 46.06929014026655, 11.12342015742714 46.0692460291172)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b11   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza C. Battisti" .
@@ -1451,17 +1450,17 @@ _:b11   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.12>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b12 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "4" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Pietro  n.posti  4  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via S. Pietro  n.posti  4  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.12> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.12> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.12>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.124457328311555 46.06929504193771, 11.124503243427649 46.06929674119393)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.124457328311555 46.06929504193771, 11.124503243427649 46.06929674119393)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b12   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Pietro" .
@@ -1469,17 +1468,17 @@ _:b12   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.13>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b13 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "4" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Maria Maddalena  n.posti  4  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via S. Maria Maddalena  n.posti  4  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.13> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.13> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.13>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.125957550092103 46.06898502173201, 11.12597029074549 46.06895861574807)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.125957550092103 46.06898502173201, 11.12597029074549 46.06895861574807)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b13   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Maria Maddalena" .
@@ -1487,17 +1486,17 @@ _:b13   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.14>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b14 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "12" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Maria Maddalena  n.posti  12  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via S. Maria Maddalena  n.posti  12  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.14> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.14> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.14>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.125975396802724 46.06894830847814, 11.125997457701066 46.06890194281257)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.125975396802724 46.06894830847814, 11.125997457701066 46.06890194281257)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b14   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via S. Maria Maddalena" .
@@ -1505,17 +1504,17 @@ _:b14   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.15>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b15 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "bifacciale" ;
         ns5:capacity         "24" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza S. Maria Maggiore  n.posti  24  -  bifacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza S. Maria Maggiore  n.posti  24  -  bifacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.15> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.15> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.15>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.119421419514536 46.06882243251067, 11.119520726051421 46.0688295259502)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.119421419514536 46.06882243251067, 11.119520726051421 46.0688295259502)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b15   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza S. Maria Maggiore" .
@@ -1523,17 +1522,17 @@ _:b15   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.16>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b16 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "vicolo Colico  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "vicolo Colico  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.16> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.16> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.16>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.120092913622177 46.06868551179241, 11.120133501155204 46.06869177952982)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.120092913622177 46.06868551179241, 11.120133501155204 46.06869177952982)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b16   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "vicolo Colico" .
@@ -1541,17 +1540,17 @@ _:b16   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.17>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b17 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "9" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Oss Mazzurana  n.posti  9  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Oss Mazzurana  n.posti  9  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.17> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.17> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.17>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.122632027780972 46.068589218946975, 11.122629630791579 46.068526713424845)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.122632027780972 46.068589218946975, 11.122629630791579 46.068526713424845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b17   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Oss Mazzurana" .
@@ -1559,17 +1558,17 @@ _:b17   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.18>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b18 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "12" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Oss Mazzurana  n.posti  12  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Oss Mazzurana  n.posti  12  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.18> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.18> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.18>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.122624644678314 46.068492339704726, 11.12261889859725 46.068390323919154)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.122624644678314 46.068492339704726, 11.12261889859725 46.068390323919154)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b18   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Oss Mazzurana" .
@@ -1577,17 +1576,17 @@ _:b18   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.19>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b19 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "largo Carducci  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "largo Carducci  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.19> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.19> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.19>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.12407790741073 46.06844043776531, 11.124153193320831 46.068442867632704)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.12407790741073 46.06844043776531, 11.124153193320831 46.068442867632704)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b19   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "largo Carducci" .
@@ -1595,17 +1594,17 @@ _:b19   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.20>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b20 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "largo Carducci  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "largo Carducci  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.20> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.20> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.20>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.123910303244614 46.068421852670404, 11.123864948919916 46.068386952923845)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.123910303244614 46.068421852670404, 11.123864948919916 46.068386952923845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b20   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "largo Carducci" .
@@ -1613,17 +1612,17 @@ _:b20   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.21>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b21 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "16" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Galilei  n.posti  16  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Galilei  n.posti  16  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.21> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.21> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.21>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.125470390211504 46.06804753753646, 11.125342525464102 46.06810863673532)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.125470390211504 46.06804753753646, 11.125342525464102 46.06810863673532)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b21   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Galilei" .
@@ -1631,17 +1630,17 @@ _:b21   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.22>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b22 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "10" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Roggia Grande  n.posti  10  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Roggia Grande  n.posti  10  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.22> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.22> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.22>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.124716326146926 46.067848382853995, 11.12470505746739 46.06779370154765)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.124716326146926 46.067848382853995, 11.12470505746739 46.06779370154765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b22   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Roggia Grande" .
@@ -1649,17 +1648,17 @@ _:b22   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.23>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b23 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "10" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Lodron  n.posti  10  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza Lodron  n.posti  10  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.23> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.23> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.23>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.123449406252238 46.06780938723066, 11.123545437581999 46.067826750297684)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.123449406252238 46.06780938723066, 11.123545437581999 46.067826750297684)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b23   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Lodron" .
@@ -1667,17 +1666,17 @@ _:b23   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.24>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b24 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Lodron  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza Lodron  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.24> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.24> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.24>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.122642581499134 46.06786012319607, 11.122713663197347 46.06784859027226)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.122642581499134 46.06786012319607, 11.122713663197347 46.06784859027226)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b24   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Lodron" .
@@ -1685,17 +1684,17 @@ _:b24   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.25>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b25 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "20" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza del Duomo  n.posti  20  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza del Duomo  n.posti  20  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.25> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.25> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.25>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.121813461679263 46.067520648762276, 11.12184160813977 46.06739374935931)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.121813461679263 46.067520648762276, 11.12184160813977 46.06739374935931)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b25   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza del Duomo" .
@@ -1703,17 +1702,17 @@ _:b25   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.26>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b26 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Verzeri  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza Verzeri  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.26> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.26> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.26>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.119898102537892 46.06757343796188, 11.119956820174307 46.067574263224785)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.119898102537892 46.06757343796188, 11.119956820174307 46.067574263224785)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b26   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Verzeri" .
@@ -1721,17 +1720,17 @@ _:b26   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.27>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b27 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Don Rizzi  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Don Rizzi  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.27> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.27> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.27>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.120142518955408 46.067131690313246, 11.120204974654163 46.06713436087712)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.120142518955408 46.067131690313246, 11.120204974654163 46.06713436087712)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b27   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Don Rizzi" .
@@ -1739,17 +1738,17 @@ _:b27   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.28>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b28 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "52" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Verdi  n.posti  52  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Verdi  n.posti  52  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.28> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.28> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.28>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.119207626830178 46.06661544527659, 11.119513206858644 46.06664551949483)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.119207626830178 46.06661544527659, 11.119513206858644 46.06664551949483)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b28   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Verdi" .
@@ -1757,17 +1756,17 @@ _:b28   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.29>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b29 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "36" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Verdi  n.posti  36  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Verdi  n.posti  36  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.29> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.29> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.29>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.119824480411374 46.066680593382465, 11.120017783478179 46.06669998413097)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.119824480411374 46.066680593382465, 11.120017783478179 46.06669998413097)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b29   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Verdi" .
@@ -1775,17 +1774,17 @@ _:b29   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.30>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b30 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "56" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Calepina  n.posti  56  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Calepina  n.posti  56  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.30> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.30> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.30>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.122958978776689 46.06692875862931, 11.123210646959004 46.06696365433016)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.122958978776689 46.06692875862931, 11.123210646959004 46.06696365433016)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b30   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Calepina" .
@@ -1793,17 +1792,17 @@ _:b30   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.31>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b31 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "13" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Garzetti  n.posti  13  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza Garzetti  n.posti  13  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.31> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.31> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.31>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.124110411321832 46.06618101000041, 11.124122246720857 46.06613100519547)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.124110411321832 46.06618101000041, 11.124122246720857 46.06613100519547)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b31   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Garzetti" .
@@ -1811,17 +1810,17 @@ _:b31   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.32>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b32 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Garzetti  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza Garzetti  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.32> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.32> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.32>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.1241499222607 46.06599198688739, 11.124143668815611 46.06602018686515)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.1241499222607 46.06599198688739, 11.124143668815611 46.06602018686515)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b32   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Garzetti" .
@@ -1829,17 +1828,17 @@ _:b32   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.33>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b33 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "9" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via II Androna Borgonuovo  n.posti  9  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via II Androna Borgonuovo  n.posti  9  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.33> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.33> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.33>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.123608083798278 46.06565931082283, 11.12364936552253 46.06565982001159)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.123608083798278 46.06565931082283, 11.12364936552253 46.06565982001159)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b33   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via II Androna Borgonuovo" .
@@ -1847,17 +1846,17 @@ _:b33   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.34>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b34 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "9" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via II Androna Borgonuovo  n.posti  9  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via II Androna Borgonuovo  n.posti  9  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.34> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.34> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.34>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.123668656427052 46.06566073795999, 11.123709034102497 46.065661583065015)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.123668656427052 46.06566073795999, 11.123709034102497 46.065661583065015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b34   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via II Androna Borgonuovo" .
@@ -1865,17 +1864,17 @@ _:b34   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.35>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b35 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "8" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Garzetti  n.posti  8  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "piazza Garzetti  n.posti  8  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.35> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.35> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.35>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.124669447094089 46.065743136175904, 11.124704327122732 46.065744083169015)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.124669447094089 46.065743136175904, 11.124704327122732 46.065744083169015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b35   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "piazza Garzetti" .
@@ -1883,17 +1882,17 @@ _:b35   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.36>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b36 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "15" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione  n.posti  15  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Al Torrione  n.posti  15  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.36> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.36> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.36>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.122914587744745 46.06505994243169, 11.123014828587975 46.065067653732456)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.122914587744745 46.06505994243169, 11.123014828587975 46.065067653732456)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b36   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione" .
@@ -1901,17 +1900,17 @@ _:b36   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.37>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b37 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "28" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione  n.posti  28  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Al Torrione  n.posti  28  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.37> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.37> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.37>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.12258318316078 46.065240984963054, 11.122435577570398 46.06526542825666)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.12258318316078 46.065240984963054, 11.122435577570398 46.06526542825666)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b37   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione" .
@@ -1919,17 +1918,17 @@ _:b37   rdf:type  ns5:HighwayThing ;
 <http://qrowd-project.eu/resource/rastrelliere.38>
         rdf:type             ns5:BicycleParking ;
         ns5:near             _:b38 ;
-        ns9:area             "ZTL" ;
+        ns8:area             "ZTL" ;
         ns5:bicycle_parking  "monofacciale" ;
         ns5:capacity         "12" ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione  n.posti  12  -  monofacciale" ;
         <http://www.w3.org/2000/01/rdf-schema#comment>  "via Al Torrione  n.posti  12  -  monofacciale" ;
-        ogcgs:geometry       <http://qrowd-project.eu/resource/geometryrastrelliere.38> ;
-        ns9:prove            "trento" .
+        <http://www.opengis.net/ont/geosparql#geometry>  <http://qrowd-project.eu/resource/geometryrastrelliere.38> ;
+        ns8:prove            "trento" .
 
 <http://qrowd-project.eu/resource/geometryrastrelliere.38>
-        rdf:type     ogcgs:Geometry ;
-        ogcgs:asWKT  "LINESTRING (11.12236177472391 46.06527764983274, 11.122313480935151 46.06528556789875)"^^ogcgs:wktLiteral .
+        rdf:type  <http://www.opengis.net/ont/geosparql#Geometry> ;
+        <http://www.opengis.net/ont/geosparql#asWKT>  "LINESTRING (11.12236177472391 46.06527764983274, 11.122313480935151 46.06528556789875)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 _:b38   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione" .
