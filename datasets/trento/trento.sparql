@@ -2,6 +2,7 @@ PREFIX lgdo: <http://linkedgeodata.org/ontology/>
 PREFIX ogcgs:  <http://www.opengis.net/ont/geosparql#>
 PREFIX fn: <http://jsa.aksw.org/fn/gml/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
 PREFIX todo: <http://todo/>
 
 CONSTRUCT {
@@ -14,6 +15,7 @@ CONSTRUCT {
     rdfs:label ?label ;
     rdfs:comment ?description ;
     ogcgs:geometry ?geometry ;
+    todo:prove "trento" ;
     .
 
   ?geometry

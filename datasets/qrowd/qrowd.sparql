@@ -1,14 +1,16 @@
-#PREFIX dct: <http://purl.org/dc/terms/>
-
 PREFIX lgdo: <http://linkedgeodata.org/ontology/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+
+PREFIX todo: <http://todo/>
+
 CONSTRUCT {
   ?s
     a lgdo:BicycleParking ;
     dct:identifier ?id ;
     geo:geometry ?g ;
     eg:source <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
+    todo:prove "qrowd" ;
     .
 
   ?g

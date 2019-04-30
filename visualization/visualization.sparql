@@ -19,6 +19,7 @@ SELECT
   ?label
   ?area
   ?streetName
+  ?prove
 
 WHERE { 
   ?bikerack 
@@ -36,6 +37,7 @@ WHERE {
   OPTIONAL { ?bikerack  lgdo:parking ?parking } .
   OPTIONAL { ?bikerack  rdfs:comment ?description } .
   OPTIONAL { ?bikerack  rdfs:label ?label } .
+  OPTIONAL { ?bikerack  todo:prove ?prove } .
   OPTIONAL { ?bikerack  todo:area ?area } .
   OPTIONAL { ?bikerack  lgdo:near _:street .
              _:street   a lgdo:HighwayThing ;

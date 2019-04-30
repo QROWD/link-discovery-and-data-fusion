@@ -1,4 +1,4 @@
-datasets := $(wildcard ../datasets/*/*.ttl ../datasets/*/*.nt ../interlinking/*/*.nt)
+datasets := $(wildcard ../../datasets/*/*.ttl ../../datasets/*/*.nt ../../interlinking/*/*.nt)
 
 reload-data: clean datasets
 
