@@ -1,0 +1,19 @@
+LOAD <fusion-input.ttl>
+
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+PREFIX todo: <http://todo/>
+
+INSERT {
+  ?cluster
+    a todo:SameAsCluster ;
+    todo:member ?member ;
+    .
+} WHERE {
+  { SELECT ?member (GROUP_CONCAT(?o;separator='-') AS ?cs) {
+    { SELECT ?member ?o { ?member (owl:sameAs|^owl:sameAs)+ ?oo . BIND(afn:localname(?oo) AS ?o) } ORDER BY ?member ?o }
+  } GROUP BY ?member }
+
+  BIND(IRI(CONCAT('http://example.org/cluster/', ENCODE_FOR_URI(?cs))) AS ?cluster)
+}
+
+CONSTRUCT { ?member ?p ?o } {  ?member ?p ?o }

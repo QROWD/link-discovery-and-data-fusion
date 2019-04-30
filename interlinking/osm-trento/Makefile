@@ -1,4 +1,4 @@
-osm-trento-verynear.nt: ../../datasets/osm/osm.ttl ../../datasets/trento/trento.nt
+osm-trento-sameas.nt: ../../datasets/osm/osm.ttl ../../datasets/trento/trento.nt
 	limes config.ttl
 
 .PHONY: clean

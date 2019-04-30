@@ -1,4 +1,4 @@
-trento-qrowd-near.nt: ../../datasets/trento/trento.nt ../../datasets/qrowd/qrowd.nt
+trento-qrowd-sameas.nt: ../../datasets/trento/trento.nt ../../datasets/qrowd/qrowd.nt
 	limes config.ttl
 
 .PHONY: clean

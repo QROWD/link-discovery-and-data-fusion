@@ -1,9 +1,10 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geom:    <http://geovocab.org/geometry#> .
 @prefix geos:    <http://www.opengis.net/ont/geosparql#> .
 @prefix lgdo:    <http://linkedgeodata.org/ontology/> .
-@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix geom:    <http://geovocab.org/geometry#> .
 @prefix limes:   <http://limes.sf.net/ontology/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 
 limes:linkedgeodataTOlinkedgeodataSource
       a       limes:SourceDataset ;
@@ -57,8 +58,8 @@ limes:linkedgeodataTOlinkedgeodataReview
 
 limes:linkedgeodataTOlinkedgeodataAcceptance
       a       limes:Acceptance ;
-      limes:file "qrowd-osm-verynear.nt" ;
-      limes:relation "lgdo:veryNear" ;
+      limes:file "qrowd-osm-sameas.nt" ;
+      limes:relation "owl:sameAs" ;
       limes:threshold "0.99" .
 
 

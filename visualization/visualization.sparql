@@ -20,6 +20,7 @@ SELECT
   ?area
   ?streetName
   ?prove
+  ?cluster
 
 WHERE { 
   ?bikerack 
@@ -39,6 +40,7 @@ WHERE {
   OPTIONAL { ?bikerack  rdfs:label ?label } .
   OPTIONAL { ?bikerack  todo:prove ?prove } .
   OPTIONAL { ?bikerack  todo:area ?area } .
+  OPTIONAL { ?cluster   todo:member ?bikerack } .
   OPTIONAL { ?bikerack  lgdo:near _:street .
              _:street   a lgdo:HighwayThing ;
                         rdfs:label ?streetName .

@@ -1,15 +1,9 @@
-SOURCES = \
-  ../datasets/osm/osm.ttl \
-  ../datasets/qrowd/qrowd.nt \
-  ../datasets/trento/trento.nt
+INPUT = ../fusion/cluster/fusion-sameas-clusters.nt
 
-visualization.csv: visualization.ttl visualization.sparql
-	sparql --data visualization.ttl --query visualization.sparql --results csv > visualization.csv
-
-visualization.ttl: $(SOURCES)
-	riot --output=TURTLE $(SOURCES) > visualization.ttl
+visualization.csv: visualization.sparql $(INPUT)
+	sparql --data $(INPUT) --query visualization.sparql --results csv > visualization.csv
 
 clean:
-	rm -f visualization.csv visualization.ttl
+	rm -f visualization.csv
 
 .PHONY: clean

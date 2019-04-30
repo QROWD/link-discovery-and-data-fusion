@@ -1933,3 +1933,33 @@ _:b37   rdf:type  ns5:HighwayThing ;
 
 _:b38   rdf:type  ns5:HighwayThing ;
         <http://www.w3.org/2000/01/rdf-schema#label>  "via Al Torrione" .
+
+<http://qrowd-project.eu/resource/rastrelliere.32>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11> .
+
+<http://qrowd-project.eu/resource/rastrelliere.22>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29> .
+
+<http://qrowd-project.eu/resource/rastrelliere.35>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23> .
+
+<http://qrowd-project.eu/resource/rastrelliere.14>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18> .
+
+<http://qrowd-project.eu/resource/rastrelliere.38>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17> .
+
+<http://qrowd-project.eu/resource/rastrelliere.17>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7> .
+
+<http://qrowd-project.eu/resource/rastrelliere.19>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12> .
+
+<http://qrowd-project.eu/resource/rastrelliere.8>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39> .
+
+<http://qrowd-project.eu/resource/rastrelliere.20>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14> .
+
+<http://qrowd-project.eu/resource/rastrelliere.7>
+        <http://www.w3.org/2002/07/owl#sameAs>  <http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20> .
