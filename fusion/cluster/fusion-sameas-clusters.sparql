@@ -16,4 +16,4 @@ INSERT {
   BIND(IRI(CONCAT('http://example.org/cluster/', ENCODE_FOR_URI(?cs))) AS ?cluster)
 }
 
-CONSTRUCT { ?member ?p ?o } {  ?member ?p ?o }
+CONSTRUCT { ?s ?p ?o } {  ?s ?p ?o }

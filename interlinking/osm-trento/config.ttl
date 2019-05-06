@@ -60,4 +60,4 @@ limes:linkedgeodataTOlinkedgeodataAcceptance
 @prefix limes:  <http://limes.sf.net/ontology/> .
 
 limes:linkedgeodataTOlinkedgeodataAcceptance
-        limes:threshold  "0.999" .
+        limes:threshold  "0.99" .
