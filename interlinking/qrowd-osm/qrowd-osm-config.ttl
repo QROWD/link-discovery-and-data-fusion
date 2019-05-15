@@ -28,10 +28,6 @@ limes:linkedgeodataTOlinkedgeodataTarget
       limes:property "geos:geometry/geos:asWKT RENAME wkt" ;
       .
 
-limes:linkedgeodataTOlinkedgeodataMetric
-      a       limes:Metric ;
-      limes:expression "geo_link(x.wkt, y.wkt)" .
-
 limes:linkedgeodataTOlinkedgeodata
       a       limes:LimesSpecs ;
       limes:hasExecutionParameters limes:executionParameters ;

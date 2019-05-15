@@ -5,6 +5,8 @@ PREFIX ogcgs:  <http://www.opengis.net/ont/geosparql#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX todo: <http://todo/>
 
+PREFIX eg: <http://www.example.org/>
+
 SELECT 
   ?bikerack
   ?wkt
@@ -27,6 +29,8 @@ WHERE {
     a lgdo:BicycleParking ;
     ?has ?geometry .
 
+  # ?c eg:representative ?bikerack .
+
   ?geometry ogcgs:asWKT ?wkt .
 
   OPTIONAL { ?bikerack  dc:contributor ?contributor } .
@@ -38,7 +42,7 @@ WHERE {
   OPTIONAL { ?bikerack  lgdo:parking ?parking } .
   OPTIONAL { ?bikerack  rdfs:comment ?description } .
   OPTIONAL { ?bikerack  rdfs:label ?label } .
-  OPTIONAL { ?bikerack  todo:prove ?prove } .
+  OPTIONAL { ?bikerack  todo:prove/rdfs:label ?prove } .
   OPTIONAL { ?bikerack  todo:area ?area } .
   OPTIONAL { ?cluster   todo:member ?bikerack } .
   OPTIONAL { ?bikerack  lgdo:near _:street .

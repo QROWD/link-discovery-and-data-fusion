@@ -15,8 +15,10 @@ CONSTRUCT {
     rdfs:label ?label ;
     rdfs:comment ?description ;
     ogcgs:geometry ?geometry ;
-    todo:prove "trento" ;
+    todo:prove todo:Trento ;
     .
+
+  todo:Trento rdfs:label "trento" .
 
   ?geometry
     a ogcgs:Geometry ;

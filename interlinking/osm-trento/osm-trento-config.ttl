@@ -28,10 +28,6 @@ limes:linkedgeodataTOlinkedgeodataTarget
       rdfs:label "trento" ;
       .
 
-limes:linkedgeodataTOlinkedgeodataMetric
-      a       limes:Metric ;
-      limes:expression "geo_hausdorff(x.wkt, y.wkt)" .
-
 limes:linkedgeodataTOlinkedgeodata
       a       limes:LimesSpecs ;
       limes:hasExecutionParameters limes:executionParameters ;

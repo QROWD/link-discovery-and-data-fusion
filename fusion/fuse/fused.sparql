@@ -1,0 +1,109 @@
+LOAD <fusion-input.ttl>
+
+PREFIX eg: <http://www.example.org/>
+PREFIX todo: <http://todo/>
+# Register source weights
+INSERT DATA {
+  todo:Trento eg:score 1.0 .
+  todo:Osm eg:score 0.8 .
+  todo:Qrowd eg:score 0.6 .
+}
+
+
+# Create sameAs clusters (domain independent)
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+INSERT {
+  ?c
+    a eg:SameAsCluster ;
+    eg:member ?s ;
+    .
+} WHERE {
+  { SELECT ?s (GROUP_CONCAT(?o;separator='-') AS ?cs) {
+    { SELECT ?s ?o { ?s (owl:sameAs|^owl:sameAs)+ ?oo . BIND(afn:localname(?oo) AS ?o) } ORDER BY ?s ?o }
+  } GROUP BY ?s }
+
+  BIND(IRI(CONCAT('http://example.org/cluster/', ENCODE_FOR_URI(?cs))) AS ?c)
+}
+
+SELECT * { ?s ?p ?o }
+
+## Mark clusters as inconsistent whenever it contains members NOT related via sameAs
+INSERT {
+  ?c
+    eg:missingLink ?m ;
+    eg:inconsistent true ;
+    .
+
+  # While we are at it, log any members of the cluster not related via sameAs as 'missing links', and mark the cluster as inconistent
+  # TODO We may want to introduce reifiers for links - then again, it makes the process more complex because links could be in forward / backward direction
+  ?m
+    rdf:subject ?a ;
+    rdf:object ?b ;
+    .
+
+} WHERE {
+  ?c
+    a eg:SameAsCluster ;
+    eg:member ?a ;
+    eg:member ?b ;
+    .
+
+  # Use lexicographic order
+  FILTER(str(?a) < str(?b))
+  FILTER(?a != ?b)
+
+  FILTER(NOT EXISTS { ?a owl:sameAs ?b } && NOT EXISTS { ?b owl:sameAs ?a })
+
+  BIND(IRI(CONCAT(STR(?c), '-missing-', ENCODE_FOR_URI(afn:localname(?a)), '-', ENCODE_FOR_URI(afn:localname(?b)))) AS ?m)
+}
+
+
+# For each cluster obtain the highest score among its members
+PREFIX todo: <http://todo/>
+INSERT {
+  ?c eg:maxScore ?max . 
+} WHERE {
+  { SELECT ?c (MAX(?score) AS ?max) {
+    ?c eg:member/todo:prove/eg:score ?score
+  } GROUP BY ?c }
+}
+
+# For each cluster, choose the member with the highest score as the representative
+PREFIX todo: <http://todo/>
+INSERT {
+  ?c
+    eg:representative ?s ;
+    .
+} WHERE {
+  ?c eg:member ?s .
+  ?s todo:prove ?source .
+  ?source eg:score ?score 
+.
+  ?c eg:maxScore ?maxScore .
+  FILTER(?score = ?maxScore)
+}
+
+# Copy attributes of all cluster members to the member choses as the representative
+PREFIX todo: <http://todo/>
+INSERT {
+  ?s ?p ?o
+} WHERE {
+  ?c eg:representative ?s .
+  ?c eg:member ?m .
+  ?m ?p ?o .
+  FILTER(?p NOT IN (todo:prove))
+}
+
+
+# Cluster information
+#CONSTRUCT { ?s ?p ?o } { ?s a eg:SameAsCluster ; ?p ?o }
+#CONSTRUCT { ?s ?p ?o } { ?x a eg:SameAsCluster ; ?x ?s . ?s ?p ?o }
+
+# Output inconistent clusters
+SELECT (afn:localname(?c) As ?missing_links_in_cluster) ?a ?b { ?c a eg:SameAsCluster ; eg:missingLink [ rdf:subject ?a ; rdf:object ?b ] }
+
+#SELECT * { ?s ?p ?o }
+
+
+# Emit the final dataset
+CONSTRUCT { ?s ?p ?o } {  ?s ?p ?o }

@@ -10,8 +10,10 @@ CONSTRUCT {
     dct:identifier ?id ;
     geo:geometry ?g ;
     eg:source <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-    todo:prove "qrowd" ;
+    todo:prove todo:Qrowd ;
     .
+
+  todo:Qrowd rdfs:label "qrowd" .
 
   ?g
     a geo:Geometry ;

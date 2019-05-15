@@ -5,6 +5,7 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix virtrdf: <http://www.openlinksw.com/schemas/virtrdf#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ogcgs: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns2:   <http://geovocab.org/geometry#> .
 @prefix ns1:   <http://linkedgeodata.org/geometry/> .
@@ -18,7 +19,7 @@ ns1:node1202027599  a  ns2:Geometry ;
 ns5:node1614387739  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-02-01T17:36:14"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1614387739 .
 
 ns1:node880590952  a  ns2:Geometry ;
@@ -28,7 +29,7 @@ ns5:node1123469919  a    ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-06T02:49:01"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1123469919 .
 
 ns1:node1962487950  a  ns2:Geometry ;
@@ -37,20 +38,20 @@ ns1:node1962487950  a  ns2:Geometry ;
 ns5:node880590846  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-10-03T14:40:44"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node880590846 .
 
 ns5:node1300215314  a    ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-05-25T23:46:54"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1300215314 .
 
 ns5:node880590612  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-08-26T15:44:58"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node880590612 .
 
 ns1:node1614387739  a  ns2:Geometry ;
@@ -62,7 +63,7 @@ ns1:node1123469919  a  ns2:Geometry ;
 ns5:node892578597  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-02T00:35:12"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node892578597 .
 
 ns1:way80767282  a   ns2:Geometry ;
@@ -72,13 +73,13 @@ ns5:node885670110  a     ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-05-25T23:46:56"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node885670110 .
 
 ns5:node889555501  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-10-05T21:16:56"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node889555501 .
 
 ns1:node1300215314  a  ns2:Geometry ;
@@ -88,7 +89,7 @@ ns5:node1313709030  a    ns6:BicycleParking ;
         ns6:capacity     "32" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-06T02:48:58"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1313709030 .
 
 ns5:node2925010842  a        ns6:BicycleParking ;
@@ -97,7 +98,7 @@ ns5:node2925010842  a        ns6:BicycleParking ;
         ns6:covered          "no" ;
         ns8:contributor      ns5:user135609 ;
         ns8:modified         "2014-06-20T19:57:59"^^xsd:dateTime ;
-        ns9:prove            "osm" ;
+        ns9:prove            ns9:Osm ;
         ogcgs:geometry       ns1:node2925010842 .
 
 ns1:node1313709030  a  ns2:Geometry ;
@@ -106,7 +107,7 @@ ns1:node1313709030  a  ns2:Geometry ;
 ns5:node920689213  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-21T22:37:52"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node920689213 .
 
 ns1:node2925010842  a  ns2:Geometry ;
@@ -116,34 +117,34 @@ ns5:node1368300341  a    ns6:BicycleParking ;
         ns6:capacity     "20" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-20T22:22:29"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1368300341 .
 
 ns5:node888452720  a     ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-10-15T14:48:36"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node888452720 .
 
 ns5:node938729365  a     ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-05-24T21:36:23"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node938729365 .
 
 ns5:node1773068114  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-06-01T23:52:25"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1773068114 .
 
 ns5:node890517069  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-10-14T22:48:19"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node890517069 .
 
 ns1:node892578597  a  ns2:Geometry ;
@@ -153,7 +154,7 @@ ns5:node1330657604  a    ns6:BicycleParking ;
         ns6:capacity     "7" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-19T23:32:03"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1330657604 .
 
 ns1:node927358861  a  ns2:Geometry ;
@@ -168,14 +169,14 @@ ns1:node1773068114  a  ns2:Geometry ;
 ns1:node889555501  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.124031 46.0661549)"^^virtrdf:Geometry .
 
-ns1:node938729458  a  ns2:Geometry ;
-        ogcgs:asWKT  "POINT(11.1239086 46.0661631)"^^virtrdf:Geometry .
-
 ns5:node927359322  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-27T00:50:49"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node927359322 .
+
+ns1:node938729458  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.1239086 46.0661631)"^^virtrdf:Geometry .
 
 ns1:node1330657604  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1263235 46.0674468)"^^virtrdf:Geometry .
@@ -184,7 +185,7 @@ ns5:node1307179778  a    ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-19T18:52:11"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1307179778 .
 
 ns1:node1307179778  a  ns2:Geometry ;
@@ -197,14 +198,14 @@ ns5:node880591119  a     ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2014-03-27T21:21:16"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node880591119 .
 
 ns5:node885670050  a     ns6:BicycleParking ;
         ns6:capacity     "42" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-19T13:06:43"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node885670050 .
 
 ns1:node927359152  a  ns2:Geometry ;
@@ -214,29 +215,29 @@ ns5:way80767213  a           ns6:BicycleParking ;
         ns6:bicycle_parking  "wall_loops" ;
         ns8:contributor      ns6:user135609 ;
         ns8:modified         "2014-06-26T17:53:26"^^xsd:dateTime ;
-        ns9:prove            "osm" ;
+        ns9:prove            ns9:Osm ;
         ogcgs:geometry       ns1:way80767213 .
 
 ns5:node1312440642  a    ns6:BicycleParking ;
         ns6:capacity     "1" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-05T01:19:28"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1312440642 .
-
-ns5:node2513343048  a    ns6:BicycleParking ;
-        ns6:capacity     "4" ;
-        ns8:contributor  ns5:user330007 ;
-        ns8:modified     "2013-10-29T22:23:55"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
-        ogcgs:geometry   ns1:node2513343048 .
 
 ns5:node930522335  a     ns6:BicycleParking ;
         ns6:capacity     "21" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-19T13:06:44"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node930522335 .
+
+ns5:node2513343048  a    ns6:BicycleParking ;
+        ns6:capacity     "4" ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2013-10-29T22:23:55"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node2513343048 .
 
 ns1:node888452720  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1216625 46.0708413)"^^virtrdf:Geometry .
@@ -244,7 +245,7 @@ ns1:node888452720  a  ns2:Geometry ;
 ns5:node2074585048  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-12-19T15:05:42"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2074585048 .
 
 ns1:node1312440642  a  ns2:Geometry ;
@@ -253,13 +254,13 @@ ns1:node1312440642  a  ns2:Geometry ;
 ns5:node1331468407  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-05-05T17:46:17"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1331468407 .
 
 ns5:node557197356  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-24T21:21:34"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node557197356 .
 
 ns1:node2513343048  a  ns2:Geometry ;
@@ -268,6 +269,9 @@ ns1:node2513343048  a  ns2:Geometry ;
 ns1:node2074585048  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1233899 46.0672526)"^^virtrdf:Geometry .
 
+ns1:node1211136847  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.1187781 46.066242)"^^virtrdf:Geometry .
+
 ns1:node990462102  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1235002 46.0677883)"^^virtrdf:Geometry .
 
@@ -275,43 +279,46 @@ ns5:node560584081  a     ns6:BicycleParking ;
         ns6:capacity     "21" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2015-10-15T20:28:03"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node560584081 .
 
 ns5:node880590952  a     ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-08T10:57:43"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node880590952 .
 
 ns1:node1331468407  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1235993 46.0656258)"^^virtrdf:Geometry .
 
+ns1:node923131644  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.1192786 46.0716057)"^^virtrdf:Geometry .
+
 ns5:node890486735  a     ns6:BicycleParking ;
         ns6:capacity     "12" ;
         ns8:contributor  ns5:user38643 ;
         ns8:modified     "2015-07-04T00:41:24"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node890486735 .
 
 ns5:node1312440679  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2013-04-02T12:13:07"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1312440679 .
 
 ns5:node1962487951  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-10-13T14:37:05"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1962487951 .
 
 ns5:node1214597766  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-03-23T10:49:08"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1214597766 .
 
 ns1:node927359418  a  ns2:Geometry ;
@@ -320,7 +327,7 @@ ns1:node927359418  a  ns2:Geometry ;
 ns5:node889555365  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-10-05T21:16:48"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node889555365 .
 
 ns1:node927359055  a  ns2:Geometry ;
@@ -345,7 +352,7 @@ ns5:node885670132  a     ns6:BicycleParking ;
         ns6:capacity     "30" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-10-10T21:03:56"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node885670132 .
 
 ns1:node557197356  a  ns2:Geometry ;
@@ -357,49 +364,55 @@ ns1:node560584081  a  ns2:Geometry ;
 ns5:node885670019  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-11-14T22:10:49"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node885670019 .
 
 ns5:node1211136796  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-03-20T22:40:39"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1211136796 .
 
 ns5:node948758405  a     ns6:BicycleParking ;
         ns6:capacity     "44" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-06T02:49:06"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node948758405 .
+
+ns5:node927358861  a     ns6:BicycleParking ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2010-09-27T00:50:36"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node927358861 .
 
 ns5:node885670069  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-19T18:52:28"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node885670069 .
 
 ns1:node890486735  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.124673 46.0659986)"^^virtrdf:Geometry .
 
-ns5:node927358861  a     ns6:BicycleParking ;
-        ns8:contributor  ns5:user330007 ;
-        ns8:modified     "2010-09-27T00:50:36"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
-        ogcgs:geometry   ns1:node927358861 .
-
 ns5:node2673313378  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2673313378 .
+
+ns5:node2840695990  a    ns6:BicycleParking ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2014-05-06T22:59:53"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node2840695990 .
 
 ns5:node938729458  a     ns6:BicycleParking ;
         ns6:access       "private" ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-06-02T00:23:21"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node938729458 .
 
 ns1:node889555365  a  ns2:Geometry ;
@@ -409,14 +422,14 @@ ns5:node2591984558  a    ns6:BicycleParking ;
         ns6:capacity     "5" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2013-12-23T21:23:47"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2591984558 .
 
 ns5:node890486688  a     ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-20T22:22:41"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node890486688 .
 
 ns1:node2673313378  a  ns2:Geometry ;
@@ -426,33 +439,36 @@ ns5:node959911107  a     ns6:BicycleParking ;
         ns6:capacity     "15" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-10-21T00:04:41"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node959911107 .
+
+ns1:node2840695990  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.1189055 46.06686)"^^virtrdf:Geometry .
 
 ns5:node1271504854  a    ns6:BicycleParking ;
         ns6:capacity     "8" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-05-25T23:46:57"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1271504854 .
 
 ns5:node998661865  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-11-21T22:36:28"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node998661865 .
 
 ns5:way80767282  a           ns6:BicycleParking ;
         ns6:bicycle_parking  "wall_loops" ;
         ns8:contributor      ns6:user135609 ;
         ns8:modified         "2014-06-26T17:53:26"^^xsd:dateTime ;
-        ns9:prove            "osm" ;
+        ns9:prove            ns9:Osm ;
         ogcgs:geometry       ns1:way80767282 .
 
 ns5:node969087731  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-10-29T21:42:35"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node969087731 .
 
 ns1:node938729359  a  ns2:Geometry ;
@@ -467,7 +483,7 @@ ns1:node1271504854  a  ns2:Geometry ;
 ns5:node927359152  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-27T00:50:44"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node927359152 .
 
 ns1:node885670019  a  ns2:Geometry ;
@@ -478,7 +494,7 @@ ns5:node1662768771  a    ns6:BicycleParking ;
         ns6:parking      "surface" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-03-06T18:57:56"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1662768771 .
 
 ns1:node948758405  a  ns2:Geometry ;
@@ -493,14 +509,14 @@ ns1:node1662768771  a  ns2:Geometry ;
 ns5:node2074585041  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-12-19T15:05:42"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2074585041 .
 
 ns5:node1313709021  a    ns6:BicycleParking ;
         ns6:capacity     "12" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2014-03-27T21:21:15"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1313709021 .
 
 ns1:node885670069  a  ns2:Geometry ;
@@ -509,17 +525,23 @@ ns1:node885670069  a  ns2:Geometry ;
 ns5:node1366801180  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-19T18:50:29"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1366801180 .
 
 ns5:node990462102  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-11-15T23:12:52"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node990462102 .
 
 ns1:node963712275  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1203361 46.0693289)"^^virtrdf:Geometry .
+
+ns5:node923131644  a     ns6:BicycleParking ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2010-09-23T21:47:18"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node923131644 .
 
 ns1:node2074585041  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.123487 46.067206)"^^virtrdf:Geometry .
@@ -533,6 +555,13 @@ ns1:node1313709021  a  ns2:Geometry ;
 ns1:node1366801180  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1259523 46.0689405)"^^virtrdf:Geometry .
 
+ns5:node1366801259  a    ns6:BicycleParking ;
+        ns6:capacity     "4" ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2011-07-19T18:50:34"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node1366801259 .
+
 ns1:node959911107  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1229149 46.0650627)"^^virtrdf:Geometry .
 
@@ -542,30 +571,33 @@ ns1:node927359403  a  ns2:Geometry ;
 ns1:node998661865  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1219381 46.0707175)"^^virtrdf:Geometry .
 
+ns1:node1366801259  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.126720428467 46.070484161377)"^^virtrdf:Geometry .
+
 ns5:node1461587546  a    ns6:BicycleParking ;
         ns6:capacity     "24" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-10-10T21:03:54"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1461587546 .
 
 ns5:node2407332591  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2013-08-04T23:04:14"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2407332591 .
 
 ns5:node927359418  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-11-14T22:10:50"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node927359418 .
 
 ns5:node927359055  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-27T00:50:41"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node927359055 .
 
 ns1:node880590846  a  ns2:Geometry ;
@@ -578,14 +610,14 @@ ns5:node885670138  a     ns6:BicycleParking ;
         ns6:capacity     "10" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-05-25T23:46:56"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node885670138 .
 
 ns5:node1307180338  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-19T18:52:12"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1307180338 .
 
 ns1:node2407332591  a  ns2:Geometry ;
@@ -594,10 +626,17 @@ ns1:node2407332591  a  ns2:Geometry ;
 ns1:node880590612  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1226663 46.0697881)"^^virtrdf:Geometry .
 
+ns5:node1773068126  a    ns6:BicycleParking ;
+        ns6:capacity     "4" ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2012-06-01T23:52:26"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node1773068126 .
+
 ns5:node2673313376  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2673313376 .
 
 ns1:node1307180338  a  ns2:Geometry ;
@@ -606,8 +645,11 @@ ns1:node1307180338  a  ns2:Geometry ;
 ns5:node991770499  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user24966 ;
         ns8:modified     "2011-04-21T17:20:06"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node991770499 .
+
+ns1:node1773068126  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.1238775 46.0648965)"^^virtrdf:Geometry .
 
 ns1:node2673313376  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1240383 46.0719182)"^^virtrdf:Geometry .
@@ -622,18 +664,24 @@ ns5:node1312440696  a    ns6:BicycleParking ;
         ns6:capacity     "3" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-05T01:19:31"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1312440696 .
 
 ns5:node1638162310  a    ns6:BicycleParking ;
         ns6:capacity     "6" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-02-18T21:34:17"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1638162310 .
 
 ns1:node938729365  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1239814 46.0661029)"^^virtrdf:Geometry .
+
+ns5:node1211136847  a    ns6:BicycleParking ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2011-03-20T22:40:41"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node1211136847 .
 
 ns1:node885670138  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1210963 46.0715348)"^^virtrdf:Geometry .
@@ -650,7 +698,7 @@ ns1:node1638162310  a  ns2:Geometry ;
 ns5:node938729359  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-07-22T01:52:57"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node938729359 .
 
 ns1:node927359322  a  ns2:Geometry ;
@@ -663,28 +711,28 @@ ns5:node1123469924  a    ns6:BicycleParking ;
         ns6:capacity     "10" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-06-06T02:49:01"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1123469924 .
 
 ns5:node1073482343  a    ns6:BicycleParking ;
         ns6:capacity     "20" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2014-04-21T13:29:44"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1073482343 .
 
 ns5:node1474641648  a    ns6:BicycleParking ;
         ns6:capacity     "20" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-10-21T00:04:04"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1474641648 .
 
 ns5:node1633007373  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-02-18T21:34:28"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1633007373 .
 
 ns1:node880591119  a  ns2:Geometry ;
@@ -694,7 +742,7 @@ ns5:node1962487942  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-10-13T14:37:04"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1962487942 .
 
 ns1:node1123469924  a  ns2:Geometry ;
@@ -710,7 +758,7 @@ ns5:node1369533465  a    ns6:BicycleParking ;
         ns6:capacity     "20" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-11-26T19:54:38"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1369533465 .
 
 ns1:node1211136796  a  ns2:Geometry ;
@@ -719,14 +767,22 @@ ns1:node1211136796  a  ns2:Geometry ;
 ns5:node963712275  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-10-24T20:51:08"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node963712275 .
 
 ns1:node1633007373  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.123097 46.0701031)"^^virtrdf:Geometry .
 
+ns9:Osm  rdfs:label  "osm" .
+
 ns1:node1962487942  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1246609 46.0687261)"^^virtrdf:Geometry .
+
+ns5:node1492729109  a    ns6:BicycleParking ;
+        ns8:contributor  ns5:user330007 ;
+        ns8:modified     "2011-11-05T21:08:48"^^xsd:dateTime ;
+        ns9:prove        ns9:Osm ;
+        ogcgs:geometry   ns1:node1492729109 .
 
 ns1:node1369533465  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1246869 46.0677482)"^^virtrdf:Geometry .
@@ -734,27 +790,30 @@ ns1:node1369533465  a  ns2:Geometry ;
 ns5:node2673313374  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2014-02-15T19:33:59"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node2673313374 .
 
 ns5:node1202027599  a    ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2011-03-14T20:56:08"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1202027599 .
 
 ns5:node927359403  a     ns6:BicycleParking ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2010-09-27T00:50:51"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node927359403 .
 
 ns5:node1962487950  a    ns6:BicycleParking ;
         ns6:capacity     "4" ;
         ns8:contributor  ns5:user330007 ;
         ns8:modified     "2012-10-13T14:37:05"^^xsd:dateTime ;
-        ns9:prove        "osm" ;
+        ns9:prove        ns9:Osm ;
         ogcgs:geometry   ns1:node1962487950 .
 
 ns1:node2591984558  a  ns2:Geometry ;
         ogcgs:asWKT  "POINT(11.1190189 46.0704715)"^^virtrdf:Geometry .
+
+ns1:node1492729109  a  ns2:Geometry ;
+        ogcgs:asWKT  "POINT(11.1240331 46.0718538)"^^virtrdf:Geometry .

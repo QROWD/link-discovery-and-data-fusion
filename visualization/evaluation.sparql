@@ -1,0 +1,15 @@
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX todo: <http://todo/>
+
+SELECT ?p ?prove (COUNT(?p) AS ?rc) 
+    WHERE {
+      {
+        ?s ?p ?o .
+        ?s  todo:prove ?prove .
+        ?s a lgdo:BicycleParking .
+      }}
+GROUP BY ?prove ?p
+ORDER BY ?p ?prove
+
