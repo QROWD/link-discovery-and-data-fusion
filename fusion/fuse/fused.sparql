@@ -1,4 +1,4 @@
-LOAD <fusion-input.ttl>
+LOAD <../cluster/fusion-sameas-clusters.nt>
 
 PREFIX eg: <http://www.example.org/>
 PREFIX todo: <http://todo/>
