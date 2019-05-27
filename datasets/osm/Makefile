@@ -1,5 +1,5 @@
 osm.ttl: osm.sparql
-	rsparql --service http://linkedgeodata.org/sparql --query osm.sparql --out turtle > osm.ttl
+	sparql-integrate --w=trig/pretty osm.sparql > osm.ttl
 
 .PHONY: clean
 clean:

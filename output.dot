@@ -1,0 +1,120 @@
+
+digraph G {
+graph [fontname = "bold helvetica"];
+graph [fontsize = 18];
+edge [penwidth = 1.5];
+ node [fontname = "helvetica"];
+node [shape=tab]
+  newrank=true;
+  splines=false;
+  n5[label="osm.ttl", color="#f4baba", style=filled, style=filled];
+  n1[label="LikedGeoData", color="#f4baba", style=filled, shape=cylinder];
+  n6[label="osm.sparql", color="#baf4bb", style=filled];
+  n8[label="trento.nt", color="#f4baba", style=filled];
+  n9[label="trento.sparql", color="#baf4bb", style=filled];
+  n10[label="rastrelliere.gml", color="#f4baba", style=filled];
+  n13[label="qrowd.nt", color="#f4baba", style=filled];
+  n14[label="qrowd.json", color="#f4baba", style=filled];
+  n15[label="df_workers_agg.pickle", color="#f4baba", style=filled];
+  n16[label="toJson.py", color="#baf4bb", style=filled];
+  n17[label="qrowd.sparql", color="#baf4bb", style=filled];
+  n18[label="trento-qrowd-sameas.nt", color="#f4baba", style=filled];
+  n21[label="../config.ttl", color="#baf4bb", style=filled];
+  n41[label="../config.ttl", color="#baf4bb", style=filled];
+  n51[label="../config.ttl", color="#baf4bb", style=filled];
+  n22[label="trento-qrowd-config.ttl", color="#baf4bb", style=filled];
+  n24[label="osm-trento-sameas.nt", color="#f4baba", style=filled];
+  n26[label="osm-trento-config.ttl", color="#baf4bb", style=filled];
+  n28[label="qrowd-osm-sameas.nt", color="#f4baba", style=filled];
+  n29[label="qrowd-osm-config.ttl", color="#baf4bb", style=filled];
+  n30[label="fusion-sameas-clusters.nt", color="#f4baba", style=filled];
+  n31[label="fusion-input.ttl", color="#f4baba", style=filled];
+  n35[label="fusion-sameas-clusters.sparql", color="#baf4bb", style=filled];
+
+  subgraph cluster_datasets {
+    style=filled;
+    color="#e2e0ff";
+    label="Datasets";
+    subgraph cluster_trento {
+    color="#bbbdf6";
+      label="Trento";
+      n8; n9; n10;
+    }
+    subgraph cluster_osm {
+    color="#bbbdf6";
+      label="OSM";
+      n5; n6; n1
+    }
+    subgraph cluster_qrowd {
+    color="#bbbdf6";
+      label="QROWD";
+      n15; n14; n13; n16; n17
+    }
+  }
+  subgraph cluster_interlinking {
+    color="#e2e0ff";
+    style=filled;
+    label="Interlinking";
+    subgraph cluster_trento_qrowd {
+    color="#bbbdf6";
+      label="Trento <-> QROWD";
+      n22; n18; n41
+    }
+    subgraph cluster_qrowd_osm {
+    color="#bbbdf6";
+      label="QROWD <-> OSM";
+      n29; n28; n21
+    }
+    subgraph cluster_osm_trento {
+    color="#bbbdf6";
+      label="OSM <-> Trento";
+      n26; n24; n51
+    }
+    n21;
+  }
+  subgraph cluster_fusion {
+    color="#e2e0ff";
+    style=filled;
+    label="Fusion";
+    subgraph cluster_cluster {
+    color="#bbbdf6";
+      label="Cluster";
+      n31; n30; n35
+      n31 -> n30 ;
+      n35 -> n30 ;
+    }
+  }
+  /* n5 -> n31 ; */
+  /* n13 -> n31 ; */
+  /* n8 -> n31 ; */
+  n24 -> n31 [constraint=false];
+  n28 -> n31 [constraint=false];
+  n18 -> n31 [constraint=false];
+  n5 -> n24 ;
+  n1 -> n6 ;
+  n26 -> n24 ;
+  n6 -> n5 [minlen = 2];
+  n5 -> n28 [minlen = 3];
+  n13 -> n28 ;
+  n28 -> n21 [dir = back];
+  n18 -> n41 [dir = back];
+  n24 -> n51 [dir = back];
+  n8 -> n24 [minlen = 3];
+  n29 -> n28 ;
+  n15 -> n16 ;
+  n16 -> n14 ;
+  n14 -> n17 ;
+  n17 -> n13 ;
+  n13 -> n18 [minlen = 3];
+  n8 -> n18 ;
+  n22 -> n18 ;
+  n10 -> n9;
+  n9 -> n8 ;
+n21 -> n31 [style=invis, minlen = 3];
+  { rank=same; n29, n28 }
+  { rank=same; n22, n18 }
+  { rank=same; n24, n26 }
+  { rank=same; n5, n13; n8 }
+  { rank=same; n29, n22; n26 }
+
+}

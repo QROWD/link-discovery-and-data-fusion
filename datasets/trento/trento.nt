@@ -1,5 +1,5 @@
 <http://qrowd-project.eu/resource/rastrelliere.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.0> <http://linkedgeodata.org/ontology/near> _:B0aca1d92X2Dd3feX2D4adeX2Da2deX2D487586f3e0e3 .
+<http://qrowd-project.eu/resource/rastrelliere.0> <http://linkedgeodata.org/ontology/near> _:B4a05c284X2Dafb3X2D4d2cX2Da5e4X2D93612f2c53c7 .
 <http://qrowd-project.eu/resource/rastrelliere.0> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.0> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.0> <http://linkedgeodata.org/ontology/capacity> "10" .
@@ -10,10 +10,10 @@
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.0> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.12011600889509 46.06974332787273, 11.120095457435852 46.06982923685294)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B0aca1d92X2Dd3feX2D4adeX2Da2deX2D487586f3e0e3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B0aca1d92X2Dd3feX2D4adeX2Da2deX2D487586f3e0e3 <http://www.w3.org/2000/01/rdf-schema#label> "passaggio Peterlongo" .
+_:B4a05c284X2Dafb3X2D4d2cX2Da5e4X2D93612f2c53c7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B4a05c284X2Dafb3X2D4d2cX2Da5e4X2D93612f2c53c7 <http://www.w3.org/2000/01/rdf-schema#label> "passaggio Peterlongo" .
 <http://qrowd-project.eu/resource/rastrelliere.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.1> <http://linkedgeodata.org/ontology/near> _:Bb761f789X2D15e3X2D4d7bX2Da8e7X2Db1e2649cad5f .
+<http://qrowd-project.eu/resource/rastrelliere.1> <http://linkedgeodata.org/ontology/near> _:B32161905X2Dfe23X2D481cX2Dbc6bX2D7f71833059bf .
 <http://qrowd-project.eu/resource/rastrelliere.1> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.1> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.1> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -24,10 +24,10 @@ _:B0aca1d92X2Dd3feX2D4adeX2Da2deX2D487586f3e0e3 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.1> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.120087808597471 46.06986895126588, 11.120073561819622 46.06992793608558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bb761f789X2D15e3X2D4d7bX2Da8e7X2Db1e2649cad5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bb761f789X2D15e3X2D4d7bX2Da8e7X2Db1e2649cad5f <http://www.w3.org/2000/01/rdf-schema#label> "passaggio Peterlongo" .
+_:B32161905X2Dfe23X2D481cX2Dbc6bX2D7f71833059bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B32161905X2Dfe23X2D481cX2Dbc6bX2D7f71833059bf <http://www.w3.org/2000/01/rdf-schema#label> "passaggio Peterlongo" .
 <http://qrowd-project.eu/resource/rastrelliere.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.2> <http://linkedgeodata.org/ontology/near> _:B2b8cb381X2Dbda7X2D416cX2D8b77X2D703db9a7a129 .
+<http://qrowd-project.eu/resource/rastrelliere.2> <http://linkedgeodata.org/ontology/near> _:B29c1d9f9X2D55e0X2D4a23X2D9a44X2Df59a02f2f342 .
 <http://qrowd-project.eu/resource/rastrelliere.2> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.2> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.2> <http://linkedgeodata.org/ontology/capacity> "12" .
@@ -38,10 +38,10 @@ _:Bb761f789X2D15e3X2D4d7bX2Da8e7X2Db1e2649cad5f <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.2> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.1187281760855 46.06963695257342, 11.118705985106695 46.06972799783253)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B2b8cb381X2Dbda7X2D416cX2D8b77X2D703db9a7a129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B2b8cb381X2Dbda7X2D416cX2D8b77X2D703db9a7a129 <http://www.w3.org/2000/01/rdf-schema#label> "piazza della Portella" .
+_:B29c1d9f9X2D55e0X2D4a23X2D9a44X2Df59a02f2f342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B29c1d9f9X2D55e0X2D4a23X2D9a44X2Df59a02f2f342 <http://www.w3.org/2000/01/rdf-schema#label> "piazza della Portella" .
 <http://qrowd-project.eu/resource/rastrelliere.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.3> <http://linkedgeodata.org/ontology/near> _:B00afbac0X2D1914X2D4f8dX2D9c83X2D4ebdb7168156 .
+<http://qrowd-project.eu/resource/rastrelliere.3> <http://linkedgeodata.org/ontology/near> _:Bcadd0713X2D5a5fX2D43ebX2Db30bX2D012faae13bab .
 <http://qrowd-project.eu/resource/rastrelliere.3> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.3> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.3> <http://linkedgeodata.org/ontology/capacity> "32" .
@@ -52,10 +52,10 @@ _:B2b8cb381X2Dbda7X2D416cX2D8b77X2D703db9a7a129 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.3> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.120688967878909 46.06963120972962, 11.120822572033136 46.069647877648336)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B00afbac0X2D1914X2D4f8dX2D9c83X2D4ebdb7168156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B00afbac0X2D1914X2D4f8dX2D9c83X2D4ebdb7168156 <http://www.w3.org/2000/01/rdf-schema#label> "via Roma" .
+_:Bcadd0713X2D5a5fX2D43ebX2Db30bX2D012faae13bab <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bcadd0713X2D5a5fX2D43ebX2Db30bX2D012faae13bab <http://www.w3.org/2000/01/rdf-schema#label> "via Roma" .
 <http://qrowd-project.eu/resource/rastrelliere.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.4> <http://linkedgeodata.org/ontology/near> _:B54b806d2X2Dd31bX2D4e7aX2D9c29X2D2f9ee38f2099 .
+<http://qrowd-project.eu/resource/rastrelliere.4> <http://linkedgeodata.org/ontology/near> _:B9897479cX2D92f0X2D4d39X2D93ccX2D447134ffa418 .
 <http://qrowd-project.eu/resource/rastrelliere.4> <http://todo/area> "ZTLL" .
 <http://qrowd-project.eu/resource/rastrelliere.4> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.4> <http://linkedgeodata.org/ontology/capacity> "12" .
@@ -66,10 +66,10 @@ _:B00afbac0X2D1914X2D4f8dX2D9c83X2D4ebdb7168156 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.4> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.121699296444742 46.06973340278505, 11.121581416536442 46.06972027348952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B54b806d2X2Dd31bX2D4e7aX2D9c29X2D2f9ee38f2099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B54b806d2X2Dd31bX2D4e7aX2D9c29X2D2f9ee38f2099 <http://www.w3.org/2000/01/rdf-schema#label> "via Manci" .
+_:B9897479cX2D92f0X2D4d39X2D93ccX2D447134ffa418 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B9897479cX2D92f0X2D4d39X2D93ccX2D447134ffa418 <http://www.w3.org/2000/01/rdf-schema#label> "via Manci" .
 <http://qrowd-project.eu/resource/rastrelliere.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.5> <http://linkedgeodata.org/ontology/near> _:B863ef14aX2D8d05X2D481dX2D80eaX2Db22222eb0497 .
+<http://qrowd-project.eu/resource/rastrelliere.5> <http://linkedgeodata.org/ontology/near> _:Bc3965cb8X2D1522X2D43a3X2Da421X2Daba15e6ad653 .
 <http://qrowd-project.eu/resource/rastrelliere.5> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.5> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.5> <http://linkedgeodata.org/ontology/capacity> "32" .
@@ -80,10 +80,10 @@ _:B54b806d2X2Dd31bX2D4e7aX2D9c29X2D2f9ee38f2099 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.5> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.121567139727823 46.06971862381072, 11.121317152173912 46.06969199073548)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B863ef14aX2D8d05X2D481dX2D80eaX2Db22222eb0497 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B863ef14aX2D8d05X2D481dX2D80eaX2Db22222eb0497 <http://www.w3.org/2000/01/rdf-schema#label> "via Manci" .
+_:Bc3965cb8X2D1522X2D43a3X2Da421X2Daba15e6ad653 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bc3965cb8X2D1522X2D43a3X2Da421X2Daba15e6ad653 <http://www.w3.org/2000/01/rdf-schema#label> "via Manci" .
 <http://qrowd-project.eu/resource/rastrelliere.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.6> <http://linkedgeodata.org/ontology/near> _:Ba792f418X2DecacX2D448eX2D9d13X2D308c8350e5a7 .
+<http://qrowd-project.eu/resource/rastrelliere.6> <http://linkedgeodata.org/ontology/near> _:Be8ba11feX2Da9a0X2D4c11X2D9ce2X2Dfc08ef65b437 .
 <http://qrowd-project.eu/resource/rastrelliere.6> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.6> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.6> <http://linkedgeodata.org/ontology/capacity> "4" .
@@ -94,10 +94,10 @@ _:B863ef14aX2D8d05X2D481dX2D80eaX2Db22222eb0497 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.6> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.126012636671545 46.0708011393871, 11.126011730174229 46.07077754042442)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Ba792f418X2DecacX2D448eX2D9d13X2D308c8350e5a7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Ba792f418X2DecacX2D448eX2D9d13X2D308c8350e5a7 <http://www.w3.org/2000/01/rdf-schema#label> "via della Mostra" .
+_:Be8ba11feX2Da9a0X2D4c11X2D9ce2X2Dfc08ef65b437 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Be8ba11feX2Da9a0X2D4c11X2D9ce2X2Dfc08ef65b437 <http://www.w3.org/2000/01/rdf-schema#label> "via della Mostra" .
 <http://qrowd-project.eu/resource/rastrelliere.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.7> <http://linkedgeodata.org/ontology/near> _:B642077d7X2D0e95X2D4a94X2Dbd04X2D9df97b7526fc .
+<http://qrowd-project.eu/resource/rastrelliere.7> <http://linkedgeodata.org/ontology/near> _:B0aa8e9f2X2Dd025X2D41a5X2D91e9X2Daf3491d15ed3 .
 <http://qrowd-project.eu/resource/rastrelliere.7> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.7> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.7> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -108,10 +108,10 @@ _:Ba792f418X2DecacX2D448eX2D9d13X2D308c8350e5a7 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.7> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.126011484934207 46.07076669235656, 11.126008584559779 46.070723986754295)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B642077d7X2D0e95X2D4a94X2Dbd04X2D9df97b7526fc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B642077d7X2D0e95X2D4a94X2Dbd04X2D9df97b7526fc <http://www.w3.org/2000/01/rdf-schema#label> "via della Mostra" .
+_:B0aa8e9f2X2Dd025X2D41a5X2D91e9X2Daf3491d15ed3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B0aa8e9f2X2Dd025X2D41a5X2D91e9X2Daf3491d15ed3 <http://www.w3.org/2000/01/rdf-schema#label> "via della Mostra" .
 <http://qrowd-project.eu/resource/rastrelliere.8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.8> <http://linkedgeodata.org/ontology/near> _:B943bfb09X2D6546X2D4476X2Db88aX2D28c9d921c8cf .
+<http://qrowd-project.eu/resource/rastrelliere.8> <http://linkedgeodata.org/ontology/near> _:Be7248a73X2D5a7aX2D4328X2Db864X2D285824d38fd4 .
 <http://qrowd-project.eu/resource/rastrelliere.8> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.8> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.8> <http://linkedgeodata.org/ontology/capacity> "4" .
@@ -122,10 +122,10 @@ _:B642077d7X2D0e95X2D4a94X2Dbd04X2D9df97b7526fc <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.8> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.126645594271075 46.07049639512551, 11.126682150737663 46.070493161584466)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B943bfb09X2D6546X2D4476X2Db88aX2D28c9d921c8cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B943bfb09X2D6546X2D4476X2Db88aX2D28c9d921c8cf <http://www.w3.org/2000/01/rdf-schema#label> "via S. Marco" .
+_:Be7248a73X2D5a7aX2D4328X2Db864X2D285824d38fd4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Be7248a73X2D5a7aX2D4328X2Db864X2D285824d38fd4 <http://www.w3.org/2000/01/rdf-schema#label> "via S. Marco" .
 <http://qrowd-project.eu/resource/rastrelliere.9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.9> <http://linkedgeodata.org/ontology/near> _:Bb353f6b9X2D7a26X2D485fX2D8de7X2Dbc0cf609aaef .
+<http://qrowd-project.eu/resource/rastrelliere.9> <http://linkedgeodata.org/ontology/near> _:B454151c7X2Dee2fX2D4aa4X2D9fadX2D206a1d37c7f5 .
 <http://qrowd-project.eu/resource/rastrelliere.9> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.9> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.9> <http://linkedgeodata.org/ontology/capacity> "12" .
@@ -136,10 +136,10 @@ _:B943bfb09X2D6546X2D4476X2Db88aX2D28c9d921c8cf <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.9> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.123951873553324 46.069911430592434, 11.124063157811932 46.06994382803821)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bb353f6b9X2D7a26X2D485fX2D8de7X2Dbc0cf609aaef <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bb353f6b9X2D7a26X2D485fX2D8de7X2Dbc0cf609aaef <http://www.w3.org/2000/01/rdf-schema#label> "via S. Marco" .
+_:B454151c7X2Dee2fX2D4aa4X2D9fadX2D206a1d37c7f5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B454151c7X2Dee2fX2D4aa4X2D9fadX2D206a1d37c7f5 <http://www.w3.org/2000/01/rdf-schema#label> "via S. Marco" .
 <http://qrowd-project.eu/resource/rastrelliere.10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.10> <http://linkedgeodata.org/ontology/near> _:Bde17935aX2D4e33X2D448cX2D9b85X2D3928f8c55850 .
+<http://qrowd-project.eu/resource/rastrelliere.10> <http://linkedgeodata.org/ontology/near> _:Bfb850687X2D97c3X2D4a6fX2Db7afX2D8c1f5a7c90ae .
 <http://qrowd-project.eu/resource/rastrelliere.10> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.10> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.10> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -150,10 +150,10 @@ _:Bb353f6b9X2D7a26X2D485fX2D8de7X2Dbc0cf609aaef <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.10> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.12365219058602 46.06950978794351, 11.123588913638981 46.06950968759118)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bde17935aX2D4e33X2D448cX2D9b85X2D3928f8c55850 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bde17935aX2D4e33X2D448cX2D9b85X2D3928f8c55850 <http://www.w3.org/2000/01/rdf-schema#label> "piazza C. Battisti" .
+_:Bfb850687X2D97c3X2D4a6fX2Db7afX2D8c1f5a7c90ae <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bfb850687X2D97c3X2D4a6fX2Db7afX2D8c1f5a7c90ae <http://www.w3.org/2000/01/rdf-schema#label> "piazza C. Battisti" .
 <http://qrowd-project.eu/resource/rastrelliere.11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.11> <http://linkedgeodata.org/ontology/near> _:B8da0b625X2Db084X2D4200X2Dadc8X2Db3a9cc84daee .
+<http://qrowd-project.eu/resource/rastrelliere.11> <http://linkedgeodata.org/ontology/near> _:B87f5212eX2D0627X2D4044X2D8011X2Db8b5e57e3599 .
 <http://qrowd-project.eu/resource/rastrelliere.11> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.11> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.11> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -164,10 +164,10 @@ _:Bde17935aX2D4e33X2D448cX2D9b85X2D3928f8c55850 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.11> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.123416347706865 46.06929014026655, 11.12342015742714 46.0692460291172)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B8da0b625X2Db084X2D4200X2Dadc8X2Db3a9cc84daee <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B8da0b625X2Db084X2D4200X2Dadc8X2Db3a9cc84daee <http://www.w3.org/2000/01/rdf-schema#label> "piazza C. Battisti" .
+_:B87f5212eX2D0627X2D4044X2D8011X2Db8b5e57e3599 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B87f5212eX2D0627X2D4044X2D8011X2Db8b5e57e3599 <http://www.w3.org/2000/01/rdf-schema#label> "piazza C. Battisti" .
 <http://qrowd-project.eu/resource/rastrelliere.12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.12> <http://linkedgeodata.org/ontology/near> _:Bc38fd9faX2Dc196X2D4395X2Dbaa6X2Ddd4e3b2a3cab .
+<http://qrowd-project.eu/resource/rastrelliere.12> <http://linkedgeodata.org/ontology/near> _:Be7df1778X2Dd32fX2D4a10X2Db348X2D5271267f6ed6 .
 <http://qrowd-project.eu/resource/rastrelliere.12> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.12> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.12> <http://linkedgeodata.org/ontology/capacity> "4" .
@@ -178,10 +178,10 @@ _:B8da0b625X2Db084X2D4200X2Dadc8X2Db3a9cc84daee <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.12> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.124457328311555 46.06929504193771, 11.124503243427649 46.06929674119393)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bc38fd9faX2Dc196X2D4395X2Dbaa6X2Ddd4e3b2a3cab <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bc38fd9faX2Dc196X2D4395X2Dbaa6X2Ddd4e3b2a3cab <http://www.w3.org/2000/01/rdf-schema#label> "via S. Pietro" .
+_:Be7df1778X2Dd32fX2D4a10X2Db348X2D5271267f6ed6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Be7df1778X2Dd32fX2D4a10X2Db348X2D5271267f6ed6 <http://www.w3.org/2000/01/rdf-schema#label> "via S. Pietro" .
 <http://qrowd-project.eu/resource/rastrelliere.13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.13> <http://linkedgeodata.org/ontology/near> _:B1b1ffa34X2D7af6X2D4cdaX2Da9bcX2D579aabf6b05c .
+<http://qrowd-project.eu/resource/rastrelliere.13> <http://linkedgeodata.org/ontology/near> _:B573c2832X2D83d8X2D4396X2DaafdX2D1d39a088f3b2 .
 <http://qrowd-project.eu/resource/rastrelliere.13> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.13> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.13> <http://linkedgeodata.org/ontology/capacity> "4" .
@@ -192,10 +192,10 @@ _:Bc38fd9faX2Dc196X2D4395X2Dbaa6X2Ddd4e3b2a3cab <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.13> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.125957550092103 46.06898502173201, 11.12597029074549 46.06895861574807)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B1b1ffa34X2D7af6X2D4cdaX2Da9bcX2D579aabf6b05c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B1b1ffa34X2D7af6X2D4cdaX2Da9bcX2D579aabf6b05c <http://www.w3.org/2000/01/rdf-schema#label> "via S. Maria Maddalena" .
+_:B573c2832X2D83d8X2D4396X2DaafdX2D1d39a088f3b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B573c2832X2D83d8X2D4396X2DaafdX2D1d39a088f3b2 <http://www.w3.org/2000/01/rdf-schema#label> "via S. Maria Maddalena" .
 <http://qrowd-project.eu/resource/rastrelliere.14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.14> <http://linkedgeodata.org/ontology/near> _:B01ddc38fX2D8a2aX2D458cX2Dba4dX2Da78b48098891 .
+<http://qrowd-project.eu/resource/rastrelliere.14> <http://linkedgeodata.org/ontology/near> _:Bbb1aaf3fX2D5e51X2D4964X2Da038X2D046e2ef9a5cd .
 <http://qrowd-project.eu/resource/rastrelliere.14> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.14> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.14> <http://linkedgeodata.org/ontology/capacity> "12" .
@@ -206,10 +206,10 @@ _:B1b1ffa34X2D7af6X2D4cdaX2Da9bcX2D579aabf6b05c <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.14> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.125975396802724 46.06894830847814, 11.125997457701066 46.06890194281257)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B01ddc38fX2D8a2aX2D458cX2Dba4dX2Da78b48098891 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B01ddc38fX2D8a2aX2D458cX2Dba4dX2Da78b48098891 <http://www.w3.org/2000/01/rdf-schema#label> "via S. Maria Maddalena" .
+_:Bbb1aaf3fX2D5e51X2D4964X2Da038X2D046e2ef9a5cd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bbb1aaf3fX2D5e51X2D4964X2Da038X2D046e2ef9a5cd <http://www.w3.org/2000/01/rdf-schema#label> "via S. Maria Maddalena" .
 <http://qrowd-project.eu/resource/rastrelliere.15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.15> <http://linkedgeodata.org/ontology/near> _:B1df01c71X2Dcfb8X2D41d1X2D9b3dX2D7d9f0ca09646 .
+<http://qrowd-project.eu/resource/rastrelliere.15> <http://linkedgeodata.org/ontology/near> _:B5a16de51X2D3ae4X2D4bddX2D8751X2D9925c4f45984 .
 <http://qrowd-project.eu/resource/rastrelliere.15> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.15> <http://linkedgeodata.org/ontology/bicycle_parking> "bifacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.15> <http://linkedgeodata.org/ontology/capacity> "24" .
@@ -220,10 +220,10 @@ _:B01ddc38fX2D8a2aX2D458cX2Dba4dX2Da78b48098891 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.15> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.119421419514536 46.06882243251067, 11.119520726051421 46.0688295259502)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B1df01c71X2Dcfb8X2D41d1X2D9b3dX2D7d9f0ca09646 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B1df01c71X2Dcfb8X2D41d1X2D9b3dX2D7d9f0ca09646 <http://www.w3.org/2000/01/rdf-schema#label> "piazza S. Maria Maggiore" .
+_:B5a16de51X2D3ae4X2D4bddX2D8751X2D9925c4f45984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B5a16de51X2D3ae4X2D4bddX2D8751X2D9925c4f45984 <http://www.w3.org/2000/01/rdf-schema#label> "piazza S. Maria Maggiore" .
 <http://qrowd-project.eu/resource/rastrelliere.16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.16> <http://linkedgeodata.org/ontology/near> _:Be3219915X2DcecdX2D4182X2D8651X2D5f648a259257 .
+<http://qrowd-project.eu/resource/rastrelliere.16> <http://linkedgeodata.org/ontology/near> _:Bea49db7dX2D0e30X2D4948X2Da482X2D3738946f5c9f .
 <http://qrowd-project.eu/resource/rastrelliere.16> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.16> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.16> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -234,10 +234,10 @@ _:B1df01c71X2Dcfb8X2D41d1X2D9b3dX2D7d9f0ca09646 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.16> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.120092913622177 46.06868551179241, 11.120133501155204 46.06869177952982)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Be3219915X2DcecdX2D4182X2D8651X2D5f648a259257 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Be3219915X2DcecdX2D4182X2D8651X2D5f648a259257 <http://www.w3.org/2000/01/rdf-schema#label> "vicolo Colico" .
+_:Bea49db7dX2D0e30X2D4948X2Da482X2D3738946f5c9f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bea49db7dX2D0e30X2D4948X2Da482X2D3738946f5c9f <http://www.w3.org/2000/01/rdf-schema#label> "vicolo Colico" .
 <http://qrowd-project.eu/resource/rastrelliere.17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.17> <http://linkedgeodata.org/ontology/near> _:B1bc84d76X2D2241X2D4ca2X2D929bX2Dc40a3f00323a .
+<http://qrowd-project.eu/resource/rastrelliere.17> <http://linkedgeodata.org/ontology/near> _:B3cfe5a21X2D311eX2D438bX2D980eX2De56fde89b0ce .
 <http://qrowd-project.eu/resource/rastrelliere.17> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.17> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.17> <http://linkedgeodata.org/ontology/capacity> "9" .
@@ -248,10 +248,10 @@ _:Be3219915X2DcecdX2D4182X2D8651X2D5f648a259257 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.17> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.122632027780972 46.068589218946975, 11.122629630791579 46.068526713424845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B1bc84d76X2D2241X2D4ca2X2D929bX2Dc40a3f00323a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B1bc84d76X2D2241X2D4ca2X2D929bX2Dc40a3f00323a <http://www.w3.org/2000/01/rdf-schema#label> "via Oss Mazzurana" .
+_:B3cfe5a21X2D311eX2D438bX2D980eX2De56fde89b0ce <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B3cfe5a21X2D311eX2D438bX2D980eX2De56fde89b0ce <http://www.w3.org/2000/01/rdf-schema#label> "via Oss Mazzurana" .
 <http://qrowd-project.eu/resource/rastrelliere.18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.18> <http://linkedgeodata.org/ontology/near> _:B5a972735X2Dcbc6X2D4f34X2D892bX2D7f683b723809 .
+<http://qrowd-project.eu/resource/rastrelliere.18> <http://linkedgeodata.org/ontology/near> _:Bad372640X2Da083X2D4932X2D86a4X2Deaac93d028b7 .
 <http://qrowd-project.eu/resource/rastrelliere.18> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.18> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.18> <http://linkedgeodata.org/ontology/capacity> "12" .
@@ -262,10 +262,10 @@ _:B1bc84d76X2D2241X2D4ca2X2D929bX2Dc40a3f00323a <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.18> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.122624644678314 46.068492339704726, 11.12261889859725 46.068390323919154)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B5a972735X2Dcbc6X2D4f34X2D892bX2D7f683b723809 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B5a972735X2Dcbc6X2D4f34X2D892bX2D7f683b723809 <http://www.w3.org/2000/01/rdf-schema#label> "via Oss Mazzurana" .
+_:Bad372640X2Da083X2D4932X2D86a4X2Deaac93d028b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bad372640X2Da083X2D4932X2D86a4X2Deaac93d028b7 <http://www.w3.org/2000/01/rdf-schema#label> "via Oss Mazzurana" .
 <http://qrowd-project.eu/resource/rastrelliere.19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.19> <http://linkedgeodata.org/ontology/near> _:Beb0fe781X2De117X2D4391X2Dbf93X2Dd9bdfbdc9df3 .
+<http://qrowd-project.eu/resource/rastrelliere.19> <http://linkedgeodata.org/ontology/near> _:B2de4225bX2D82b7X2D414aX2D9e6cX2D502e2ff2e5b0 .
 <http://qrowd-project.eu/resource/rastrelliere.19> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.19> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.19> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -276,10 +276,10 @@ _:B5a972735X2Dcbc6X2D4f34X2D892bX2D7f683b723809 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.19> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.12407790741073 46.06844043776531, 11.124153193320831 46.068442867632704)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Beb0fe781X2De117X2D4391X2Dbf93X2Dd9bdfbdc9df3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Beb0fe781X2De117X2D4391X2Dbf93X2Dd9bdfbdc9df3 <http://www.w3.org/2000/01/rdf-schema#label> "largo Carducci" .
+_:B2de4225bX2D82b7X2D414aX2D9e6cX2D502e2ff2e5b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B2de4225bX2D82b7X2D414aX2D9e6cX2D502e2ff2e5b0 <http://www.w3.org/2000/01/rdf-schema#label> "largo Carducci" .
 <http://qrowd-project.eu/resource/rastrelliere.20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.20> <http://linkedgeodata.org/ontology/near> _:Bb2007c8fX2D98f8X2D477bX2D8099X2Dad6058d56483 .
+<http://qrowd-project.eu/resource/rastrelliere.20> <http://linkedgeodata.org/ontology/near> _:Bf9a54f41X2D5d5aX2D4ffcX2D9ae1X2D1afb788656e7 .
 <http://qrowd-project.eu/resource/rastrelliere.20> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.20> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.20> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -290,10 +290,10 @@ _:Beb0fe781X2De117X2D4391X2Dbf93X2Dd9bdfbdc9df3 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.20> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.123910303244614 46.068421852670404, 11.123864948919916 46.068386952923845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bb2007c8fX2D98f8X2D477bX2D8099X2Dad6058d56483 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bb2007c8fX2D98f8X2D477bX2D8099X2Dad6058d56483 <http://www.w3.org/2000/01/rdf-schema#label> "largo Carducci" .
+_:Bf9a54f41X2D5d5aX2D4ffcX2D9ae1X2D1afb788656e7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bf9a54f41X2D5d5aX2D4ffcX2D9ae1X2D1afb788656e7 <http://www.w3.org/2000/01/rdf-schema#label> "largo Carducci" .
 <http://qrowd-project.eu/resource/rastrelliere.21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.21> <http://linkedgeodata.org/ontology/near> _:Bff43794eX2D8272X2D4c3aX2Db89fX2Da50c120ee983 .
+<http://qrowd-project.eu/resource/rastrelliere.21> <http://linkedgeodata.org/ontology/near> _:B9fa7f0b8X2D73beX2D4580X2Db46aX2Decb9eee3b77d .
 <http://qrowd-project.eu/resource/rastrelliere.21> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.21> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.21> <http://linkedgeodata.org/ontology/capacity> "16" .
@@ -304,10 +304,10 @@ _:Bb2007c8fX2D98f8X2D477bX2D8099X2Dad6058d56483 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.21> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.125470390211504 46.06804753753646, 11.125342525464102 46.06810863673532)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bff43794eX2D8272X2D4c3aX2Db89fX2Da50c120ee983 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bff43794eX2D8272X2D4c3aX2Db89fX2Da50c120ee983 <http://www.w3.org/2000/01/rdf-schema#label> "via Galilei" .
+_:B9fa7f0b8X2D73beX2D4580X2Db46aX2Decb9eee3b77d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B9fa7f0b8X2D73beX2D4580X2Db46aX2Decb9eee3b77d <http://www.w3.org/2000/01/rdf-schema#label> "via Galilei" .
 <http://qrowd-project.eu/resource/rastrelliere.22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.22> <http://linkedgeodata.org/ontology/near> _:B3632a03aX2D81c4X2D499aX2Da293X2D891b04592627 .
+<http://qrowd-project.eu/resource/rastrelliere.22> <http://linkedgeodata.org/ontology/near> _:B013e373fX2D395fX2D4f33X2D8555X2D276df864b43f .
 <http://qrowd-project.eu/resource/rastrelliere.22> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.22> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.22> <http://linkedgeodata.org/ontology/capacity> "10" .
@@ -318,10 +318,10 @@ _:Bff43794eX2D8272X2D4c3aX2Db89fX2Da50c120ee983 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.22> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.124716326146926 46.067848382853995, 11.12470505746739 46.06779370154765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B3632a03aX2D81c4X2D499aX2Da293X2D891b04592627 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B3632a03aX2D81c4X2D499aX2Da293X2D891b04592627 <http://www.w3.org/2000/01/rdf-schema#label> "via Roggia Grande" .
+_:B013e373fX2D395fX2D4f33X2D8555X2D276df864b43f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B013e373fX2D395fX2D4f33X2D8555X2D276df864b43f <http://www.w3.org/2000/01/rdf-schema#label> "via Roggia Grande" .
 <http://qrowd-project.eu/resource/rastrelliere.23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.23> <http://linkedgeodata.org/ontology/near> _:B5e680622X2D3bdfX2D4696X2Db320X2D01080095fabc .
+<http://qrowd-project.eu/resource/rastrelliere.23> <http://linkedgeodata.org/ontology/near> _:B0965d984X2Dc9adX2D4da1X2D9fcaX2Dc143459eb1c7 .
 <http://qrowd-project.eu/resource/rastrelliere.23> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.23> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.23> <http://linkedgeodata.org/ontology/capacity> "10" .
@@ -332,10 +332,10 @@ _:B3632a03aX2D81c4X2D499aX2Da293X2D891b04592627 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.23> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.123449406252238 46.06780938723066, 11.123545437581999 46.067826750297684)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B5e680622X2D3bdfX2D4696X2Db320X2D01080095fabc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B5e680622X2D3bdfX2D4696X2Db320X2D01080095fabc <http://www.w3.org/2000/01/rdf-schema#label> "piazza Lodron" .
+_:B0965d984X2Dc9adX2D4da1X2D9fcaX2Dc143459eb1c7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B0965d984X2Dc9adX2D4da1X2D9fcaX2Dc143459eb1c7 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Lodron" .
 <http://qrowd-project.eu/resource/rastrelliere.24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.24> <http://linkedgeodata.org/ontology/near> _:Bfa084c29X2D4995X2D4c03X2D8578X2Dac0164896239 .
+<http://qrowd-project.eu/resource/rastrelliere.24> <http://linkedgeodata.org/ontology/near> _:B4104ab13X2D5680X2D488eX2DafddX2D7b470a850094 .
 <http://qrowd-project.eu/resource/rastrelliere.24> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.24> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.24> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -346,10 +346,10 @@ _:B5e680622X2D3bdfX2D4696X2Db320X2D01080095fabc <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.24> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.122642581499134 46.06786012319607, 11.122713663197347 46.06784859027226)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bfa084c29X2D4995X2D4c03X2D8578X2Dac0164896239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bfa084c29X2D4995X2D4c03X2D8578X2Dac0164896239 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Lodron" .
+_:B4104ab13X2D5680X2D488eX2DafddX2D7b470a850094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B4104ab13X2D5680X2D488eX2DafddX2D7b470a850094 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Lodron" .
 <http://qrowd-project.eu/resource/rastrelliere.25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.25> <http://linkedgeodata.org/ontology/near> _:B42264333X2D980aX2D457bX2Da617X2Dbbe032b08cff .
+<http://qrowd-project.eu/resource/rastrelliere.25> <http://linkedgeodata.org/ontology/near> _:Bfbcd6276X2D3050X2D4410X2Db1d0X2D9cb31a7a057b .
 <http://qrowd-project.eu/resource/rastrelliere.25> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.25> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.25> <http://linkedgeodata.org/ontology/capacity> "20" .
@@ -360,10 +360,10 @@ _:Bfa084c29X2D4995X2D4c03X2D8578X2Dac0164896239 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.25> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.121813461679263 46.067520648762276, 11.12184160813977 46.06739374935931)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B42264333X2D980aX2D457bX2Da617X2Dbbe032b08cff <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B42264333X2D980aX2D457bX2Da617X2Dbbe032b08cff <http://www.w3.org/2000/01/rdf-schema#label> "piazza del Duomo" .
+_:Bfbcd6276X2D3050X2D4410X2Db1d0X2D9cb31a7a057b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bfbcd6276X2D3050X2D4410X2Db1d0X2D9cb31a7a057b <http://www.w3.org/2000/01/rdf-schema#label> "piazza del Duomo" .
 <http://qrowd-project.eu/resource/rastrelliere.26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.26> <http://linkedgeodata.org/ontology/near> _:Bbd6204b9X2D2922X2D4437X2Db98aX2D27cb64b52b67 .
+<http://qrowd-project.eu/resource/rastrelliere.26> <http://linkedgeodata.org/ontology/near> _:B550a4aa6X2Dac54X2D4858X2D8ac4X2Dbeec21106bb5 .
 <http://qrowd-project.eu/resource/rastrelliere.26> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.26> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.26> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -374,10 +374,10 @@ _:B42264333X2D980aX2D457bX2Da617X2Dbbe032b08cff <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.26> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.119898102537892 46.06757343796188, 11.119956820174307 46.067574263224785)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bbd6204b9X2D2922X2D4437X2Db98aX2D27cb64b52b67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bbd6204b9X2D2922X2D4437X2Db98aX2D27cb64b52b67 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Verzeri" .
+_:B550a4aa6X2Dac54X2D4858X2D8ac4X2Dbeec21106bb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B550a4aa6X2Dac54X2D4858X2D8ac4X2Dbeec21106bb5 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Verzeri" .
 <http://qrowd-project.eu/resource/rastrelliere.27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.27> <http://linkedgeodata.org/ontology/near> _:Bc80394caX2D5c15X2D4e97X2Da5ceX2D2d5bfdfa91aa .
+<http://qrowd-project.eu/resource/rastrelliere.27> <http://linkedgeodata.org/ontology/near> _:B7dae5b09X2D2a2dX2D4efdX2Db203X2Deefdbaa5fe22 .
 <http://qrowd-project.eu/resource/rastrelliere.27> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.27> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.27> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -388,10 +388,10 @@ _:Bbd6204b9X2D2922X2D4437X2Db98aX2D27cb64b52b67 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.27> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.120142518955408 46.067131690313246, 11.120204974654163 46.06713436087712)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bc80394caX2D5c15X2D4e97X2Da5ceX2D2d5bfdfa91aa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bc80394caX2D5c15X2D4e97X2Da5ceX2D2d5bfdfa91aa <http://www.w3.org/2000/01/rdf-schema#label> "via Don Rizzi" .
+_:B7dae5b09X2D2a2dX2D4efdX2Db203X2Deefdbaa5fe22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B7dae5b09X2D2a2dX2D4efdX2Db203X2Deefdbaa5fe22 <http://www.w3.org/2000/01/rdf-schema#label> "via Don Rizzi" .
 <http://qrowd-project.eu/resource/rastrelliere.28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.28> <http://linkedgeodata.org/ontology/near> _:Bd755d40aX2D63e9X2D4f93X2D934bX2Dcd6eb2c6312e .
+<http://qrowd-project.eu/resource/rastrelliere.28> <http://linkedgeodata.org/ontology/near> _:B803b0eb5X2D5adeX2D466eX2Dba3cX2Db30615f63146 .
 <http://qrowd-project.eu/resource/rastrelliere.28> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.28> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.28> <http://linkedgeodata.org/ontology/capacity> "52" .
@@ -402,10 +402,10 @@ _:Bc80394caX2D5c15X2D4e97X2Da5ceX2D2d5bfdfa91aa <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.28> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.119207626830178 46.06661544527659, 11.119513206858644 46.06664551949483)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:Bd755d40aX2D63e9X2D4f93X2D934bX2Dcd6eb2c6312e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:Bd755d40aX2D63e9X2D4f93X2D934bX2Dcd6eb2c6312e <http://www.w3.org/2000/01/rdf-schema#label> "via Verdi" .
+_:B803b0eb5X2D5adeX2D466eX2Dba3cX2Db30615f63146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B803b0eb5X2D5adeX2D466eX2Dba3cX2Db30615f63146 <http://www.w3.org/2000/01/rdf-schema#label> "via Verdi" .
 <http://qrowd-project.eu/resource/rastrelliere.29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.29> <http://linkedgeodata.org/ontology/near> _:B0cad163aX2D131dX2D4d01X2Db289X2De4e9b46745fb .
+<http://qrowd-project.eu/resource/rastrelliere.29> <http://linkedgeodata.org/ontology/near> _:Bb9ea99daX2D554eX2D422bX2Dad47X2Dcadfcf4ccbb9 .
 <http://qrowd-project.eu/resource/rastrelliere.29> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.29> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.29> <http://linkedgeodata.org/ontology/capacity> "36" .
@@ -416,10 +416,10 @@ _:Bd755d40aX2D63e9X2D4f93X2D934bX2Dcd6eb2c6312e <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.29> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.119824480411374 46.066680593382465, 11.120017783478179 46.06669998413097)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B0cad163aX2D131dX2D4d01X2Db289X2De4e9b46745fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B0cad163aX2D131dX2D4d01X2Db289X2De4e9b46745fb <http://www.w3.org/2000/01/rdf-schema#label> "via Verdi" .
+_:Bb9ea99daX2D554eX2D422bX2Dad47X2Dcadfcf4ccbb9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bb9ea99daX2D554eX2D422bX2Dad47X2Dcadfcf4ccbb9 <http://www.w3.org/2000/01/rdf-schema#label> "via Verdi" .
 <http://qrowd-project.eu/resource/rastrelliere.30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.30> <http://linkedgeodata.org/ontology/near> _:B3cca8a9dX2Db265X2D4a9bX2Da8a9X2Df9098e994d00 .
+<http://qrowd-project.eu/resource/rastrelliere.30> <http://linkedgeodata.org/ontology/near> _:B4e1dcf51X2D9ef3X2D4151X2Db673X2D0ae729caf7fc .
 <http://qrowd-project.eu/resource/rastrelliere.30> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.30> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.30> <http://linkedgeodata.org/ontology/capacity> "56" .
@@ -430,10 +430,10 @@ _:B0cad163aX2D131dX2D4d01X2Db289X2De4e9b46745fb <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.30> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.122958978776689 46.06692875862931, 11.123210646959004 46.06696365433016)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B3cca8a9dX2Db265X2D4a9bX2Da8a9X2Df9098e994d00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B3cca8a9dX2Db265X2D4a9bX2Da8a9X2Df9098e994d00 <http://www.w3.org/2000/01/rdf-schema#label> "via Calepina" .
+_:B4e1dcf51X2D9ef3X2D4151X2Db673X2D0ae729caf7fc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B4e1dcf51X2D9ef3X2D4151X2Db673X2D0ae729caf7fc <http://www.w3.org/2000/01/rdf-schema#label> "via Calepina" .
 <http://qrowd-project.eu/resource/rastrelliere.31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.31> <http://linkedgeodata.org/ontology/near> _:B1595db8aX2D8364X2D42c9X2DaefaX2Dc7d6c43c2529 .
+<http://qrowd-project.eu/resource/rastrelliere.31> <http://linkedgeodata.org/ontology/near> _:Bd20d57a4X2D438bX2D4eb9X2Daee8X2D044116b40038 .
 <http://qrowd-project.eu/resource/rastrelliere.31> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.31> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.31> <http://linkedgeodata.org/ontology/capacity> "13" .
@@ -444,10 +444,10 @@ _:B3cca8a9dX2Db265X2D4a9bX2Da8a9X2Df9098e994d00 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.31> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.124110411321832 46.06618101000041, 11.124122246720857 46.06613100519547)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B1595db8aX2D8364X2D42c9X2DaefaX2Dc7d6c43c2529 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B1595db8aX2D8364X2D42c9X2DaefaX2Dc7d6c43c2529 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Garzetti" .
+_:Bd20d57a4X2D438bX2D4eb9X2Daee8X2D044116b40038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bd20d57a4X2D438bX2D4eb9X2Daee8X2D044116b40038 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Garzetti" .
 <http://qrowd-project.eu/resource/rastrelliere.32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.32> <http://linkedgeodata.org/ontology/near> _:B2cb42ee2X2D16dfX2D473bX2Dbfa0X2Dbd10e105ece6 .
+<http://qrowd-project.eu/resource/rastrelliere.32> <http://linkedgeodata.org/ontology/near> _:B1f93d511X2D44f2X2D4fabX2Daa95X2Dff150df91284 .
 <http://qrowd-project.eu/resource/rastrelliere.32> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.32> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.32> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -458,10 +458,10 @@ _:B1595db8aX2D8364X2D42c9X2DaefaX2Dc7d6c43c2529 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.32> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.1241499222607 46.06599198688739, 11.124143668815611 46.06602018686515)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B2cb42ee2X2D16dfX2D473bX2Dbfa0X2Dbd10e105ece6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B2cb42ee2X2D16dfX2D473bX2Dbfa0X2Dbd10e105ece6 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Garzetti" .
+_:B1f93d511X2D44f2X2D4fabX2Daa95X2Dff150df91284 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B1f93d511X2D44f2X2D4fabX2Daa95X2Dff150df91284 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Garzetti" .
 <http://qrowd-project.eu/resource/rastrelliere.33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.33> <http://linkedgeodata.org/ontology/near> _:B22aaf2e8X2Dc339X2D45adX2D93d8X2D9901c225b393 .
+<http://qrowd-project.eu/resource/rastrelliere.33> <http://linkedgeodata.org/ontology/near> _:Be39e3eb0X2D72c0X2D4416X2Db1b7X2D1490fd778682 .
 <http://qrowd-project.eu/resource/rastrelliere.33> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.33> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.33> <http://linkedgeodata.org/ontology/capacity> "9" .
@@ -472,10 +472,10 @@ _:B2cb42ee2X2D16dfX2D473bX2Dbfa0X2Dbd10e105ece6 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.33> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.123608083798278 46.06565931082283, 11.12364936552253 46.06565982001159)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B22aaf2e8X2Dc339X2D45adX2D93d8X2D9901c225b393 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B22aaf2e8X2Dc339X2D45adX2D93d8X2D9901c225b393 <http://www.w3.org/2000/01/rdf-schema#label> "via II Androna Borgonuovo" .
+_:Be39e3eb0X2D72c0X2D4416X2Db1b7X2D1490fd778682 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Be39e3eb0X2D72c0X2D4416X2Db1b7X2D1490fd778682 <http://www.w3.org/2000/01/rdf-schema#label> "via II Androna Borgonuovo" .
 <http://qrowd-project.eu/resource/rastrelliere.34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.34> <http://linkedgeodata.org/ontology/near> _:B7e54d297X2Dc856X2D48ceX2D8719X2D137f4812a535 .
+<http://qrowd-project.eu/resource/rastrelliere.34> <http://linkedgeodata.org/ontology/near> _:B9ad90a4bX2D7b8bX2D4917X2D8cb6X2D4fa8eaa4b8fa .
 <http://qrowd-project.eu/resource/rastrelliere.34> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.34> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.34> <http://linkedgeodata.org/ontology/capacity> "9" .
@@ -486,10 +486,10 @@ _:B22aaf2e8X2Dc339X2D45adX2D93d8X2D9901c225b393 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.34> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.123668656427052 46.06566073795999, 11.123709034102497 46.065661583065015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B7e54d297X2Dc856X2D48ceX2D8719X2D137f4812a535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B7e54d297X2Dc856X2D48ceX2D8719X2D137f4812a535 <http://www.w3.org/2000/01/rdf-schema#label> "via II Androna Borgonuovo" .
+_:B9ad90a4bX2D7b8bX2D4917X2D8cb6X2D4fa8eaa4b8fa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:B9ad90a4bX2D7b8bX2D4917X2D8cb6X2D4fa8eaa4b8fa <http://www.w3.org/2000/01/rdf-schema#label> "via II Androna Borgonuovo" .
 <http://qrowd-project.eu/resource/rastrelliere.35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.35> <http://linkedgeodata.org/ontology/near> _:B0d88e63eX2DfedbX2D4c5bX2Da99cX2Da2708396c486 .
+<http://qrowd-project.eu/resource/rastrelliere.35> <http://linkedgeodata.org/ontology/near> _:Be3838ba3X2D81d4X2D421eX2DbbffX2D0e6e56e3408a .
 <http://qrowd-project.eu/resource/rastrelliere.35> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.35> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.35> <http://linkedgeodata.org/ontology/capacity> "8" .
@@ -500,10 +500,10 @@ _:B7e54d297X2Dc856X2D48ceX2D8719X2D137f4812a535 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.35> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.124669447094089 46.065743136175904, 11.124704327122732 46.065744083169015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B0d88e63eX2DfedbX2D4c5bX2Da99cX2Da2708396c486 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B0d88e63eX2DfedbX2D4c5bX2Da99cX2Da2708396c486 <http://www.w3.org/2000/01/rdf-schema#label> "piazza Garzetti" .
+_:Be3838ba3X2D81d4X2D421eX2DbbffX2D0e6e56e3408a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Be3838ba3X2D81d4X2D421eX2DbbffX2D0e6e56e3408a <http://www.w3.org/2000/01/rdf-schema#label> "piazza Garzetti" .
 <http://qrowd-project.eu/resource/rastrelliere.36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.36> <http://linkedgeodata.org/ontology/near> _:B4e8b44a6X2D32a2X2D4215X2Dac66X2De17c60a8b61a .
+<http://qrowd-project.eu/resource/rastrelliere.36> <http://linkedgeodata.org/ontology/near> _:Bbf08b8cbX2Dde42X2D435cX2D8dbcX2Ddb08be2715d7 .
 <http://qrowd-project.eu/resource/rastrelliere.36> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.36> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.36> <http://linkedgeodata.org/ontology/capacity> "15" .
@@ -514,10 +514,10 @@ _:B0d88e63eX2DfedbX2D4c5bX2Da99cX2Da2708396c486 <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.36> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.122914587744745 46.06505994243169, 11.123014828587975 46.065067653732456)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B4e8b44a6X2D32a2X2D4215X2Dac66X2De17c60a8b61a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B4e8b44a6X2D32a2X2D4215X2Dac66X2De17c60a8b61a <http://www.w3.org/2000/01/rdf-schema#label> "via Al Torrione" .
+_:Bbf08b8cbX2Dde42X2D435cX2D8dbcX2Ddb08be2715d7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bbf08b8cbX2Dde42X2D435cX2D8dbcX2Ddb08be2715d7 <http://www.w3.org/2000/01/rdf-schema#label> "via Al Torrione" .
 <http://qrowd-project.eu/resource/rastrelliere.37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.37> <http://linkedgeodata.org/ontology/near> _:B2837bd66X2D54baX2D42b1X2D85d1X2D5f690f8bb4cb .
+<http://qrowd-project.eu/resource/rastrelliere.37> <http://linkedgeodata.org/ontology/near> _:Bb64b3a73X2D2547X2D469cX2Da906X2D56ca605c1699 .
 <http://qrowd-project.eu/resource/rastrelliere.37> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.37> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.37> <http://linkedgeodata.org/ontology/capacity> "28" .
@@ -528,10 +528,10 @@ _:B4e8b44a6X2D32a2X2D4215X2Dac66X2De17c60a8b61a <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.37> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.12258318316078 46.065240984963054, 11.122435577570398 46.06526542825666)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B2837bd66X2D54baX2D42b1X2D85d1X2D5f690f8bb4cb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B2837bd66X2D54baX2D42b1X2D85d1X2D5f690f8bb4cb <http://www.w3.org/2000/01/rdf-schema#label> "via Al Torrione" .
+_:Bb64b3a73X2D2547X2D469cX2Da906X2D56ca605c1699 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bb64b3a73X2D2547X2D469cX2Da906X2D56ca605c1699 <http://www.w3.org/2000/01/rdf-schema#label> "via Al Torrione" .
 <http://qrowd-project.eu/resource/rastrelliere.38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://qrowd-project.eu/resource/rastrelliere.38> <http://linkedgeodata.org/ontology/near> _:B0b91fb1aX2D7f5dX2D4e0fX2Dac97X2D3a1624e0a63d .
+<http://qrowd-project.eu/resource/rastrelliere.38> <http://linkedgeodata.org/ontology/near> _:Bc818fb36X2D2b32X2D4d6eX2Db9d6X2D13a633173173 .
 <http://qrowd-project.eu/resource/rastrelliere.38> <http://todo/area> "ZTL" .
 <http://qrowd-project.eu/resource/rastrelliere.38> <http://linkedgeodata.org/ontology/bicycle_parking> "monofacciale" .
 <http://qrowd-project.eu/resource/rastrelliere.38> <http://linkedgeodata.org/ontology/capacity> "12" .
@@ -542,5 +542,5 @@ _:B2837bd66X2D54baX2D42b1X2D85d1X2D5f690f8bb4cb <http://www.w3.org/2000/01/rdf-s
 <http://todo/Trento> <http://www.w3.org/2000/01/rdf-schema#label> "trento" .
 <http://qrowd-project.eu/resource/geometryrastrelliere.38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
 <http://qrowd-project.eu/resource/geometryrastrelliere.38> <http://www.opengis.net/ont/geosparql#asWKT> "LINESTRING (11.12236177472391 46.06527764983274, 11.122313480935151 46.06528556789875)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-_:B0b91fb1aX2D7f5dX2D4e0fX2Dac97X2D3a1624e0a63d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
-_:B0b91fb1aX2D7f5dX2D4e0fX2Dac97X2D3a1624e0a63d <http://www.w3.org/2000/01/rdf-schema#label> "via Al Torrione" .
+_:Bc818fb36X2D2b32X2D4d6eX2Db9d6X2D13a633173173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/HighwayThing> .
+_:Bc818fb36X2D2b32X2D4d6eX2Db9d6X2D13a633173173 <http://www.w3.org/2000/01/rdf-schema#label> "via Al Torrione" .
