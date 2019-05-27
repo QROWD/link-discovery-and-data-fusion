@@ -1,0 +1,115 @@
+INSERT DATA {
+  eg:a
+    prov:source eg:osm ;
+    eg:attr1 "foo" .
+
+  eg:b
+    prov:source eg:trento ;
+    eg:attr2 "bar" .
+
+  eg:c1
+    eg:member eg:a, eg:b ;
+    eg:representative eg:a .
+}
+
+
+INSERT DATA {
+  eg:osm eg:score 1 .
+  eg:trento eg:score 2
+}
+
+
+INSERT DATA {
+  eg:myRule
+    a eg:PrecedenceFusionRule ;
+    eg:inputs eg:attr1, eg:attr2 ;
+    eg:output eg:attr ;
+    eg:provProp prov:source ;
+    eg:scoreProp eg:score  .
+}
+
+
+#INSERT DATA {
+#  eg:myRule
+#    a eg:SimpleFusionRule ;
+#    eg:inputs ( osm:capacity trento:capacity ) ;
+#    eg:output qrowd:capacity ;
+#    eg:function "AVG"
+#}
+
+
+#eval(CONCAT(?functionName, "(", "varName, ")"))
+
+
+
+# For each cluster obtain the highest score among its members
+INSERT {
+  ?c eg:maxScore ?max . 
+} WHERE {
+  { SELECT ?c (MAX(?score) AS ?max) {
+
+    ?rule
+      a eg:PrecedenceFusionRule ;
+      eg:inputs ?inProp ;
+      eg:output ?outProp ;
+      eg:provProp ?provProp ;
+      eg:scoreProp ?scoreProp .
+
+    ?c eg:member ?m .
+    ?m
+      ?provProp ?prov ;
+      ?inProp ?o .
+
+    ?prov
+      ?scoreProp ?score .
+
+  } GROUP BY ?c }
+}
+
+# For each cluster, choose the member with the highest score as the representative
+DELETE {
+  ?r ?inProp2 ?inO
+}
+INSERT {
+  ?bn
+    a rdf:Statement ;
+    rdf:subject ?r ;
+    rdf:predicate ?outProp ;
+    rdf:object ?outO ;
+    prov:source ?prov .
+    
+  ?r ?outProp ?outO .
+}
+#WHERE {}
+#SELECT *
+WHERE {
+
+    ?rule
+      a eg:PrecedenceFusionRule ;
+      eg:inputs ?inProp ;
+      eg:output ?outProp ;
+      eg:provProp ?provProp ; 
+      eg:scoreProp ?scoreProp .
+
+    ?c
+      eg:representative ?r ;
+      eg:maxScore ?maxScore ;
+      eg:member ?m .
+
+    ?m
+      ?provProp ?prov ;
+      ?inProp ?outO .
+
+    ?prov
+      ?scoreProp ?score .
+
+    FILTER(?score = ?maxScore)
+    BIND(BNODE() AS ?bn)
+
+    ?rule
+      eg:inputs ?inProp2 .
+    OPTIONAL { ?r ?inProp2 ?inO }
+}
+
+SELECT * { ?s ?p ?o } ORDER BY ?s ?p ?o
+
