@@ -1,15 +1,75 @@
+LOAD <../fusion/cluster/fusion-sameas-clusters.nt>
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX lgdo: <http://linkedgeodata.org/ontology/>
 PREFIX todo: <http://todo/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#> 
 
-SELECT ?p ?prove (COUNT(?p) AS ?rc) 
-    WHERE {
-      {
-        ?s ?p ?o .
-        ?s  todo:prove ?prove .
-        ?s a lgdo:BicycleParking .
-      }}
-GROUP BY ?prove ?p
-ORDER BY ?p ?prove
+select ?prove (count(distinct ?bikerack) AS ?n) {
+  ?bikerack a lgdo:BicycleParking ;
+            todo:prove/rdfs:label ?prove .
+} group by ?prove
 
+select ?p 
+    (count(distinct ?osm) AS ?osmPre)
+    (count(distinct ?trento) AS ?trentoPre)
+    (count(distinct ?qrowd) AS ?qrowdPre) {
+    ?bikerack a lgdo:BicycleParking ;
+         ?p ?o .
+  optional {
+    ?osm a lgdo:BicycleParking ;
+         todo:prove/rdfs:label "osm" ;
+         ?p ?o .
+  }
+  optional {  
+    ?trento a lgdo:BicycleParking ;
+            todo:prove/rdfs:label "trento" ;
+            ?p ?o . 
+  }    
+  optional {  
+    ?qrowd a lgdo:BicycleParking ;
+           todo:prove/rdfs:label "qrowd" ;
+           ?p ?o . 
+  }    
+}
+group by ?p
+order by ?p
+
+select (count(distinct ?cluster) AS ?otq) {
+  ?cluster todo:member/todo:prove/rdfs:label "osm" .
+  ?cluster todo:member/todo:prove/rdfs:label "trento" .
+  ?cluster todo:member/todo:prove/rdfs:label "qrowd" .
+}
+
+select (count(distinct ?cluster) AS ?ot) {
+  ?cluster todo:member/todo:prove/rdfs:label "osm" .
+  ?cluster todo:member/todo:prove/rdfs:label "trento" .
+  filter not exists { ?cluster todo:member/todo:prove/rdfs:label "qrowd" }
+}
+
+select (count(distinct ?cluster) AS ?tq) {
+  filter not exists { ?cluster todo:member/todo:prove/rdfs:label "osm" }
+  ?cluster todo:member/todo:prove/rdfs:label "trento" .
+  ?cluster todo:member/todo:prove/rdfs:label "qrowd" .
+}
+
+select (count(distinct ?cluster) AS ?qo) {
+  ?cluster todo:member/todo:prove/rdfs:label "osm" .
+  filter not exists { ?cluster todo:member/todo:prove/rdfs:label "trento" }
+  ?cluster todo:member/todo:prove/rdfs:label "qrowd" .
+}
+
+select (count(distinct ?bikerack) AS ?o) {
+  ?bikerack todo:prove/rdfs:label "osm" .
+  filter not exists { ?cluster todo:member ?bikerack }
+}
+
+select (count(distinct ?bikerack) AS ?t) {
+  ?bikerack todo:prove/rdfs:label "trento" .
+  filter not exists { ?cluster todo:member ?bikerack }
+}
+
+select (count(distinct ?bikerack) AS ?q) {
+  ?bikerack todo:prove/rdfs:label "qrowd" .
+  filter not exists { ?cluster todo:member ?bikerack }
+}
