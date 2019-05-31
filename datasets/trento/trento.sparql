@@ -1,5 +1,5 @@
 PREFIX lgdo: <http://linkedgeodata.org/ontology/>
-PREFIX ogcgs:  <http://www.opengis.net/ont/geosparql#>
+PREFIX geos:  <http://www.opengis.net/ont/geosparql#>
 PREFIX fn: <http://jsa.aksw.org/fn/gml/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -14,15 +14,15 @@ CONSTRUCT {
     lgdo:capacity ?capacity ;
     rdfs:label ?label ;
     rdfs:comment ?description ;
-    ogcgs:geometry ?geometry ;
+    geos:geometry ?geometry ;
     todo:prove todo:Trento ;
     .
 
   todo:Trento rdfs:label "trento" .
 
   ?geometry
-    a ogcgs:Geometry ;
-    ogcgs:asWKT ?wkt ;
+    a geos:Geometry ;
+    geos:asWKT ?wkt ;
     .
 
   _:street

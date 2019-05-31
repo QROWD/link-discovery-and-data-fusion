@@ -1,814 +1,712 @@
+@prefix todo:  <http://todo/> .
+@prefix lgdo:  <http://linkedgeodata.org/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ogc:   <http://www.opengis.net/> .
+@prefix geom:  <http://geovocab.org/geometry#> .
+
 <http://linkedgeodata.org/triplify/node1614387739>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-02-01T17:36:14"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-02-01T17:36:14"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1614387739> .
 
 <http://linkedgeodata.org/triplify/node927358861>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-09-27T00:50:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-09-27T00:50:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node927358861> .
 
 <http://linkedgeodata.org/triplify/node938729359>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-22T01:52:57"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-22T01:52:57"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node938729359> .
 
 <http://linkedgeodata.org/triplify/node1461587546>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-10-10T21:03:54"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-10-10T21:03:54"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1461587546> .
 
 <http://linkedgeodata.org/geometry/node1962487942>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1246609 46.0687261)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node880590952>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1227012 46.0678245)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node963712275>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1203361 46.0693289)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node927359418>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-11-14T22:10:50"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-11-14T22:10:50"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node927359418> .
 
 <http://linkedgeodata.org/geometry/node1633007373>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.123097 46.0701031)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1962487950>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-10-13T14:37:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-10-13T14:37:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1962487950> .
 
 <http://linkedgeodata.org/geometry/node948758405>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1213468 46.0696893)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1369533465>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-11-26T19:54:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-11-26T19:54:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1369533465> .
 
 <http://linkedgeodata.org/geometry/node1331468407>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1235993 46.0656258)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
-<http://todo/Osm>  <http://www.w3.org/2000/01/rdf-schema#label>
-                "osm" .
+todo:Osm  rdfs:label  "osm" .
 
 <http://linkedgeodata.org/triplify/node885670019>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-11-14T22:10:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-11-14T22:10:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node885670019> .
 
 <http://linkedgeodata.org/triplify/node938729458>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://linkedgeodata.org/ontology/access>
-                "private" ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-06-02T00:23:21"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        lgdo:access          "private" ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-06-02T00:23:21"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node938729458> .
 
 <http://linkedgeodata.org/geometry/node1312440679>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1201203 46.0670231)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1123469919>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1201006 46.0698076)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node990462102>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1235002 46.0677883)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1962487942>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-10-13T14:37:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-10-13T14:37:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1962487942> .
 
 <http://linkedgeodata.org/triplify/node880591119>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2014-03-27T21:21:16"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2014-03-27T21:21:16"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node880591119> .
 
 <http://linkedgeodata.org/triplify/node1633007373>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-02-18T21:34:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-02-18T21:34:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1633007373> .
 
 <http://linkedgeodata.org/geometry/node2407332591>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1264767 46.0694326)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node885670132>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1237587 46.0674692)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node890486735>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.124673 46.0659986)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1300215314>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1236914 46.0694713)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node889555365>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1241149 46.0660002)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node948758405>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-06-06T02:49:06"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-06-06T02:49:06"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node948758405> .
 
 <http://linkedgeodata.org/triplify/node938729365>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-05-24T21:36:23"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-05-24T21:36:23"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node938729365> .
 
 <http://linkedgeodata.org/geometry/node927359322>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1216467 46.0694639)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1331468407>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-05-05T17:46:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-05-05T17:46:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1331468407> .
 
 <http://linkedgeodata.org/geometry/node959911107>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1229149 46.0650627)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1202027599>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.118688 46.0696696)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1312440679>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2013-04-02T12:13:07"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2013-04-02T12:13:07"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1312440679> .
 
 <http://linkedgeodata.org/geometry/node1073482343>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1253983 46.0680729)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1123469919>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-06-06T02:49:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-06-06T02:49:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1123469919> .
 
 <http://linkedgeodata.org/geometry/node1366801180>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1259523 46.0689405)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node880590612>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-08-26T15:44:58"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-08-26T15:44:58"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node880590612> .
 
 <http://linkedgeodata.org/triplify/node2407332591>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2013-08-04T23:04:14"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2013-08-04T23:04:14"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node2407332591> .
 
 <http://linkedgeodata.org/triplify/node1300215314>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-05-25T23:46:54"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-05-25T23:46:54"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1300215314> .
 
 <http://linkedgeodata.org/geometry/node1313709030>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1207847 46.0696153)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node885670132>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-10-10T21:03:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-10-10T21:03:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node885670132> .
 
 <http://linkedgeodata.org/triplify/node890486735>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2015-07-04T00:41:24"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2015-07-04T00:41:24"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node890486735> .
 
 <http://linkedgeodata.org/triplify/node1202027599>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-03-14T20:56:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-03-14T20:56:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1202027599> .
 
 <http://linkedgeodata.org/triplify/node889555365>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-10-05T21:16:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-10-05T21:16:48"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node889555365> .
 
 <http://linkedgeodata.org/triplify/node959911107>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-10-21T00:04:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-10-21T00:04:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node959911107> .
 
 <http://linkedgeodata.org/triplify/node880590952>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-08T10:57:43"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-08T10:57:43"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node880590952> .
 
 <http://linkedgeodata.org/geometry/node1307180338>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1260019 46.0707979)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1073482343>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2014-04-21T13:29:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2014-04-21T13:29:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1073482343> .
 
 <http://linkedgeodata.org/triplify/node963712275>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-10-24T20:51:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-10-24T20:51:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node963712275> .
 
 <http://linkedgeodata.org/triplify/node1366801180>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-19T18:50:29"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-19T18:50:29"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1366801180> .
 
 <http://linkedgeodata.org/geometry/node927359055>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1220149 46.0691011)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node890486688>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1247214 46.0657092)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node885670110>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1234773 46.0692381)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node2074585048>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1233899 46.0672526)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node969087731>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1201112 46.0686736)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1474641648>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1225282 46.0652357)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1313709030>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-06-06T02:48:58"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-06-06T02:48:58"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1313709030> .
 
 <http://linkedgeodata.org/geometry/node927358861>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1210015 46.0681994)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node938729359>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1244926 46.0669955)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1214597766>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1218211 46.0674085)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node557197356>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1218248 46.067556)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node560584081>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1195098 46.0687528)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1123469924>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1201134 46.0697515)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node990462102>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-11-15T23:12:52"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-11-15T23:12:52"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node990462102> .
 
 <http://linkedgeodata.org/geometry/node889555501>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.124031 46.0661549)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1307180338>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-19T18:52:12"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-19T18:52:12"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1307180338> .
 
 <http://linkedgeodata.org/geometry/node927359418>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1241637 46.0684013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node2074585048>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-12-19T15:05:42"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-12-19T15:05:42"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node2074585048> .
 
 <http://linkedgeodata.org/triplify/node890486688>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-20T22:22:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-20T22:22:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node890486688> .
 
 <http://linkedgeodata.org/triplify/node885670110>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-05-25T23:46:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-05-25T23:46:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node885670110> .
 
 <http://linkedgeodata.org/geometry/node885670069>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1259804 46.0688747)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1474641648>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-10-21T00:04:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-10-21T00:04:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1474641648> .
 
 <http://linkedgeodata.org/geometry/node1307179778>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1259977 46.0707536)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/way80767213>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POLYGON((11.1192068 46.0665953,11.1194802 46.0666246,11.1194833 46.066611,11.1192099 46.0665817,11.1192068 46.0665953))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1313709021>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.122631 46.0684829)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/way80767282>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POLYGON((11.119822 46.0666577,11.1200944 46.0666869,11.1200976 46.0666727,11.1198252 46.0666434,11.119822 46.0666577))"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node927359322>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-09-27T00:50:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-09-27T00:50:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node927359322> .
 
 <http://linkedgeodata.org/geometry/node938729458>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1239086 46.0661631)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1214597766>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-03-23T10:49:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-03-23T10:49:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1214597766> .
 
 <http://linkedgeodata.org/geometry/node2074585041>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.123487 46.067206)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1123469924>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-06-06T02:49:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-06-06T02:49:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1123469924> .
 
 <http://linkedgeodata.org/geometry/node1962487951>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1244596 46.0691813)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node557197356>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-09-24T21:21:34"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-09-24T21:21:34"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node557197356> .
 
 <http://linkedgeodata.org/triplify/node560584081>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2015-10-15T20:28:03"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2015-10-15T20:28:03"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node560584081> .
 
 <http://linkedgeodata.org/triplify/node889555501>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-10-05T21:16:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-10-05T21:16:56"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node889555501> .
 
 <http://linkedgeodata.org/geometry/node1638162310>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1230963 46.07015)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node880591119>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1226356 46.0685362)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1312440696>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1206975 46.0688755)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node2513343048>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1198196 46.0688705)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/way80767213>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2014-06-26T17:53:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2014-06-26T17:53:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/way80767213> .
 
 <http://linkedgeodata.org/triplify/way80767282>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2014-06-26T17:53:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2014-06-26T17:53:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/way80767282> .
 
 <http://linkedgeodata.org/geometry/node938729365>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1239814 46.0661029)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node1614387739>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.122027 46.0689382)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node1307179778>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-19T18:52:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-19T18:52:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1307179778> .
 
 <http://linkedgeodata.org/triplify/node1313709021>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2014-03-27T21:21:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2014-03-27T21:21:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1313709021> .
 
 <http://linkedgeodata.org/triplify/node885670069>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-07-19T18:52:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-07-19T18:52:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node885670069> .
 
 <http://linkedgeodata.org/geometry/node1461587546>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1230212 46.0669131)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node2074585041>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-12-19T15:05:42"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-12-19T15:05:42"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node2074585041> .
 
 <http://linkedgeodata.org/triplify/node1962487951>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-10-13T14:37:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-10-13T14:37:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1962487951> .
 
 <http://linkedgeodata.org/geometry/node1962487950>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1245599 46.0691811)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node927359055>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-09-27T00:50:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-09-27T00:50:41"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node927359055> .
 
 <http://linkedgeodata.org/triplify/node1638162310>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2012-02-18T21:34:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2012-02-18T21:34:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1638162310> .
 
 <http://linkedgeodata.org/triplify/node1312440696>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2011-06-05T01:19:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2011-06-05T01:19:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node1312440696> .
 
 <http://linkedgeodata.org/triplify/node969087731>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2010-10-29T21:42:35"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2010-10-29T21:42:35"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node969087731> .
 
 <http://linkedgeodata.org/geometry/node880590612>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1226663 46.0697881)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/triplify/node2513343048>
-        a                    <http://linkedgeodata.org/ontology/BicycleParking> ;
-        <http://purl.org/dc/terms/contributor>
-                <http://linkedgeodata.org/triplify/user0> ;
-        <http://purl.org/dc/terms/modified>
-                "2013-10-29T22:23:55"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-        <http://todo/prove>  <http://todo/Osm> ;
+        a                    lgdo:BicycleParking ;
+        dcterms:contributor  <http://linkedgeodata.org/triplify/user0> ;
+        dcterms:modified     "2013-10-29T22:23:55"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        todo:prove           todo:Osm ;
         <http://www.opengis.net/ont/geosparql#geometry>
                 <http://linkedgeodata.org/geometry/node2513343048> .
 
 <http://linkedgeodata.org/geometry/node1369533465>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1246869 46.0677482)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://linkedgeodata.org/geometry/node885670019>
-        a       <http://geovocab.org/geometry#Geometry> ;
+        a       geom:Geometry ;
         <http://www.opengis.net/ont/geosparql#asWKT>
                 "POINT(11.1239126 46.0683792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
