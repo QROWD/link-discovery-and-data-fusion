@@ -8,7 +8,8 @@ PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 select ?prove (count(distinct ?bikerack) AS ?n) {
   ?bikerack a lgdo:BicycleParking ;
             todo:prove/rdfs:label ?prove .
-} group by ?prove
+} 
+group by ?prove
 
 select ?p 
     (count(distinct ?osm) AS ?osmPre)
@@ -35,16 +36,14 @@ select ?p
 group by ?p
 order by ?p
 
+select (count(distinct ?cluster) AS ?numCluster) {
+  ?cluster a todo:SameAsCluster .
+}
+
 select (count(distinct ?cluster) AS ?otq) {
   ?cluster todo:member/todo:prove/rdfs:label "osm" .
   ?cluster todo:member/todo:prove/rdfs:label "trento" .
   ?cluster todo:member/todo:prove/rdfs:label "qrowd" .
-}
-
-select (count(distinct ?cluster) AS ?ot) {
-  ?cluster todo:member/todo:prove/rdfs:label "osm" .
-  ?cluster todo:member/todo:prove/rdfs:label "trento" .
-  filter not exists { ?cluster todo:member/todo:prove/rdfs:label "qrowd" }
 }
 
 select (count(distinct ?cluster) AS ?tq) {
@@ -57,6 +56,12 @@ select (count(distinct ?cluster) AS ?qo) {
   ?cluster todo:member/todo:prove/rdfs:label "osm" .
   filter not exists { ?cluster todo:member/todo:prove/rdfs:label "trento" }
   ?cluster todo:member/todo:prove/rdfs:label "qrowd" .
+}
+
+select (count(distinct ?cluster) AS ?ot) {
+  ?cluster todo:member/todo:prove/rdfs:label "osm" .
+  ?cluster todo:member/todo:prove/rdfs:label "trento" .
+  filter not exists { ?cluster todo:member/todo:prove/rdfs:label "qrowd" }
 }
 
 select (count(distinct ?bikerack) AS ?o) {
