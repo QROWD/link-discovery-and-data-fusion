@@ -1,6 +1,6 @@
-osm.ttl: osm.sparql
-	sparql-integrate --w=trig/pretty osm.sparql > osm.ttl
+osm.nt: osm.sparql
+	sparql-integrate osm.sparql > osm.nt
 
 .PHONY: clean
 clean:
-	rm -f osm.ttl
+	rm -f osm.nt
