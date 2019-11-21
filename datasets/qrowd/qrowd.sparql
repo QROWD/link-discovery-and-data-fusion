@@ -1,43 +1,52 @@
-PREFIX lgdo: <http://linkedgeodata.org/ontology/>
 PREFIX dct: <http://purl.org/dc/terms/>
-PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geom: <http://geovocab.org/geometry#>
+PREFIX geos: <http://www.opengis.net/ont/geosparql#>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX qr: <http://qrowd-project.eu/resource/>
+PREFIX wd: <http://www.wikidata.org/entity/>
 
-PREFIX todo: <http://todo/>
+INSERT DATA {
+  qr:dataset-virtual-city-explorer-bike-racks
+    a dcat:Dataset ;
+    dct:description "VCE is a crowdsourced solution for mobility infrastructure maps."^^xsd:string ;
+    dct:publisher <http://qrowd-project.eu> ;
+    dct:title "Virtual City Explorer Bike Racks"^^xsd:string ;
+    dcat:distribution qr:distribution-virtual-city-explorer-bike-racks ;
+    prov:wasDerivedFrom wd:Q12013 .
+
+  qr:distribution-virtual-city-explorer-bike-racks
+    a dcat:Distribution ;
+    dct:title "Virtual City Explorer Bike Racks"^^xsd:string ;
+}
+
+CONSTRUCT WHERE { ?s ?p ?o }
 
 CONSTRUCT {
-  ?s
+  ?bikeRack
     a lgdo:BicycleParking ;
-    dct:identifier ?id ;
-    geo:geometry ?g ;
-    eg:source <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> ;
-    todo:prove todo:Qrowd ;
-    .
+    geos:geometry ?geometry ;
+    prov:wasDerivedFrom qr:distribution-virtual-city-explorer-bike-racks .
 
-  todo:Qrowd rdfs:label "qrowd" .
+  ?geometry
+    a geom:Geometry ;
+    geos:asWKT ?wkt .
+} 
 
-  ?g
-    a geo:Geometry ;
-    geo:asWKT ?wkt ;
-    .
-
-} WHERE {
+WHERE {
   <qrowd.json> url:text ?text .
   BIND(STRDT(?text, xsd:json) AS ?json) .
-
   ?json json:unnest (?o ?i) .
 
-  BIND("http://example.org" AS ?ns)
-  BIND("crowdsourcing-bikeracks-2018-02" AS ?dataset)
-  BIND("bikerack" AS ?entity)
-  BIND(CONCAT(?ns, "/resource/", ?dataset, "/", ?entity) AS ?resourceBase)
-  BIND(CONCAT(?ns, "/geometry/", ?dataset, "/", ?entity) AS ?geometryBase)
+  BIND(json:path(?o, "$.lat") AS ?lat)
+  BIND(json:path(?o, "$.lng") AS ?lng)
+  BIND(CONCAT("POINT (", STR(?lng), " ", STR(?lat), ")") AS ?wktStr)
+  BIND(STRDT(?wktStr, geos:wktLiteral) AS ?wkt)
 
-  BIND(STR(xsd:integer(json:path(?o, "$.index"))) AS ?id)
-  BIND(json:path(?o, "$.wkt") AS ?wktStr)
-  BIND(STRDT(?wktStr, geo:wktLiteral) AS ?wkt)
-
-  BIND(IRI(CONCAT(?resourceBase, ?id)) AS ?s)
-  BIND(IRI(CONCAT(?geometryBase, ?id)) AS ?g)
-
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+  BIND(STRUUID() AS ?idBikeRack)
+  BIND(STRUUID() AS ?idGeometry)
+  BIND(IRI(CONCAT(?ns, ?idBikeRack)) AS ?bikeRack)
+  BIND(IRI(CONCAT(?ns, ?idGeometry)) AS ?geometry)
 }
 

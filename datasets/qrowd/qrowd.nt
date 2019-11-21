@@ -1,344 +1,223 @@
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack0> <http://purl.org/dc/terms/identifier> "0" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack0> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack0> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack0> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack0> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack0> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1207363536 46.0696127214)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack1> <http://purl.org/dc/terms/identifier> "1" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack1> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack1> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack1> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack1> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack1> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1214521435 46.0696817002)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack2> <http://purl.org/dc/terms/identifier> "2" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack2> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack2> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack2> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack2> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack2> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1216423305 46.0697098545)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack3> <http://purl.org/dc/terms/identifier> "3" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack3> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack3> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack3> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack3> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack3> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1240523371 46.069898792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack4> <http://purl.org/dc/terms/identifier> "4" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack4> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack4> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack4> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack4> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack4> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1245305078 46.0692045646)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack5> <http://purl.org/dc/terms/identifier> "5" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack5> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack5> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack5> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack5> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack5> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1230164039 46.0669560567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack6> <http://purl.org/dc/terms/identifier> "6" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack6> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack6> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack6> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack6> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack6> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1226542426 46.0684144598)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7> <http://purl.org/dc/terms/identifier> "7" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack7> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack7> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack7> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1226556181 46.0685283818)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack8> <http://purl.org/dc/terms/identifier> "8" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack8> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack8> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack8> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack8> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack8> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1235190179 46.0677833473)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack9> <http://purl.org/dc/terms/identifier> "9" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack9> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack9> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack9> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack9> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack9> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1227971231 46.067803012)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack10> <http://purl.org/dc/terms/identifier> "10" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack10> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack10> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack10> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack10> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack10> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.124028386 46.065932833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11> <http://purl.org/dc/terms/identifier> "11" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack11> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack11> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack11> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1241658465 46.0659969557)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12> <http://purl.org/dc/terms/identifier> "12" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack12> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack12> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack12> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1241079649 46.0684338942)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack13> <http://purl.org/dc/terms/identifier> "13" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack13> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack13> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack13> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack13> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack13> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1244586258 46.0684404551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14> <http://purl.org/dc/terms/identifier> "14" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack14> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack14> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack14> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1239084635 46.0684084395)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack15> <http://purl.org/dc/terms/identifier> "15" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack15> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack15> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack15> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack15> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack15> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1229762692 46.0650817962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack16> <http://purl.org/dc/terms/identifier> "16" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack16> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack16> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack16> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack16> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack16> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1225211733 46.0652552203)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17> <http://purl.org/dc/terms/identifier> "17" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack17> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack17> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack17> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1223396013 46.0652832904)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18> <http://purl.org/dc/terms/identifier> "18" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack18> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack18> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack18> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1259851653 46.0689192952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack19> <http://purl.org/dc/terms/identifier> "19" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack19> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack19> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack19> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack19> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack19> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1255739197 46.0695314957)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20> <http://purl.org/dc/terms/identifier> "20" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack20> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack20> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack20> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1260397836 46.0707322854)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack21> <http://purl.org/dc/terms/identifier> "21" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack21> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack21> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack21> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack21> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack21> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1234124245 46.0672646223)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack22> <http://purl.org/dc/terms/identifier> "22" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack22> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack22> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack22> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack22> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack22> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1237345508 46.0674838567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23> <http://purl.org/dc/terms/identifier> "23" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack23> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack23> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack23> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1247100774 46.065745297)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack24> <http://purl.org/dc/terms/identifier> "24" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack24> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack24> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack24> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack24> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack24> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1235802942 46.0656540988)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack25> <http://purl.org/dc/terms/identifier> "25" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack25> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack25> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack25> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack25> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack25> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1253534385 46.0681072205)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack26> <http://purl.org/dc/terms/identifier> "26" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack26> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack26> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack26> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack26> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack26> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1201655035 46.0686774681)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack27> <http://purl.org/dc/terms/identifier> "27" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack27> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack27> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack27> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack27> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack27> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1241704311 46.0668197466)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack28> <http://purl.org/dc/terms/identifier> "28" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack28> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack28> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack28> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack28> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack28> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1234560031 46.0692200013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29> <http://purl.org/dc/terms/identifier> "29" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack29> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack29> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack29> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1247174965 46.0678191594)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack30> <http://purl.org/dc/terms/identifier> "30" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack30> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack30> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack30> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack30> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack30> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1199133646 46.0666810754)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack31> <http://purl.org/dc/terms/identifier> "31" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack31> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack31> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack31> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack31> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack31> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1193849947 46.0666094995)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack32> <http://purl.org/dc/terms/identifier> "32" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack32> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack32> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack32> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack32> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack32> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1201652146 46.0670909963)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack33> <http://purl.org/dc/terms/identifier> "33" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack33> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack33> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack33> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack33> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack33> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1218097912 46.0673798839)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack34> <http://purl.org/dc/terms/identifier> "34" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack34> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack34> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack34> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack34> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack34> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1193635627 46.0688038833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack35> <http://purl.org/dc/terms/identifier> "35" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack35> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack35> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack35> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack35> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack35> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1252066668 46.0672470962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack36> <http://purl.org/dc/terms/identifier> "36" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack36> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack36> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack36> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack36> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack36> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1246841726 46.0711539162)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack37> <http://purl.org/dc/terms/identifier> "37" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack37> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack37> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack37> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack37> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack37> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1240690252 46.0669032779)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack38> <http://purl.org/dc/terms/identifier> "38" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack38> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack38> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack38> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack38> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack38> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1187184272 46.0697027826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39> <http://purl.org/dc/terms/identifier> "39" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack39> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack39> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack39> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1266606537 46.0705009668)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack40> <http://purl.org/dc/terms/identifier> "40" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack40> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack40> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack40> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack40> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack40> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.124179808 46.0672809211)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack41> <http://purl.org/dc/terms/identifier> "41" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack41> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack41> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack41> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack41> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack41> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1266870735 46.0694846896)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack42> <http://purl.org/dc/terms/identifier> "42" .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack42> <http://www.opengis.net/ont/geosparql#geometry> <http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack42> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack42> <http://www.example.org/source> <http://qrowd-project.eu/resource/crowdsourcing-bikeracks-2018-02> .
-<http://example.org/resource/crowdsourcing-bikeracks-2018-02/bikerack42> <http://todo/prove> <http://todo/Qrowd> .
-<http://todo/Qrowd> <http://www.w3.org/2000/01/rdf-schema#label> "qrowd" .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Geometry> .
-<http://example.org/geometry/crowdsourcing-bikeracks-2018-02/bikerack42> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1247105539 46.0695750693)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> <http://purl.org/dc/terms/title> "Virtual City Explorer Bike Racks" .
+<http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Distribution> .
+<http://qrowd-project.eu/resource/dataset-virtual-city-explorer-bike-racks> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.wikidata.org/entity/Q12013> .
+<http://qrowd-project.eu/resource/dataset-virtual-city-explorer-bike-racks> <http://www.w3.org/ns/dcat#distribution> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/dataset-virtual-city-explorer-bike-racks> <http://purl.org/dc/terms/title> "Virtual City Explorer Bike Racks" .
+<http://qrowd-project.eu/resource/dataset-virtual-city-explorer-bike-racks> <http://purl.org/dc/terms/publisher> <http://qrowd-project.eu> .
+<http://qrowd-project.eu/resource/dataset-virtual-city-explorer-bike-racks> <http://purl.org/dc/terms/description> "VCE is a crowdsourced solution for mobility infrastructure maps." .
+<http://qrowd-project.eu/resource/dataset-virtual-city-explorer-bike-racks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<http://qrowd-project.eu/resource/638e55dc-8615-4be4-bd51-2883725dc7a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/638e55dc-8615-4be4-bd51-2883725dc7a1> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/6bc6b1e1-391e-4d3e-871e-0f357c976da7> .
+<http://qrowd-project.eu/resource/638e55dc-8615-4be4-bd51-2883725dc7a1> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/6bc6b1e1-391e-4d3e-871e-0f357c976da7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/6bc6b1e1-391e-4d3e-871e-0f357c976da7> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1207363536 46.0696127214)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/6be16bc7-7ddb-466d-afc4-176a53c35b98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/6be16bc7-7ddb-466d-afc4-176a53c35b98> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/9eea8ac7-bc1d-4d7a-b44f-7a2763bbbe26> .
+<http://qrowd-project.eu/resource/6be16bc7-7ddb-466d-afc4-176a53c35b98> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/9eea8ac7-bc1d-4d7a-b44f-7a2763bbbe26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/9eea8ac7-bc1d-4d7a-b44f-7a2763bbbe26> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1214521435 46.0696817002)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/597817c7-2bbc-4ff2-b928-c9bb83871af7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/597817c7-2bbc-4ff2-b928-c9bb83871af7> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/5c6c6095-5019-4889-9af6-6b2d27d4075b> .
+<http://qrowd-project.eu/resource/597817c7-2bbc-4ff2-b928-c9bb83871af7> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/5c6c6095-5019-4889-9af6-6b2d27d4075b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/5c6c6095-5019-4889-9af6-6b2d27d4075b> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1216423305 46.0697098545)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/2519c134-3a5d-4046-95a2-fa5015e21799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/2519c134-3a5d-4046-95a2-fa5015e21799> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/0faf3af3-daa9-407a-bd17-8b2ce8bbc08f> .
+<http://qrowd-project.eu/resource/2519c134-3a5d-4046-95a2-fa5015e21799> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/0faf3af3-daa9-407a-bd17-8b2ce8bbc08f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/0faf3af3-daa9-407a-bd17-8b2ce8bbc08f> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1240523371 46.069898792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/b08f08ef-4446-47b7-9f38-419bb8564b2e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/b08f08ef-4446-47b7-9f38-419bb8564b2e> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/51b9966e-d6e1-4b2c-b431-59accd52ddbc> .
+<http://qrowd-project.eu/resource/b08f08ef-4446-47b7-9f38-419bb8564b2e> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/51b9966e-d6e1-4b2c-b431-59accd52ddbc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/51b9966e-d6e1-4b2c-b431-59accd52ddbc> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1245305078 46.0692045646)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/17ea2b49-fdd4-44c7-8570-01f6d5abf4f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/17ea2b49-fdd4-44c7-8570-01f6d5abf4f2> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/350ba121-0f97-45f9-adcc-0e21c068a2a8> .
+<http://qrowd-project.eu/resource/17ea2b49-fdd4-44c7-8570-01f6d5abf4f2> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/350ba121-0f97-45f9-adcc-0e21c068a2a8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/350ba121-0f97-45f9-adcc-0e21c068a2a8> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1230164039 46.0669560567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/b8fc45c9-fd5b-41dc-b0b9-1adaca4eede9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/b8fc45c9-fd5b-41dc-b0b9-1adaca4eede9> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/a0cc44b5-8476-4e81-8d80-dd9d493b51d7> .
+<http://qrowd-project.eu/resource/b8fc45c9-fd5b-41dc-b0b9-1adaca4eede9> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/a0cc44b5-8476-4e81-8d80-dd9d493b51d7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/a0cc44b5-8476-4e81-8d80-dd9d493b51d7> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1226542426 46.0684144598)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/ac4a1d98-1149-43f3-b2d6-76e68d50b7b1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/ac4a1d98-1149-43f3-b2d6-76e68d50b7b1> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/bd06cf7c-d1dc-4aa3-ad63-f650b90279f2> .
+<http://qrowd-project.eu/resource/ac4a1d98-1149-43f3-b2d6-76e68d50b7b1> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/bd06cf7c-d1dc-4aa3-ad63-f650b90279f2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/bd06cf7c-d1dc-4aa3-ad63-f650b90279f2> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1226556181 46.0685283818)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/6e711fce-afa7-457c-8ccd-035c3fcf0054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/6e711fce-afa7-457c-8ccd-035c3fcf0054> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/ff528b7f-77de-4c8e-a447-0c7fb5f02510> .
+<http://qrowd-project.eu/resource/6e711fce-afa7-457c-8ccd-035c3fcf0054> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/ff528b7f-77de-4c8e-a447-0c7fb5f02510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/ff528b7f-77de-4c8e-a447-0c7fb5f02510> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1235190179 46.0677833473)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/5c02fb2f-fea3-433a-b82a-aa5c6c57d049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/5c02fb2f-fea3-433a-b82a-aa5c6c57d049> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/49014969-ca67-4c78-a1a0-7dc2445c4f25> .
+<http://qrowd-project.eu/resource/5c02fb2f-fea3-433a-b82a-aa5c6c57d049> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/49014969-ca67-4c78-a1a0-7dc2445c4f25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/49014969-ca67-4c78-a1a0-7dc2445c4f25> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1227971231 46.067803012)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/50e4a771-4989-4ba1-a851-f221d37a3eb8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/50e4a771-4989-4ba1-a851-f221d37a3eb8> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/582321ff-7a62-4492-a680-6122798aeacf> .
+<http://qrowd-project.eu/resource/50e4a771-4989-4ba1-a851-f221d37a3eb8> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/582321ff-7a62-4492-a680-6122798aeacf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/582321ff-7a62-4492-a680-6122798aeacf> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.124028386 46.065932833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/f18acdec-1dc0-4688-b6a4-1705b9ba0da2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/f18acdec-1dc0-4688-b6a4-1705b9ba0da2> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/3f0e10b5-26df-4a0b-a23a-9c9220c7d26f> .
+<http://qrowd-project.eu/resource/f18acdec-1dc0-4688-b6a4-1705b9ba0da2> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/3f0e10b5-26df-4a0b-a23a-9c9220c7d26f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/3f0e10b5-26df-4a0b-a23a-9c9220c7d26f> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1241658465 46.0659969557)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/15b6fb24-eb87-4751-809c-a849eb549654> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/15b6fb24-eb87-4751-809c-a849eb549654> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/fe27ac49-2f2d-4773-b40c-fff09705cc5a> .
+<http://qrowd-project.eu/resource/15b6fb24-eb87-4751-809c-a849eb549654> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/fe27ac49-2f2d-4773-b40c-fff09705cc5a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/fe27ac49-2f2d-4773-b40c-fff09705cc5a> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1241079649 46.0684338942)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/70f7214f-ec57-42a7-9778-7f790680030a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/70f7214f-ec57-42a7-9778-7f790680030a> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/12b4c05c-8af1-4252-aa00-e8b6b4ec48fc> .
+<http://qrowd-project.eu/resource/70f7214f-ec57-42a7-9778-7f790680030a> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/12b4c05c-8af1-4252-aa00-e8b6b4ec48fc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/12b4c05c-8af1-4252-aa00-e8b6b4ec48fc> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1244586258 46.0684404551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/fa1feaa8-4387-41e3-a6a6-e50c1e7cef1c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/fa1feaa8-4387-41e3-a6a6-e50c1e7cef1c> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/e6db5609-7dc7-4cb9-9180-f2dd2b61cbfd> .
+<http://qrowd-project.eu/resource/fa1feaa8-4387-41e3-a6a6-e50c1e7cef1c> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/e6db5609-7dc7-4cb9-9180-f2dd2b61cbfd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/e6db5609-7dc7-4cb9-9180-f2dd2b61cbfd> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1239084635 46.0684084395)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/04799cc0-49d5-4ec5-8222-41dd3d713cfb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/04799cc0-49d5-4ec5-8222-41dd3d713cfb> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/aaeeac9c-675c-4d2a-80fa-b8cfd2c79109> .
+<http://qrowd-project.eu/resource/04799cc0-49d5-4ec5-8222-41dd3d713cfb> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/aaeeac9c-675c-4d2a-80fa-b8cfd2c79109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/aaeeac9c-675c-4d2a-80fa-b8cfd2c79109> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1229762692 46.0650817962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/74806521-56f9-4a9d-a41c-b3e7dccd253b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/74806521-56f9-4a9d-a41c-b3e7dccd253b> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/5ea98cf5-7df0-487c-9b4d-6ca60fb57f2e> .
+<http://qrowd-project.eu/resource/74806521-56f9-4a9d-a41c-b3e7dccd253b> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/5ea98cf5-7df0-487c-9b4d-6ca60fb57f2e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/5ea98cf5-7df0-487c-9b4d-6ca60fb57f2e> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1225211733 46.0652552203)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/9eb72d53-a41c-4d09-b47d-8c542e9af987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/9eb72d53-a41c-4d09-b47d-8c542e9af987> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/38924c0c-7396-4c56-856d-b53bc0340a97> .
+<http://qrowd-project.eu/resource/9eb72d53-a41c-4d09-b47d-8c542e9af987> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/38924c0c-7396-4c56-856d-b53bc0340a97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/38924c0c-7396-4c56-856d-b53bc0340a97> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1223396013 46.0652832904)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/b29a0a0e-24b5-4cc9-b94d-70e57ee19e54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/b29a0a0e-24b5-4cc9-b94d-70e57ee19e54> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/5f133d9c-6c44-4204-a6bd-39ba21d56ab8> .
+<http://qrowd-project.eu/resource/b29a0a0e-24b5-4cc9-b94d-70e57ee19e54> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/5f133d9c-6c44-4204-a6bd-39ba21d56ab8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/5f133d9c-6c44-4204-a6bd-39ba21d56ab8> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1259851653 46.0689192952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/60a6e382-1f30-4f25-8f9f-92750c5f6024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/60a6e382-1f30-4f25-8f9f-92750c5f6024> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/06283d3b-d49a-4427-8f5a-c01969fe80ec> .
+<http://qrowd-project.eu/resource/60a6e382-1f30-4f25-8f9f-92750c5f6024> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/06283d3b-d49a-4427-8f5a-c01969fe80ec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/06283d3b-d49a-4427-8f5a-c01969fe80ec> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1255739197 46.0695314957)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/6ebf7dba-2eab-42e2-9c66-12fac0f6c5c4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/6ebf7dba-2eab-42e2-9c66-12fac0f6c5c4> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/14e7af2d-c16c-4ee5-8452-3b058b097764> .
+<http://qrowd-project.eu/resource/6ebf7dba-2eab-42e2-9c66-12fac0f6c5c4> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/14e7af2d-c16c-4ee5-8452-3b058b097764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/14e7af2d-c16c-4ee5-8452-3b058b097764> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1260397836 46.0707322854)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/62f1d9c9-b984-440b-9b81-493beeaa4fbc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/62f1d9c9-b984-440b-9b81-493beeaa4fbc> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/a68513a4-1f9f-4c9c-adc5-4daf0795fc8e> .
+<http://qrowd-project.eu/resource/62f1d9c9-b984-440b-9b81-493beeaa4fbc> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/a68513a4-1f9f-4c9c-adc5-4daf0795fc8e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/a68513a4-1f9f-4c9c-adc5-4daf0795fc8e> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1234124245 46.0672646223)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/57e19fa8-d5ac-406d-823e-3ee06abbdfb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/57e19fa8-d5ac-406d-823e-3ee06abbdfb4> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/3480cb84-f263-4887-8900-2f9344f4adde> .
+<http://qrowd-project.eu/resource/57e19fa8-d5ac-406d-823e-3ee06abbdfb4> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/3480cb84-f263-4887-8900-2f9344f4adde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/3480cb84-f263-4887-8900-2f9344f4adde> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1237345508 46.0674838567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/03555c73-be70-41f3-b5ce-73307007ff67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/03555c73-be70-41f3-b5ce-73307007ff67> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/312405a5-2726-44c5-a20b-753a58166275> .
+<http://qrowd-project.eu/resource/03555c73-be70-41f3-b5ce-73307007ff67> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/312405a5-2726-44c5-a20b-753a58166275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/312405a5-2726-44c5-a20b-753a58166275> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1247100774 46.065745297)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/391a679e-cd14-483f-b865-16f9bfda2b18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/391a679e-cd14-483f-b865-16f9bfda2b18> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/1e89e28e-85dd-451d-a866-95a9544ddead> .
+<http://qrowd-project.eu/resource/391a679e-cd14-483f-b865-16f9bfda2b18> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/1e89e28e-85dd-451d-a866-95a9544ddead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/1e89e28e-85dd-451d-a866-95a9544ddead> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1235802942 46.0656540988)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/c089c680-df69-426e-8a0a-c7c522089daa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/c089c680-df69-426e-8a0a-c7c522089daa> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/bb18855a-a7a4-450c-a9c8-044a7ceac716> .
+<http://qrowd-project.eu/resource/c089c680-df69-426e-8a0a-c7c522089daa> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/bb18855a-a7a4-450c-a9c8-044a7ceac716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/bb18855a-a7a4-450c-a9c8-044a7ceac716> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1253534385 46.0681072205)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/ce0edeb7-a976-46b5-b45e-93ded2a736b8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/ce0edeb7-a976-46b5-b45e-93ded2a736b8> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/f2018053-df68-4c22-b853-f249851155a6> .
+<http://qrowd-project.eu/resource/ce0edeb7-a976-46b5-b45e-93ded2a736b8> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/f2018053-df68-4c22-b853-f249851155a6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/f2018053-df68-4c22-b853-f249851155a6> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1201655035 46.0686774681)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/c5bf6ba6-22dc-4a33-96a1-b06522d70746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/c5bf6ba6-22dc-4a33-96a1-b06522d70746> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/a311e681-060a-40e4-853d-e9be16d94be4> .
+<http://qrowd-project.eu/resource/c5bf6ba6-22dc-4a33-96a1-b06522d70746> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/a311e681-060a-40e4-853d-e9be16d94be4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/a311e681-060a-40e4-853d-e9be16d94be4> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1241704311 46.0668197466)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/7fa9b115-e877-4356-ab02-9927c1cfafeb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/7fa9b115-e877-4356-ab02-9927c1cfafeb> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/d7a4d340-7ef6-4ffe-be65-723e83ebcc59> .
+<http://qrowd-project.eu/resource/7fa9b115-e877-4356-ab02-9927c1cfafeb> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/d7a4d340-7ef6-4ffe-be65-723e83ebcc59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/d7a4d340-7ef6-4ffe-be65-723e83ebcc59> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1234560031 46.0692200013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/001ed07f-5b02-471c-95d5-23719d3123a8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/001ed07f-5b02-471c-95d5-23719d3123a8> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/7f02953a-d01e-408c-90f9-d01fc935b398> .
+<http://qrowd-project.eu/resource/001ed07f-5b02-471c-95d5-23719d3123a8> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/7f02953a-d01e-408c-90f9-d01fc935b398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/7f02953a-d01e-408c-90f9-d01fc935b398> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1247174965 46.0678191594)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/81179f75-8995-4606-ad1b-6697c7988856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/81179f75-8995-4606-ad1b-6697c7988856> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/87a3299b-7414-4721-893d-1bd10f3ea014> .
+<http://qrowd-project.eu/resource/81179f75-8995-4606-ad1b-6697c7988856> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/87a3299b-7414-4721-893d-1bd10f3ea014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/87a3299b-7414-4721-893d-1bd10f3ea014> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1199133646 46.0666810754)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/0dc7824c-6525-4666-b124-31ac4afa96af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/0dc7824c-6525-4666-b124-31ac4afa96af> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/b90d2c86-45d6-4c19-943e-cad2e13c80e7> .
+<http://qrowd-project.eu/resource/0dc7824c-6525-4666-b124-31ac4afa96af> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/b90d2c86-45d6-4c19-943e-cad2e13c80e7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/b90d2c86-45d6-4c19-943e-cad2e13c80e7> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1193849947 46.0666094995)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/fe59dbc5-812c-4c29-8738-3fbfbbab4c98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/fe59dbc5-812c-4c29-8738-3fbfbbab4c98> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/14b06da2-3f95-4f09-a14e-a3a35e483084> .
+<http://qrowd-project.eu/resource/fe59dbc5-812c-4c29-8738-3fbfbbab4c98> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/14b06da2-3f95-4f09-a14e-a3a35e483084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/14b06da2-3f95-4f09-a14e-a3a35e483084> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1201652146 46.0670909963)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/e28b0410-1a44-4646-9a70-1f032ff15e55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/e28b0410-1a44-4646-9a70-1f032ff15e55> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/5fbf2b2a-2a61-4b7b-a30a-f981d3e1c658> .
+<http://qrowd-project.eu/resource/e28b0410-1a44-4646-9a70-1f032ff15e55> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/5fbf2b2a-2a61-4b7b-a30a-f981d3e1c658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/5fbf2b2a-2a61-4b7b-a30a-f981d3e1c658> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1218097912 46.0673798839)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/4d7c33d7-5e8a-4853-b24a-04f2a405028b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/4d7c33d7-5e8a-4853-b24a-04f2a405028b> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/61ca696d-e13b-4edd-a595-fb7dd18df6bb> .
+<http://qrowd-project.eu/resource/4d7c33d7-5e8a-4853-b24a-04f2a405028b> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/61ca696d-e13b-4edd-a595-fb7dd18df6bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/61ca696d-e13b-4edd-a595-fb7dd18df6bb> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1193635627 46.0688038833)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/4eb0c9e2-16bf-4fab-af71-ae6f8d73f160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/4eb0c9e2-16bf-4fab-af71-ae6f8d73f160> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/3f36508f-4904-40c6-ac59-db2c4d1b1e6c> .
+<http://qrowd-project.eu/resource/4eb0c9e2-16bf-4fab-af71-ae6f8d73f160> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/3f36508f-4904-40c6-ac59-db2c4d1b1e6c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/3f36508f-4904-40c6-ac59-db2c4d1b1e6c> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1252066668 46.0672470962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/f409a2c9-e814-4fe7-9d52-bfcc9f63bf36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/f409a2c9-e814-4fe7-9d52-bfcc9f63bf36> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/2fab1462-c5ae-4ca2-8924-133572e91531> .
+<http://qrowd-project.eu/resource/f409a2c9-e814-4fe7-9d52-bfcc9f63bf36> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/2fab1462-c5ae-4ca2-8924-133572e91531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/2fab1462-c5ae-4ca2-8924-133572e91531> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1246841726 46.0711539162)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/031c98a2-594e-4403-bbc6-86182374a6d3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/031c98a2-594e-4403-bbc6-86182374a6d3> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/ee8df8ac-34ed-4b60-ab2a-4c1b7988f82a> .
+<http://qrowd-project.eu/resource/031c98a2-594e-4403-bbc6-86182374a6d3> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/ee8df8ac-34ed-4b60-ab2a-4c1b7988f82a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/ee8df8ac-34ed-4b60-ab2a-4c1b7988f82a> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1240690252 46.0669032779)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/c3930c63-0695-41e7-b086-48c3288ac2b0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/c3930c63-0695-41e7-b086-48c3288ac2b0> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/b4f8f57d-b228-4227-ae25-59df8a82efb6> .
+<http://qrowd-project.eu/resource/c3930c63-0695-41e7-b086-48c3288ac2b0> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/b4f8f57d-b228-4227-ae25-59df8a82efb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/b4f8f57d-b228-4227-ae25-59df8a82efb6> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1187184272 46.0697027826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/fbe05cdc-2d9a-462e-ac51-b1c59a3fe9a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/fbe05cdc-2d9a-462e-ac51-b1c59a3fe9a1> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/6f6f8e11-4dc3-46bd-90b3-5a3ed2dbb600> .
+<http://qrowd-project.eu/resource/fbe05cdc-2d9a-462e-ac51-b1c59a3fe9a1> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/6f6f8e11-4dc3-46bd-90b3-5a3ed2dbb600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/6f6f8e11-4dc3-46bd-90b3-5a3ed2dbb600> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1266606537 46.0705009668)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/b0223825-faf0-47b9-b746-e03a10225af2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/b0223825-faf0-47b9-b746-e03a10225af2> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/d8857a4f-673e-4b43-9294-63e567faacee> .
+<http://qrowd-project.eu/resource/b0223825-faf0-47b9-b746-e03a10225af2> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/d8857a4f-673e-4b43-9294-63e567faacee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/d8857a4f-673e-4b43-9294-63e567faacee> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.124179808 46.0672809211)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/242370f1-1be7-41f0-b02f-1a6a18b92220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/242370f1-1be7-41f0-b02f-1a6a18b92220> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/77109fa1-38be-4858-84e7-af331a6b7147> .
+<http://qrowd-project.eu/resource/242370f1-1be7-41f0-b02f-1a6a18b92220> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/77109fa1-38be-4858-84e7-af331a6b7147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/77109fa1-38be-4858-84e7-af331a6b7147> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1266870735 46.0694846896)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+<http://qrowd-project.eu/resource/4c336e12-2908-4eb3-9be1-2cf7bd2f8881> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://linkedgeodata.org/ontology/BicycleParking> .
+<http://qrowd-project.eu/resource/4c336e12-2908-4eb3-9be1-2cf7bd2f8881> <http://www.opengis.net/ont/geosparql#geometry> <http://qrowd-project.eu/resource/dba0f1f7-ecf6-40d9-b215-3d8c84b26224> .
+<http://qrowd-project.eu/resource/4c336e12-2908-4eb3-9be1-2cf7bd2f8881> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://qrowd-project.eu/resource/distribution-virtual-city-explorer-bike-racks> .
+<http://qrowd-project.eu/resource/dba0f1f7-ecf6-40d9-b215-3d8c84b26224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
+<http://qrowd-project.eu/resource/dba0f1f7-ecf6-40d9-b215-3d8c84b26224> <http://www.opengis.net/ont/geosparql#asWKT> "POINT (11.1247105539 46.0695750693)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
