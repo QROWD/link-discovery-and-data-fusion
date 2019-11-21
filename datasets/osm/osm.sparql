@@ -29,12 +29,12 @@ INSERT DATA {
 CONSTRUCT WHERE { ?s ?p ?o }
 
 CONSTRUCT {
-  ?qrowdBikerack
+  ?qrowdBikeRack
     a lgdo:BicycleParking ;
     ?p ?o ;
     geos:geometry ?geometry ;
     prov:wasDerivedFrom qr:distribution-linkedgeodata-sparql ;
-    prov:wasRevisonOf ?bikerack ;
+    prov:wasRevisonOf ?bikeRack ;
     prov:generatedAtTime ?time .
 
   ?geometry
@@ -46,7 +46,7 @@ WHERE {
   ?dataset dcat:distribution [dcat:accessURL ?serviceURL]
   SERVICE ?serviceURL {
     {
-      ?bikerack
+      ?bikeRack
         a lgdo:BicycleParking ;
         ?p ?o;
         geom:geometry ?geometry .
@@ -62,5 +62,5 @@ WHERE {
   BIND(NOW() AS ?time)
   BIND(STRUUID() AS ?id)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
-  BIND(IRI(CONCAT(?ns, ?id)) AS ?qrowdBikerack)
+  BIND(IRI(CONCAT(?ns, ?id)) AS ?qrowdBikeRack)
 }
