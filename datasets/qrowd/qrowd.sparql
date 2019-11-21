@@ -26,6 +26,7 @@ CONSTRUCT {
   ?bikeRack
     a lgdo:BicycleParking ;
     geos:geometry ?geometry ;
+    prov:generatedAtTime ?time ;
     prov:wasDerivedFrom qr:distribution-virtual-city-explorer-bike-racks .
 
   ?geometry
@@ -48,5 +49,6 @@ WHERE {
   BIND(STRUUID() AS ?idGeometry)
   BIND(IRI(CONCAT(?ns, ?idBikeRack)) AS ?bikeRack)
   BIND(IRI(CONCAT(?ns, ?idGeometry)) AS ?geometry)
+  BIND(NOW() AS ?time)
 }
 
