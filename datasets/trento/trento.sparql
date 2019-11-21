@@ -1,24 +1,46 @@
-PREFIX lgdo: <http://linkedgeodata.org/ontology/>
-PREFIX geos:  <http://www.opengis.net/ont/geosparql#>
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX dc:   <http://purl.org/dc/terms/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX fn: <http://jsa.aksw.org/fn/gml/>
+PREFIX geos:  <http://www.opengis.net/ont/geosparql#>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX qr: <http://qrowd-project.eu/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
 
-PREFIX todo: <http://todo/>
+INSERT DATA {
+  qr:dataset-trento-bikeracks
+    a dcat:Dataset ;
+    dct:description "Mappatura delle rastrelliere esistenti nella zona a traffico limitato, distinte per tipologia (monofacciale o bifacciale) e disponibilità di cicloposteggi."^^xsd:string ;
+    dct:publisher wd:Q3376 ;
+    dct:title "Rastrelliere per biciclette"^^xsd:string ;
+    dcat:distribution qr:distribution-trento-bikeracks ;
+    .
+
+  qr:distribution-trento-bikeracks
+    a dcat:Distribution ;
+    dct:title "Rastrelliere per biciclette GML Download"^^xsd:string ;
+    dcat:accessURL <http://webapps.comune.trento.it/cartografia/gis/dbexport?db=base&sc=mobilita&ly=rastrelliere&fr=gml> ;
+    .
+}
+
+CONSTRUCT WHERE { ?s ?p ?o }
 
 CONSTRUCT {
   ?bikerack
     a lgdo:BicycleParking ;
+    dc:id ?id ;
     lgdo:near _:street ;
-    todo:area ?area ;
-    lgdo:bicycle_parking ?type ;
+    db:district ?area ;
+    lgdo:BicycleParkingType ?type ;
     lgdo:capacity ?capacity ;
     rdfs:label ?label ;
     rdfs:comment ?description ;
     geos:geometry ?geometry ;
-    todo:prove todo:Trento ;
+    prov:wasDerivedFrom qr:distribution-trento-bikeracks ;
+    prov:generatedAtTime ?time ;
     .
-
-  todo:Trento rdfs:label "trento" .
 
   ?geometry
     a geos:Geometry ;
@@ -33,25 +55,23 @@ CONSTRUCT {
 WHERE {
   # Load the content of the relative URL (interpreted as a reference to a file) as a string into ?src
   <rastrelliere.gml> url:text ?src .
-
   # Parse the string as XML
   BIND(STRDT(?src, xsd:xml) AS ?xml) .
-
   # Run an XPath expression which yields a list of nodes. Every node becomes a binding to ?o.
-  # test local name
   ?xml xml:unnest ("//*[local-name()='rastrelliere']" ?node)
- 
   # Read out attributes from each (xml) node
-  BIND(xml:path(?node, "//@*[local-name()='fid']") AS ?id)
+  BIND(STRUUID() AS ?qrowdId)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
-  BIND(URI(CONCAT(?ns, ?id)) AS ?bikerack)
+  BIND(URI(CONCAT(?ns, ?qrowdId)) AS ?bikerack)
+  BIND(xml:path(?node, "//@*[local-name()='fid']") AS ?id)
   BIND(xml:path(?node, "//*[local-name()='via']") AS ?streetName)
   BIND(xml:path(?node, "//*[local-name()='zona']") AS ?area)
   BIND(xml:path(?node, "//*[local-name()='tipologia']") AS ?type)
   BIND(xml:path(?node, "//*[local-name()='n_posti']") AS ?capacity)
   BIND(xml:path(?node, "//*[local-name()='fumetto']") AS ?label)
   BIND(xml:path(?node, "//*[local-name()='descrizione']") AS ?description)
-  ?node xml:unnest ("//*[local-name()='geometryProperty']/*" ?g )
-  BIND(fn:gml2Wkt(str(?g)) AS ?wkt)
-  BIND(URI(CONCAT(?ns, "geometry", ?id)) AS ?geometry)
+  ?node xml:unnest ("//*[local-name()='geometryProperty']/*" ?geo )
+  BIND(fn:gml2Wkt(str(?geo)) AS ?wkt)
+  BIND(STRUUID() AS ?geoId)
+  BIND(URI(CONCAT(?ns, ?geoId)) AS ?geometry)
 }
