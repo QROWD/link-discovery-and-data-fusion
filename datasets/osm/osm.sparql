@@ -29,11 +29,12 @@ INSERT DATA {
 CONSTRUCT WHERE { ?s ?p ?o }
 
 CONSTRUCT {
-  ?bikerack
+  ?qrowdBikerack
     a lgdo:BicycleParking ;
     ?p ?o ;
     geos:geometry ?geometry ;
     prov:wasDerivedFrom qr:distribution-linkedgeodata-sparql ;
+    prov:wasRevisonOf ?bikerack ;
     prov:generatedAtTime ?time .
 
   ?geometry
@@ -59,4 +60,7 @@ WHERE {
   BIND(STRDT(STR(?boundary), geo:wktLiteral) AS ?fixedBoundary)
   FILTER(geof:sfIntersects(?fixedBoundary, ?fixedWkt))
   BIND(NOW() AS ?time)
+  BIND(STRUUID() AS ?id)
+  BIND("http://qrowd-project.eu/resource/" AS ?ns)
+  BIND(IRI(CONCAT(?ns, ?id)) AS ?qrowdBikerack)
 }
