@@ -24,35 +24,6 @@ limes:linkedgeodataTOlinkedgeodataTarget
       limes:variable "?y" ;
       limes:restriction "?y a lgdo:BicycleParking" ;
       limes:pageSize "2000" ;
-      limes:type "TURTLE" ;
+      limes:type "N-TRIPLE" ;
       limes:property "geos:geometry/geos:asWKT RENAME wkt" ;
       .
-
-limes:linkedgeodataTOlinkedgeodata
-      a       limes:LimesSpecs ;
-      limes:hasExecutionParameters limes:executionParameters ;
-      limes:granularity "2" ;
-      limes:hasAcceptance limes:linkedgeodataTOlinkedgeodataAcceptance ;
-      limes:hasMetric limes:linkedgeodataTOlinkedgeodataMetric ;
-      limes:hasReview limes:linkedgeodataTOlinkedgeodataReview ;
-      limes:hasSource limes:linkedgeodataTOlinkedgeodataSource ;
-      limes:hasTarget limes:linkedgeodataTOlinkedgeodataTarget ;
-      limes:outputFormat "N3" .
-
-limes:executionParameters
-      a limes:ExecutionParameters ;
-      limes:executionPlanner "default" ;
-      limes:executionRewriter "default" ;
-      limes:executionEngine "default" .
-
-
-limes:linkedgeodataTOlinkedgeodataReview
-      a       limes:Review ;
-      limes:file "qrowd-osm-near.nt" ;
-      limes:relation "lgdo:near" ;
-      limes:threshold "0.9" .
-
-limes:linkedgeodataTOlinkedgeodataAcceptance
-      a       limes:Acceptance ;
-      limes:file "qrowd-osm-sameas.nt" ;
-      limes:relation "owl:sameAs" ;

@@ -12,7 +12,7 @@ limes:linkedgeodataTOlinkedgeodataSource
         limes:pageSize     "2000" ;
         limes:property     "geos:geometry/geos:asWKT RENAME wkt" ;
         limes:restriction  "?x a lgdo:BicycleParking" ;
-        limes:type         "TURTLE" ;
+        limes:type         "N-TRIPLE" ;
         limes:variable     "?x" ;
         rdfs:label         "osm" .
 
@@ -25,6 +25,29 @@ limes:linkedgeodataTOlinkedgeodataTarget
         limes:type         "N-TRIPLE" ;
         limes:variable     "?y" ;
         rdfs:label         "trento" .
+@prefix limes:  <http://limes.sf.net/ontology/> .
+
+limes:executionParameters
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:ExecutionParameters ;
+        limes:executionPlanner   "default" ;
+        limes:executionRewriter  "default" ;
+        limes:executionEngine    "default" .
+
+limes:linkedgeodataTOlinkedgeodataReview
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Review ;
+        limes:file       "near.nt" ;
+        limes:relation   "lgdo:near" ;
+        limes:threshold  "0.9" .
+
+limes:linkedgeodataTOlinkedgeodataAcceptance
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Acceptance ;
+        limes:file       "sameas.nt" ;
+        limes:relation   "owl:sameAs" ;
+        limes:threshold  "0.987" .
+
+limes:linkedgeodataTOlinkedgeodataMetric
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Metric ;
+        limes:expression  "geo_mean(x.wkt, y.wkt)" .
 
 limes:linkedgeodataTOlinkedgeodata
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:LimesSpecs ;
@@ -35,29 +58,4 @@ limes:linkedgeodataTOlinkedgeodata
         limes:hasReview               limes:linkedgeodataTOlinkedgeodataReview ;
         limes:hasSource               limes:linkedgeodataTOlinkedgeodataSource ;
         limes:hasTarget               limes:linkedgeodataTOlinkedgeodataTarget ;
-        limes:outputFormat            "N3" .
-
-limes:executionParameters
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:ExecutionParameters ;
-        limes:executionPlanner   "default" ;
-        limes:executionRewriter  "default" ;
-        limes:executionEngine    "default" .
-
-limes:linkedgeodataTOlinkedgeodataReview
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Review ;
-        limes:file       "osm-trento-near.nt" ;
-        limes:relation   "lgdo:near" ;
-        limes:threshold  "0.9" .
-
-limes:linkedgeodataTOlinkedgeodataAcceptance
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Acceptance ;
-        limes:file      "osm-trento-sameas.nt" ;
-        limes:relation  "owl:sameAs" .
-@prefix limes:  <http://limes.sf.net/ontology/> .
-
-limes:linkedgeodataTOlinkedgeodataAcceptance
-        limes:threshold  "0.987" .
-
-limes:linkedgeodataTOlinkedgeodataMetric
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Metric ;
-        limes:expression  "geo_mean(x.wkt, y.wkt)" .
+        limes:outputFormat            "N-TRIPLE" .
