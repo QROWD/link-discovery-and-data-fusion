@@ -22,9 +22,9 @@ limes:linkedgeodataTOlinkedgeodataAcceptance
       .
 
 limes:linkedgeodataTOlinkedgeodataMetric
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Metric ;
-        limes:expression  "geo_mean(x.wkt, y.wkt)" ;
-        .
+      <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:Metric ;
+      limes:expression  "geo_mean(x.wkt, y.wkt)" ;
+      .
 
 limes:linkedgeodataTOlinkedgeodata
       a       limes:LimesSpecs ;
