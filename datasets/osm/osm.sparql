@@ -60,7 +60,7 @@ WHERE {
   BIND(STRDT(STR(?boundary), geo:wktLiteral) AS ?fixedBoundary)
   FILTER(geof:sfIntersects(?fixedBoundary, ?fixedWkt))
   BIND(NOW() AS ?time)
-  BIND(STRUUID() AS ?id)
+  BIND(STRAFTER(STR(?bikeRack), "http://linkedgeodata.org/triplify/") AS ?lgdNode)
   BIND("http://qrowd-project.eu/resource/" AS ?ns)
-  BIND(IRI(CONCAT(?ns, ?id)) AS ?qrowdBikeRack)
+  BIND(IRI(CONCAT(?ns, ?lgdNode)) AS ?qrowdBikeRack)
 }
