@@ -8,7 +8,7 @@
 
 limes:linkedgeodataTOlinkedgeodataSource
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:SourceDataset ;
-        limes:endPoint     "./../../datasets/osm/osm.ttl" ;
+        limes:endPoint     "./../../datasets/osm/osm.nt" ;
         limes:pageSize     "2000" ;
         limes:property     "geos:geometry/geos:asWKT RENAME wkt" ;
         limes:restriction  "?x a lgdo:BicycleParking" ;

@@ -1,10 +1,10 @@
 DEPENDENCIES = \
-	       ../../datasets/osm/osm.ttl \
+	       ../../datasets/osm/osm.nt \
 	       ../../datasets/trento/trento.nt \
 	       ../config.ttl \
 	       osm-trento-config.ttl
 
-osm-trento-sameas.nt: $(DEPENDENCIES)
+osm-trento-sameas.nt: $(DEPENDENCIES) clean
 	riot --output=TURTLE osm-trento-config.ttl ../config.ttl > config.ttl
 	limes config.ttl
 

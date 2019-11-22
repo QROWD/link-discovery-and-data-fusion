@@ -20,7 +20,7 @@ limes:linkedgeodataTOlinkedgeodataSource
 limes:linkedgeodataTOlinkedgeodataTarget
       a       limes:TargetDataset ;
       rdfs:label "osm" ;
-      limes:endPoint "./../../datasets/osm/osm.ttl" ;
+      limes:endPoint "./../../datasets/osm/osm.nt" ;
       limes:variable "?y" ;
       limes:restriction "?y a lgdo:BicycleParking" ;
       limes:pageSize "2000" ;

@@ -19,7 +19,7 @@ limes:linkedgeodataTOlinkedgeodataSource
 limes:linkedgeodataTOlinkedgeodataTarget
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  limes:TargetDataset ;
         rdfs:label         "osm" ;
-        limes:endPoint     "./../../datasets/osm/osm.ttl" ;
+        limes:endPoint     "./../../datasets/osm/osm.nt" ;
         limes:variable     "?y" ;
         limes:restriction  "?y a lgdo:BicycleParking" ;
         limes:pageSize     "2000" ;
