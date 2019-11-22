@@ -1,4 +1,4 @@
-LOAD <fusion-input.ttl>
+LOAD <fusion-input.nt>
 
 PREFIX afn: <http://jena.apache.org/ARQ/function#>
 PREFIX todo: <http://todo/>
