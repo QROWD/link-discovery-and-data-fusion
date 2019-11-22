@@ -1,8 +1,7 @@
 osm.nt: osm.sparql
-	sparql-integrate osm.sparql > osm.nt
-	sort osm.nt | uniq > osm-dedup.nt
-	rm -f osm.nt
-	mv osm-dedup.nt osm.nt
+	sparql-integrate osm.sparql > osm-dup.nt
+	sort osm-dup.nt | uniq > osm.nt
+	rm -f osm-dup.nt
 
 .PHONY: clean
 clean:
