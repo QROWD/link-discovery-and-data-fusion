@@ -33,7 +33,7 @@ CONSTRUCT {
     dc:id ?id ;
     lgdo:near _:street ;
     db:district ?area ;
-    lgdo:BicycleParkingType ?type ;
+    lgdo:bicycle_parking ?type ;
     lgdo:capacity ?capacity ;
     rdfs:label ?label ;
     rdfs:comment ?description ;
