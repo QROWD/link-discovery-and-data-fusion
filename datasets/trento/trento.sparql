@@ -42,12 +42,10 @@ CONSTRUCT {
     prov:wasDerivedFrom qr:dataset-trento-bikeracks ;
     prov:generatedAtTime ?time ;
     .
-
   ?geometry
     a geos:Geometry ;
     geos:asWKT ?wkt ;
     .
-
   _:street
     a lgdo:HighwayThing ;
     rdfs:label ?streetName
@@ -74,4 +72,5 @@ WHERE {
   BIND(fn:gml2Wkt(str(?geo)) AS ?wkt)
   BIND(struuid() AS ?geoId)
   BIND(uri(concat(?ns, ?geoId)) AS ?geometry)
+  BIND(now() AS ?time)
 }
