@@ -1,6 +1,6 @@
 datasets := $(wildcard datasets/*/.)
 interlinking := $(wildcard interlinking/*/.)
-fusion := $(wildcard fusion/*/.)
+fusion := $(wildcard fusion/.)
 visualization := $(wildcard visualization/. )
 
 $(visualization): $(fusion)

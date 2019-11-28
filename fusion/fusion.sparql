@@ -1,0 +1,121 @@
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+PREFIX db: <http://dbpedia.org/ontology/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX qo: <http://qrowd-project.eu/ontology/>
+PREFIX qr: <http://qrowd-project.eu/resource/>
+
+INSERT DATA {
+  qr:dataset-linkedgeodata db:rank 2 .
+  qr:dataset-trento-bikeracks db:rank 1 .
+  qr:dataset-virtual-city-explorer-bike-racks db:rank 3 .
+}
+
+INSERT {
+  ?cluster
+    a qo:SameAsCluster ;
+    qo:member ?member ;
+    .
+}
+WHERE {
+  { 
+    SELECT ?member (group_concat(?o;separator='-') AS ?cs) {
+      { 
+        SELECT ?member ?o {
+          ?member (owl:sameAs|^owl:sameAs)* ?oo ;
+            prov:wasDerivedFrom [] ;
+            .
+          BIND(afn:localname(?oo) AS ?o)
+        } ORDER BY ?member ?o 
+      }
+    } GROUP BY ?member
+  }
+  BIND(iri(concat(str(qr:), encode_for_uri(?cs))) AS ?cluster)
+}
+
+SELECT * { 
+  ?s ?p ?o .
+  ?s a qo:SameAsCluster
+}
+
+INSERT {
+  ?cluster qo:representedBy ?rep
+}
+WHERE {
+  ?cluster a qo:SameAsCluster ;
+  BIND(struuid() AS ?qrowdId)
+  BIND(uri(concat(str(qr:), ?qrowdId)) AS ?rep)
+}
+
+# CLUSTER | PROPERTY | OBJECT | SCORE/WEIGHT
+# SELECT ?s ?p ?o
+INSERT {
+  ?s ?p ?o .
+  [] 
+    owl:annotatedSource ?s ;
+    owl:annotatedProperty ?p ;
+    owl:annotatedTarget ?o ;
+    prov:wasDerivedFrom ?x ;
+    .
+} 
+WHERE {
+  { 
+    SELECT ?s ?p (max (?w) AS ?maxW) {
+      ?c 
+        qo:member ?member ;
+        qo:representedBy ?s ;
+        .
+      ?member
+        ?p ?o ;
+        prov:wasDerivedFrom/db:rank ?w .
+      FILTER(?p != prov:wasDerivedFrom)
+    } GROUP BY ?s ?p 
+  }
+  ?c 
+    qo:member ?member ;
+    qo:representedBy ?s ;
+    .
+  ?member
+    ?p ?o ;
+    prov:wasDerivedFrom ?x ;
+    .
+  ?x db:rank ?w .
+  FILTER(?p != prov:wasDerivedFrom)
+  FILTER( ?w = ?maxW )
+}
+
+CONSTRUCT { 
+  ?s ?p ?o .
+} {
+  ?c qo:representedBy ?s .
+  ?s ?p ?o .
+}
+CONSTRUCT { 
+  ?ss ?p ?o 
+} {
+  ?c qo:representedBy ?s .
+  ?ss 
+    ?p ?o ;
+    owl:annotatedSource ?s ;
+    .
+}
+
+SELECT * {
+  [] 
+    owl:annotatedSource ?s ;
+    owl:annotatedProperty ?p ;
+    owl:annotatedTarget ?o ;
+    prov:wasDerivedFrom ?x ;
+    .
+} 
+
+SELECT ?s ?p (group_concat(str(?o)) as ?go) (group_concat(str(?x)) as ?gx) {
+  [] 
+    owl:annotatedSource ?s ;
+    owl:annotatedProperty ?p ;
+    owl:annotatedTarget ?o ;
+    prov:wasDerivedFrom ?x ;
+    .
+}
+GROUP BY ?s ?p
+HAVING (count(?o) >= 2)
