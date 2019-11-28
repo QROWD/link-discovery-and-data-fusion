@@ -1,3 +1,4 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX geom: <http://geovocab.org/geometry#>
 PREFIX geos: <http://www.opengis.net/ont/geosparql#>
@@ -13,11 +14,12 @@ INSERT DATA {
     dct:publisher <http://qrowd-project.eu> ;
     dct:title "Virtual City Explorer Bike Racks"^^xsd:string ;
     dcat:distribution qr:distribution-virtual-city-explorer-bike-racks ;
-    prov:wasDerivedFrom wd:Q12013 .
-
+    prov:wasDerivedFrom wd:Q12013 ;
+    .
   qr:distribution-virtual-city-explorer-bike-racks
     a dcat:Distribution ;
     dct:title "Virtual City Explorer Bike Racks"^^xsd:string ;
+    .
 }
 
 CONSTRUCT WHERE { ?s ?p ?o }
@@ -27,28 +29,27 @@ CONSTRUCT {
     a lgdo:BicycleParking ;
     geos:geometry ?geometry ;
     prov:generatedAtTime ?time ;
-    prov:wasDerivedFrom qr:distribution-virtual-city-explorer-bike-racks .
-
+    prov:wasDerivedFrom qr:dataset-virtual-city-explorer-bike-racks ;
+    .
   ?geometry
     a geom:Geometry ;
-    geos:asWKT ?wkt .
+    geos:asWKT ?wkt ;
+    .
 } 
 
 WHERE {
   <qrowd.json> url:text ?text .
-  BIND(STRDT(?text, xsd:json) AS ?json) .
+  BIND(strdt(?text, xsd:json) AS ?json) .
   ?json json:unnest (?o ?i) .
 
   BIND(json:path(?o, "$.lat") AS ?lat)
   BIND(json:path(?o, "$.lng") AS ?lng)
-  BIND(CONCAT("POINT (", STR(?lng), " ", STR(?lat), ")") AS ?wktStr)
-  BIND(STRDT(?wktStr, geos:wktLiteral) AS ?wkt)
+  BIND(concat("POINT (", str(?lng), " ", str(?lat), ")") AS ?wktStr)
+  BIND(strdt(?wktStr, geos:wktLiteral) AS ?wkt)
 
-  BIND("http://qrowd-project.eu/resource/" AS ?ns)
-  BIND(STRUUID() AS ?idBikeRack)
-  BIND(STRUUID() AS ?idGeometry)
-  BIND(IRI(CONCAT(?ns, ?idBikeRack)) AS ?bikeRack)
-  BIND(IRI(CONCAT(?ns, ?idGeometry)) AS ?geometry)
-  BIND(NOW() AS ?time)
+  BIND(struuid() AS ?idBikeRack)
+  BIND(struuid() AS ?idGeometry)
+  BIND(iri(concat(str(qr:), ?idBikeRack)) AS ?bikeRack)
+  BIND(iri(concat(str(qr:), ?idGeometry)) AS ?geometry)
+  BIND(now() AS ?time)
 }
-
