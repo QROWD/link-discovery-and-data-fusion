@@ -70,7 +70,6 @@ WHERE {
   BIND(xml:path(?node, "//*[local-name()='descrizione']") AS ?description)
   ?node xml:unnest ("//*[local-name()='geometryProperty']/*" ?geo )
   BIND(fn:gml2Wkt(str(?geo)) AS ?wkt)
-  BIND(struuid() AS ?geoId)
-  BIND(uri(concat(?ns, ?geoId)) AS ?geometry)
+  BIND(uri(concat(str(qr:), struuid())) AS ?geometry)
   BIND(now() AS ?time)
 }
