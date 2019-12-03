@@ -12,106 +12,141 @@ INSERT DATA {
   qr:dataset-virtual-city-explorer-bike-racks db:rank 3 .
 }
 
+# Create Clusters
 INSERT {
   ?cluster
     a qo:SameAsCluster ;
     qo:member ?member ;
-    qo:representedBy ?rep ;
     .
-}
-WHERE {
-  { 
+} WHERE {
+  {
     SELECT ?member (group_concat(?o) AS ?cs) {
-      { 
+      {
         SELECT ?member ?o {
-          ?member 
+          ?member
             a lgdo:BicycleParking ;
             (owl:sameAs|^owl:sameAs)* ?o ;
             .
-        } ORDER BY ?member ?o 
+        } ORDER BY ?member ?o
       }
     } GROUP BY ?member
   }
   BIND(iri(concat(str(qr:), md5(encode_for_uri(?cs)))) AS ?cluster)
-  BIND(uri(concat(str(qr:), struuid())) AS ?rep)
 }
 
-SELECT * { 
-  ?s 
-    qo:member ?o ;
+# Debug Cluster
+# SELECT * {
+#   ?s
+#     qo:member ?o ;
+#     a qo:SameAsCluster ;
+#     .
+# } ORDER BY ?s
+
+
+
+# Add all clusters' members properties reificated to cluster
+INSERT {
+  ?cluster
+    qo:memberProperty ?memberProperty ;
+    .
+  ?memberProperty
+    a qo:MemberProperty ;
+    owl:annotatedSource ?s ;
+    owl:annotatedProperty ?p ;
+    owl:annotatedTarget ?o ;
+    .
+} WHERE {
+  ?cluster
+    a qo:SameAsCluster ;
+    qo:member ?s ;
+    .
+  ?s ?p ?o .
+  BIND(iri(concat(str(qr:), struuid())) AS ?memberProperty)
+}
+
+# Debug cluster properties
+# SELECT * {
+#   ?s
+#     qo:memberProperty ?mP ;
+#     a qo:SameAsCluster ;
+#     .
+#   ?mP ?p ?o
+# } ORDER BY ?s ?mP ?p ?o
+
+# Add Representand
+INSERT {
+  ?cluster
+    qo:representedBy ?rep ;
+    .
+  ?rep
+    a qo:Representand ;
+    .
+} WHERE {
+  ?cluster
     a qo:SameAsCluster ;
     .
-} ORDER BY ?s
+  BIND(iri(concat(str(qr:), struuid())) AS ?rep)
+}
 
-# # CLUSTER | PROPERTY | OBJECT | SCORE/WEIGHT
-# # SELECT ?s ?p ?o
-# INSERT {
-#   ?s ?p ?o .
-#   [] 
-#     owl:annotatedSource ?s ;
-#     owl:annotatedProperty ?p ;
-#     owl:annotatedTarget ?o ;
-#     prov:wasDerivedFrom ?x ;
-#     .
-# } 
-# WHERE {
-#   { 
-#     SELECT ?s ?p (max (?w) AS ?maxW) {
-#       ?c 
-#         qo:member ?member ;
-#         qo:representedBy ?s ;
-#         .
-#       ?member
-#         ?p ?o ;
-#         prov:wasDerivedFrom/db:rank ?w .
-#       FILTER(?p != prov:wasDerivedFrom)
-#     } GROUP BY ?s ?p 
-#   }
-#   ?c 
-#     qo:member ?member ;
-#     qo:representedBy ?s ;
-#     .
-#   ?member
-#     ?p ?o ;
-#     prov:wasDerivedFrom ?x ;
-#     .
-#   ?x db:rank ?w .
-#   FILTER(?p != prov:wasDerivedFrom)
-#   FILTER( ?w = ?maxW )
-# }
+# Add best ranked property to Representand
+INSERT {
+  ?rep
+    ?p ?o ;
+    qo:propertySource ?memberProperty ;
+    .
+} WHERE {
+  {
+    SELECT ?rep ?p (max(?rank) AS ?maxRank) {
+      ?cluster
+        qo:representedBy ?rep ;
+        qo:memberProperty ?memberProperty ;
+        .
+      ?memberProperty
+        owl:annotatedSource/prov:wasDerivedFrom/db:rank ?rank ;
+        owl:annotatedProperty ?p ;
+        .
+    } GROUP BY ?rep ?p
+  }
+  ?cluster
+    qo:representedBy ?rep ;
+    qo:memberProperty ?memberProperty ;
+    .
+  ?memberProperty
+    owl:annotatedSource/prov:wasDerivedFrom/db:rank ?rank ;
+    owl:annotatedProperty ?p ;
+    owl:annotatedTarget ?o ;
+    .
+  FILTER(?rank = ?maxRank)
+  FILTER(?p != prov:wasDerivedFrom)
+}
 
-# CONSTRUCT { 
-#   ?s ?p ?o .
-# } {
-#   ?c qo:representedBy ?s .
-#   ?s ?p ?o .
-# }
-# CONSTRUCT { 
-#   ?ss ?p ?o 
-# } {
-#   ?c qo:representedBy ?s .
-#   ?ss 
-#     ?p ?o ;
-#     owl:annotatedSource ?s ;
-#     .
-# }
-
+# Debug type
 # SELECT * {
-#   [] 
-#     owl:annotatedSource ?s ;
-#     owl:annotatedProperty ?p ;
-#     owl:annotatedTarget ?o ;
-#     prov:wasDerivedFrom ?x ;
-#     .
-# } 
+#   ?s
+#     a qo:Representand ;
+#     ?p ?o ;
+# } ORDER BY ?s ?p ?o
 
-# SELECT ?s ?p (group_concat(str(?o)) as ?go) (group_concat(str(?x)) as ?gx) {
-#   [] 
-#     owl:annotatedSource ?s ;
-#     owl:annotatedProperty ?p ;
-#     owl:annotatedTarget ?o ;
-#     prov:wasDerivedFrom ?x ;
-#     .
-# }
-# GROUP BY ?s ?p
-# HAVING (count(?o) >= 2)
+# Update capacity
+DELETE {
+  ?s lgdo:capacity ?p ;
+} WHERE {
+  ?s a qo:Representand ;
+    lgdo:capacity ?p ;
+}
+
+INSERT {
+  ?rep lgdo:capacity ?capacity ;
+} WHERE {
+  SELECT ?rep (sum(xsd:integer(?cap)) AS ?capacity) {
+    ?rep
+      a qo:Representand ;
+      qo:propertySource ?memberProperty ;
+      .
+    ?memberProperty
+      owl:annotatedProperty lgdo:capacity ;
+      owl:annotatedTarget ?cap ;
+  } GROUP BY ?rep
+}
+
+CONSTRUCT WHERE { ?s ?p ?o }
