@@ -73,26 +73,26 @@ INSERT {
 #   ?mP ?p ?o
 # } ORDER BY ?s ?mP ?p ?o
 
-# Add Representand
+# Add Representative
 INSERT {
   ?cluster
     qo:representedBy ?rep ;
     .
   ?rep
-    a qo:Representand ;
-    .
+    a qo:Representative ;
+    prov:generatedAtTime ?time ;
 } WHERE {
   ?cluster
     a qo:SameAsCluster ;
-    .
   BIND(iri(concat(str(qr:), struuid())) AS ?rep)
+  BIND(now() AS ?time)
 }
 
-# Add best ranked property to Representand
+# Add best ranked property to Representative
 INSERT {
   ?rep
     ?p ?o ;
-    qo:propertySource ?memberProperty ;
+    qo:sourceOfProperty ?memberProperty ;
     .
 } WHERE {
   {
@@ -118,12 +118,13 @@ INSERT {
     .
   FILTER(?rank = ?maxRank)
   FILTER(?p != prov:wasDerivedFrom)
+  FILTER(?p != prov:generatedAtTime)
 }
 
 # Debug type
 # SELECT * {
 #   ?s
-#     a qo:Representand ;
+#     a qo:Representative ;
 #     ?p ?o ;
 # } ORDER BY ?s ?p ?o
 
@@ -131,7 +132,7 @@ INSERT {
 DELETE {
   ?s lgdo:capacity ?p ;
 } WHERE {
-  ?s a qo:Representand ;
+  ?s a qo:Representative ;
     lgdo:capacity ?p ;
 }
 
@@ -140,13 +141,24 @@ INSERT {
 } WHERE {
   SELECT ?rep (sum(xsd:integer(?cap)) AS ?capacity) {
     ?rep
-      a qo:Representand ;
-      qo:propertySource ?memberProperty ;
+      a qo:Representative ;
+      qo:sourceOfProperty ?memberProperty ;
       .
     ?memberProperty
       owl:annotatedProperty lgdo:capacity ;
       owl:annotatedTarget ?cap ;
   } GROUP BY ?rep
+}
+
+# Insert provenance
+INSERT {
+  ?rep prov:wasDerivedFrom ?dataset ;
+} WHERE {
+    ?rep
+      a qo:Representative ;
+      qo:sourceOfProperty/owl:annotatedSource ?source ;
+      .
+    ?source prov:wasDerivedFrom ?dataset ;
 }
 
 CONSTRUCT WHERE { ?s ?p ?o }
