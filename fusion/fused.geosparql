@@ -1,0 +1,1674 @@
+{
+  "id": "bikeracks-geojson",
+  "id_type": "uri",
+  "features": [
+    {
+      "id": "165b6e2e-9e4a-443f-9ef2-2cee55eeda90",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.1198981,
+            46.06757344
+          ],
+          [
+            11.11995682,
+            46.06757426
+          ]
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/18bd29a7-8215-4195-82bb-ffa941d08e6e",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks",
+        "via": "piazza Verzeri",
+        "fumetto": "piazza Verzeri  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza Verzeri  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.26"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "86cb6b08-1830-4073-8578-8e138f6afd61",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12520667,
+          46.0672471
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/3f4907bc-92d5-46bf-98e4-e298b9319e6e",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "99c5ba6d-8a39-4c1f-8db1-d6a37868dca4",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1201006,
+          46.0698076
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/32427c03-b5ff-46f3-88e1-c020f055635c",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks",
+        "via": "passaggio Peterlongo",
+        "fumetto": "passaggio Peterlongo  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "passaggio Peterlongo  n.posti  10  -  monofacciale",
+        "n_posti": 18,
+        "fid": "rastrelliere.1"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "b003ef7f-2e3e-4377-a870-608672954a3f",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.11871843,
+          46.06970278
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/10e67753-c4d0-48bf-bc94-a87ec63fa35c",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata,virtual-city-explorer-bike-racks",
+        "via": "piazza della Portella",
+        "fumetto": "piazza della Portella  n.posti  12  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza della Portella  n.posti  12  -  monofacciale",
+        "n_posti": 12,
+        "fid": "rastrelliere.2"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "8ed3f89d-3371-4a74-b74e-dab0ae6654e4",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.11938499,
+          46.0666095
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/4e6d8a2f-933d-4d60-9766-dfe31046277a",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata,virtual-city-explorer-bike-racks",
+        "via": "via Verdi",
+        "fumetto": "via Verdi  n.posti  52  -  monofacciale",
+        "tipologia": "wall_loops",
+        "zona": "ZTL",
+        "descrizione": "via Verdi  n.posti  52  -  monofacciale",
+        "n_posti": 52,
+        "fid": "rastrelliere.28"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "e9606c59-3256-498e-a1d0-4ec592e8b3f1",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.122027,
+          46.0689382
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/c8bd5c2e-d7c5-403e-b95b-0599aeffb2e6",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "55b1c6a3-71b9-41b9-847d-07dd578ffb71",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1226663,
+          46.0697881
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/e8ce8d78-91e1-4a33-998f-3fef3f199c40",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "80e6faa5-57c2-4086-8b2c-f1b2a978bac4",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1210015,
+          46.0681994
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/bad60940-d28d-4c4f-b660-0a3359cdfdff",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "8e15aba4-0205-45e2-b6c6-b4f90d86b811",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1247175,
+          46.06781916
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/0b1bdf36-6da3-4321-897d-7a4943448565",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,trento-bikeracks,linkedgeodata",
+        "via": "via Roggia Grande",
+        "fumetto": "via Roggia Grande  n.posti  10  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Roggia Grande  n.posti  10  -  monofacciale",
+        "n_posti": 20,
+        "fid": "rastrelliere.22"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "891f7cb9-3406-4795-aa9e-59d5c4cd3fa8",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12598517,
+          46.0689193
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/7a9ada50-f57c-404a-a59d-e53818e07a09",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via S. Maria Maddalena",
+        "fumetto": "via S. Maria Maddalena  n.posti  12  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via S. Maria Maddalena  n.posti  12  -  monofacciale",
+        "n_posti": 16,
+        "fid": "rastrelliere.13"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "3149b11c-1dfe-42ca-88e5-adaa77e1973a",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1201655,
+          46.06867747
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/c9641577-3d8d-4d8a-b3e1-1fa312daa729",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,trento-bikeracks,linkedgeodata",
+        "via": "vicolo Colico",
+        "fumetto": "vicolo Colico  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "vicolo Colico  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.16"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "4cbe8659-ef8b-4b7f-b52a-cff5321c45a6",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1239086,
+          46.0661631
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/e6d024ae-8bd8-401e-ae9b-6384e45f8529",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 8
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6ce51153-2c68-42c8-a8e5-e447538b64c1",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1206975,
+          46.0688755
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/098ce58f-2045-48aa-8d9b-b957ed193f22",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 3
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "2c5f3565-0736-4737-87b5-844a9628f016",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12145214,
+          46.0696817
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/f0c16f7c-6a0a-4f21-858d-0437f35882c9",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata,virtual-city-explorer-bike-racks",
+        "via": "via Manci",
+        "fumetto": "via Manci  n.posti  32  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Manci  n.posti  32  -  monofacciale",
+        "n_posti": 44,
+        "fid": "rastrelliere.5"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "99cca997-3882-4911-8c7b-cf099837850e",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12164233,
+          46.06970985
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/075164f1-5391-49a2-b16e-4d197825ebcf",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via Manci",
+        "fumetto": "via Manci  n.posti  12  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTLL",
+        "descrizione": "via Manci  n.posti  12  -  monofacciale",
+        "n_posti": 12,
+        "fid": "rastrelliere.4"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "e6455970-1bfb-49d9-80c8-e8615cd95006",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1230963,
+          46.07015
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/84311744-3f65-468c-90d5-be1ed1d055fe",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 6
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "36dae511-bc1f-4c38-88cd-f15e82f79a23",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.123097,
+          46.0701031
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/9dd47543-d770-45c7-8bb2-4643f439433f",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 4
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "f33741b5-824e-49d5-9a00-657aa43d9f88",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12471008,
+          46.0657453
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/b72202ef-2a11-4d1c-ae91-ba5384cf1e44",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata,virtual-city-explorer-bike-racks",
+        "via": "piazza Garzetti",
+        "fumetto": "piazza Garzetti  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza Garzetti  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.35"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6196699e-8c2b-4f85-80eb-47601d2a05ce",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12341242,
+          46.06726462
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/c5986f58-56d4-4031-97af-419d65c3e3c1",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "e1a3c427-8eeb-4709-a5b6-b4423486fd7d",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.124673,
+          46.0659986
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/691be8d6-81f6-48a4-b5e4-757ca867005f",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 12
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "381be5c7-e7d6-454d-8af1-a5eae1dde17a",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1203361,
+          46.0693289
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/28ea00c7-7db5-42a8-a2c6-7e2cb5915492",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "d02307bc-f483-427e-8f6c-18749caf6b21",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12351902,
+          46.06778335
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/34f0f20c-0144-4c3e-9882-9dabeb414bb8",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata,trento-bikeracks",
+        "via": "piazza Lodron",
+        "fumetto": "piazza Lodron  n.posti  10  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza Lodron  n.posti  10  -  monofacciale",
+        "n_posti": 10,
+        "fid": "rastrelliere.23"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "1167cd90-fefa-4ac9-91ab-159e52077e9a",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1220149,
+          46.0691011
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/794a66eb-5ccb-4916-aa49-12dabc19a488",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6292249a-2bdf-4bc3-97b7-e18941aa3b5c",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12535344,
+          46.06810722
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/aa135f53-ef37-4ef3-89e2-8404aad1b89c",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,trento-bikeracks,linkedgeodata",
+        "via": "via Galilei",
+        "fumetto": "via Galilei  n.posti  16  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Galilei  n.posti  16  -  monofacciale",
+        "n_posti": 20,
+        "fid": "rastrelliere.21"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "5dcf9304-88a4-466f-bca1-2c4ef84a3263",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12453051,
+          46.06920456
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/f67c1271-b0fd-4613-a6d0-6b0bf69e2b3c",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,virtual-city-explorer-bike-racks,trento-bikeracks",
+        "via": "via S. Pietro",
+        "fumetto": "via S. Pietro  n.posti  4  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via S. Pietro  n.posti  4  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.12"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6cfa6916-74ab-49d9-9aaf-8bf79343660f",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1230164,
+          46.06695606
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/c5837913-162c-4bbd-b6b7-639a1d50989c",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,virtual-city-explorer-bike-racks,trento-bikeracks",
+        "via": "via Calepina",
+        "fumetto": "via Calepina  n.posti  56  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Calepina  n.posti  56  -  monofacciale",
+        "n_posti": 24,
+        "fid": "rastrelliere.30"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "38a966d1-0e1f-46de-9709-c76bd7efa56e",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12417043,
+          46.06681975
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/44540de1-7bc1-4ef8-9074-18fca6c26c9a",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "d1b946e5-4031-48e1-bda9-376c525d220d",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1246609,
+          46.0687261
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/368ef752-8024-4778-bef6-ece40b68216c",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 4
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "b7e6facb-ee6d-4c84-b24c-800659822bea",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12297627,
+          46.0650818
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/26fc337a-78b2-4aac-b57b-363ec19a43c2",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via Al Torrione",
+        "fumetto": "via Al Torrione  n.posti  15  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Al Torrione  n.posti  15  -  monofacciale",
+        "n_posti": 15,
+        "fid": "rastrelliere.36"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "acca1998-571e-4c98-9af8-da4349582443",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12358029,
+          46.0656541
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/94bc2e67-b94c-4f42-9cc1-976115c4bf3e",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,virtual-city-explorer-bike-racks,trento-bikeracks",
+        "via": "via II Androna Borgonuovo",
+        "fumetto": "via II Androna Borgonuovo  n.posti  9  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via II Androna Borgonuovo  n.posti  9  -  monofacciale",
+        "n_posti": 18,
+        "fid": "rastrelliere.33"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "a873fa2d-3e2a-4fee-8045-83f5caf0a487",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12406903,
+          46.06690328
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/ca9f0e30-4f77-458d-b8e4-8f6564340672",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "0b67471b-223c-45b1-8c44-fdcec06ea29b",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12410796,
+          46.06843389
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/6117aad8-3440-4a9f-9697-a6eaf253626b",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata,trento-bikeracks",
+        "via": "largo Carducci",
+        "fumetto": "largo Carducci  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "largo Carducci  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.19"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "eb222174-a875-4a12-a9a1-5e88cbf25fc2",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12180979,
+          46.06737988
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/c11e7ed1-21ca-4e8c-8159-43f190442a9a",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata,virtual-city-explorer-bike-racks",
+        "via": "piazza del Duomo",
+        "fumetto": "piazza del Duomo  n.posti  20  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza del Duomo  n.posti  20  -  monofacciale",
+        "n_posti": 20,
+        "fid": "rastrelliere.25"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "eb0db96a-16a9-4d85-abd9-1457df87e516",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12557392,
+          46.0695315
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/7f29f14e-ef8a-49ce-8267-d31200143ee7",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "a5a5bdbf-ea39-4bc0-934c-d72b8a7e555d",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12471055,
+          46.06957507
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/746e7686-490c-4a41-abf9-c5de8156478a",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "31d2e725-fa74-48b0-be55-ead987b427e8",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12468417,
+          46.07115392
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/d04a91c5-6d42-49c7-aa61-af88b0e35882",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "f622f5b8-eac4-4f91-b0c6-9f4c2e6699dc",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12417981,
+          46.06728092
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/94e51c04-04af-435a-b9f7-9ddda9ceff56",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "722fe95e-3cf5-4205-9f3e-71d66f95a9f1",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1223396,
+          46.06528329
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/aff38a51-b4eb-493c-82f8-97acd532abcd",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,trento-bikeracks",
+        "via": "via Al Torrione",
+        "fumetto": "via Al Torrione  n.posti  12  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Al Torrione  n.posti  12  -  monofacciale",
+        "n_posti": 12,
+        "fid": "rastrelliere.38"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "3a2321ad-0dd4-4b6e-97c4-7581216cfbad",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.124031,
+          46.0661549
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/7db3db6d-b155-4346-8df7-60cd44d318bf",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks",
+        "via": "piazza Garzetti",
+        "fumetto": "piazza Garzetti  n.posti  13  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza Garzetti  n.posti  13  -  monofacciale",
+        "n_posti": 13,
+        "fid": "rastrelliere.31"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "f572ac4b-f40e-4219-b0a9-03dacc4dc70e",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12390846,
+          46.06840844
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/e5895c23-b345-4f13-a5f9-c73fcda43bed",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "largo Carducci",
+        "fumetto": "largo Carducci  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "largo Carducci  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.20"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6c03c2ad-19f8-4d65-a327-a610c0cf564f",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12405234,
+          46.06989879
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/8b9af25f-dfcb-4336-bea3-ed2b560f902a",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,trento-bikeracks",
+        "via": "via S. Marco",
+        "fumetto": "via S. Marco  n.posti  12  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via S. Marco  n.posti  12  -  monofacciale",
+        "n_posti": 12,
+        "fid": "rastrelliere.9"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "88c60be4-7cd4-4e0c-b7a8-c007525dd007",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1236914,
+          46.0694713
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/9e0b6e5d-a772-4080-a5f8-bbf4b6b818ba",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata",
+        "via": "piazza C. Battisti",
+        "fumetto": "piazza C. Battisti  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza C. Battisti  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.10"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6fd1c57e-f919-4829-9207-3002e6784197",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1244926,
+          46.0669955
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/38526744-3844-4712-b191-39dd182b116e",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "4c55ae3d-443f-4593-9f54-dd3d48156b70",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1264767,
+          46.0694326
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/05e21fa6-aadc-4ba8-84c7-ea553f2bc14b",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 4
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "5a21605f-e0fb-4015-9537-e1ef09a9f274",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.123456,
+          46.06922
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/e20ed5d6-8938-4260-ad40-13f625c070de",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata,trento-bikeracks",
+        "via": "piazza C. Battisti",
+        "fumetto": "piazza C. Battisti  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza C. Battisti  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.11"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "b375b5b6-defd-4126-99ac-ae2ccb62efe7",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12073635,
+          46.06961272
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/350c255e-a6f7-41ce-a5c0-a39449662adf",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata,trento-bikeracks",
+        "via": "via Roma",
+        "fumetto": "via Roma  n.posti  32  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Roma  n.posti  32  -  monofacciale",
+        "n_posti": 32,
+        "fid": "rastrelliere.3"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "8861bca8-283a-4db3-9e07-9af569c8b4c0",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12416585,
+          46.06599696
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/a6285414-078c-4ce9-938d-18d812b6fc6c",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "piazza Garzetti",
+        "fumetto": "piazza Garzetti  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza Garzetti  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.32"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "c72723ad-1ad4-467e-b519-5afbf8054618",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1198196,
+          46.0688705
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/fe8dd32d-ea57-4ff8-a821-03387d87f4e9",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 4
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "a266bbdc-f134-4455-abcb-0f3cbf606752",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12666065,
+          46.07050097
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/a64c7aea-c7bc-47d1-acfe-7872b6099799",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via S. Marco",
+        "fumetto": "via S. Marco  n.posti  4  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via S. Marco  n.posti  4  -  monofacciale",
+        "n_posti": 4,
+        "fid": "rastrelliere.8"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "27600cf2-dc19-4e6f-9d60-fdc8f92da0db",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.11991336,
+          46.06668108
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/7ac55b6e-0265-4ea0-b8fd-9093a6c373e0",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via Verdi",
+        "fumetto": "via Verdi  n.posti  36  -  monofacciale",
+        "tipologia": "wall_loops",
+        "zona": "ZTL",
+        "descrizione": "via Verdi  n.posti  36  -  monofacciale",
+        "n_posti": 36,
+        "fid": "rastrelliere.29"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "c27b00d1-352d-40dc-999e-9d12c0d2572f",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12373455,
+          46.06748386
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/04e20e26-b05a-4d21-a5b2-c60da28f21cb",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata",
+        "n_posti": 30
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "a028b972-682d-4272-a285-47bece200924",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.11936356,
+          46.06880388
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/7d014523-f3a4-447d-a64c-e08a5e404520",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata,trento-bikeracks",
+        "via": "piazza S. Maria Maggiore",
+        "fumetto": "piazza S. Maria Maggiore  n.posti  24  -  bifacciale",
+        "tipologia": "bifacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza S. Maria Maggiore  n.posti  24  -  bifacciale",
+        "n_posti": 21,
+        "fid": "rastrelliere.15"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "389cb48d-d24b-44b6-8a93-7da2f3e84bb1",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12252117,
+          46.06525522
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/6bcf7d3c-b0f6-44dd-adcc-f84af716da81",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,linkedgeodata,trento-bikeracks",
+        "via": "via Al Torrione",
+        "fumetto": "via Al Torrione  n.posti  28  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Al Torrione  n.posti  28  -  monofacciale",
+        "n_posti": 20,
+        "fid": "rastrelliere.37"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "9fb9cefb-010f-4b39-9252-9e1fe50326ce",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12265424,
+          46.06841446
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/53b9a34c-7f95-4788-9edb-07373675e4db",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via Oss Mazzurana",
+        "fumetto": "via Oss Mazzurana  n.posti  9  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Oss Mazzurana  n.posti  12  -  monofacciale",
+        "n_posti": 20,
+        "fid": "rastrelliere.18"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "013357ff-f1e2-4761-8105-b5727974bc7c",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12603978,
+          46.07073229
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/a4ef07b4-6ef6-4c92-a0f3-d45a0f483fe3",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata,trento-bikeracks,virtual-city-explorer-bike-racks",
+        "via": "via della Mostra",
+        "fumetto": "via della Mostra  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via della Mostra  n.posti  8  -  monofacciale",
+        "n_posti": 12,
+        "fid": "rastrelliere.7"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "d741914d-f678-45af-ae0b-f09c22e07344",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12279712,
+          46.06780301
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/636f5698-dfd1-4a80-b195-0da08a46e0a4",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks,trento-bikeracks,linkedgeodata",
+        "via": "piazza Lodron",
+        "fumetto": "piazza Lodron  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "piazza Lodron  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.24"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "6de177ca-0ae4-4f9e-af8e-0d36d86a3f42",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12668707,
+          46.06948469
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/3b0cda47-cb3f-410f-bcc3-01a787deef34",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "aa622baf-ac75-4a77-9578-22a29c1082d2",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1239814,
+          46.0661029
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/f4860c2f-37ef-4640-995c-481105a76bb7",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata",
+        "n_posti": 8
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "1b8ec634-47fc-4963-a6e6-74f3060b1b05",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12016521,
+          46.067091
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/1f7c3c25-a3e3-4632-979d-3f0b280a18a3",
+        "id_type": "bnode",
+        "provenance": "trento-bikeracks,linkedgeodata,virtual-city-explorer-bike-racks",
+        "via": "via Don Rizzi",
+        "fumetto": "via Don Rizzi  n.posti  8  -  monofacciale",
+        "tipologia": "monofacciale",
+        "zona": "ZTL",
+        "descrizione": "via Don Rizzi  n.posti  8  -  monofacciale",
+        "n_posti": 8,
+        "fid": "rastrelliere.27"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "cdacc9d8-d951-4245-9903-5c9f54839cc8",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.12445863,
+          46.06844046
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/e76970b8-057c-41c6-a381-3c7cd584b3fb",
+        "id_type": "bnode",
+        "provenance": "virtual-city-explorer-bike-racks"
+      },
+      "type": "Feature"
+    },
+    {
+      "id": "960f59fd-72f7-43aa-907d-f398f1c274ea",
+      "id_type": "bnode",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1216467,
+          46.0694639
+        ],
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "EPSG:0"
+          }
+        }
+      },
+      "properties": {
+        "id": "http://qrowd-project.eu/resource/2976261c-428a-4f44-9282-f29fe85613e5",
+        "id_type": "bnode",
+        "provenance": "linkedgeodata"
+      },
+      "type": "Feature"
+    }
+  ],
+  "crs": {
+    "id": "2acdd41f-7f8c-4c23-8ee5-29f4e367981d",
+    "id_type": "bnode",
+    "properties": {
+      "id": "26efaaed-6d0d-4085-afa9-c250ceeb2fab",
+      "id_type": "bnode",
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection"
+}
