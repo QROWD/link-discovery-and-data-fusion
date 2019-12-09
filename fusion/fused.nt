@@ -490,7 +490,7 @@ _:Be2255e99afdbe8bed0b23edd72af2326 <http://www.w3.org/2000/01/rdf-schema#label>
 <http://linkedgeodata.org/geometry/node938729458> <http://www.opengis.net/ont/geosparql#asWKT> "POINT(11.1239086 46.0661631)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 <http://linkedgeodata.org/geometry/node938729458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://geovocab.org/geometry#Geometry> .
 <http://qrowd-project.eu/resource/01e0fa3e-4827-49f6-8c5d-e7a37ea9a3d3> <http://www.w3.org/2002/07/owl#annotatedTarget> <http://linkedgeodata.org/triplify/node885670110> .
-<http://qrowd-project.eu/resource/01e0fa3e-4827-49f6-8c5d-e7a37ea9a3d3> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/ns/prov#wasRevisonOf> .
+<http://qrowd-project.eu/resource/01e0fa3e-4827-49f6-8c5d-e7a37ea9a3d3> <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/ns/prov#wasRevisionOf> .
 <http://qrowd-project.eu/resource/01e0fa3e-4827-49f6-8c5d-e7a37ea9a3d3> <http://www.w3.org/2002/07/owl#annotatedSource> <http://qrowd-project.eu/resource/node885670110> .
 <http://qrowd-project.eu/resource/01e0fa3e-4827-49f6-8c5d-e7a37ea9a3d3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qrowd-project.eu/ontology/MemberProperty> .
 <http://qrowd-project.eu/resource/5123d0f4-4568-4997-8fb6-b3d9a252cbf3> <http://www.w3.org/2002/07/owl#annotatedTarget> "9828950"^^<http://www.w3.org/2001/XMLSchema#int> .
