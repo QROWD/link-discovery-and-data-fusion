@@ -1,4 +1,4 @@
-INPUT = ../fusion/cluster/fusion-sameas-clusters.nt
+INPUT = ./../../fusion/fused.nt
 
 visualization.csv: visualization.sparql $(INPUT)
 	sparql --data $(INPUT) --query visualization.sparql --results csv > visualization.csv

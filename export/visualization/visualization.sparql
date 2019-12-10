@@ -1,0 +1,62 @@
+PREFIX bif:  <bif:>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX geo:  <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX geom: <http://geovocab.org/geometry#>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX qr: <http://qrowd-project.eu/resource/>
+PREFIX qo: <http://qrowd-project.eu/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT
+  ?bikerack
+  ?wkt
+  ?contributor
+  ?modified
+  ?access  
+  ?capacity
+  ?dataset
+  ?covered
+  ?parking
+  ?description
+  ?stuff
+  ?label
+  ?area
+  ?streetName
+  ?prove
+  ?cluster
+
+WHERE { 
+  # { ?bikerack a lgdo:BicycleParking } UNION { ?bikerack a qo:Representative }
+  ?bikerack 
+    a ?type ;
+    ?hasGeo ?geo ;
+    .
+
+  ?geo
+    geo:asWKT ?wkt ;
+    .
+  # OPTIONAL { ?bikerack  dct:contributor ?contributor } .
+  # OPTIONAL { ?bikerack  prov:wasDerivedFrom ?dataset } .
+  # OPTIONAL { ?bikerack  prov:generatedAtTime ?modified } .
+  # OPTIONAL { ?bikerack  lgdo:access ?access } .
+  # OPTIONAL { ?bikerack  lgdo:bicycle_parking ?type } .
+  OPTIONAL { ?bikerack  lgdo:capacity ?capacity } .
+  # OPTIONAL { ?bikerack  lgdo:covered ?covered } .
+  # OPTIONAL { ?bikerack  lgdo:parking ?parking } .
+  # OPTIONAL { ?bikerack  rdfs:comment ?description } .
+  # OPTIONAL { ?bikerack  rdfs:label ?label } .
+  OPTIONAL { ?bikerack  prov:wasDerivedFrom/dct:title ?prove } .
+  # OPTIONAL { ?bikerack  todo:area ?area } .
+  # OPTIONAL { ?cluster   todo:member ?bikerack } .
+  # OPTIONAL { ?bikerack  lgdo:near _:street .
+  #            _:street   a lgdo:HighwayThing ;
+  #                       rdfs:label ?streetName .
+  # }
+  FILTER NOT EXISTS{ ?bikerack a qo:Representative }
+  FILTER(?type = lgdo:BicycleParking)
+}
