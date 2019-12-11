@@ -1,9 +1,9 @@
 datasets := $(wildcard datasets/*/.)
 interlinking := $(wildcard interlinking/*/.)
 fusion := $(wildcard fusion/.)
-visualization := $(wildcard visualization/. )
+export := $(wildcard export/*/. )
 
-$(visualization): $(fusion)
+$(export): $(fusion)
 	$(MAKE) -C $@ $(TARGET)
 
 $(fusion): $(interlinking)
@@ -15,4 +15,4 @@ $(interlinking): $(datasets)
 $(datasets):
 	$(MAKE) -C $@ $(TARGET)
 
-.PHONY: $(visualization) $(fusion) $(interlinking) $(datasets)
+.PHONY: $(export) $(fusion) $(interlinking) $(datasets)

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE LIMES SYSTEM "limes.dtd">
+
+<LIMES>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2003/01/geo/wgs84_pos#</NAMESPACE>
+        <LABEL>geo</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://geovocab.org/geometry#</NAMESPACE>
+        <LABEL>geom</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.opengis.net/ont/geosparql#</NAMESPACE>
+        <LABEL>geos</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://linkedgeodata.org/ontology/</NAMESPACE>
+        <LABEL>lgdo</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://limes.sf.net/ontology/</NAMESPACE>
+        <LABEL>limes</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2002/07/owl#</NAMESPACE>
+        <LABEL>owl</LABEL>
+    </PREFIX>
+    <PREFIX>
+        <NAMESPACE>http://www.w3.org/2000/01/rdf-schema#</NAMESPACE>
+        <LABEL>rdfs</LABEL>
+    </PREFIX>
+    <SOURCE>
+        <ID>osm</ID>
+        <ENDPOINT>/limes/.server-storage/files/SOURCE_FILE.nt</ENDPOINT>
+        <VAR>?x</VAR>
+        <PAGESIZE>2000</PAGESIZE>
+        <RESTRICTION>?x a lgdo:BicycleParking</RESTRICTION>
+        <PROPERTY>geos:geometry/geos:asWKT RENAME wkt</PROPERTY>
+        <TYPE>N-TRIPLE</TYPE>
+    </SOURCE>
+    <TARGET>
+        <ID>TRENTO</ID>
+        <ENDPOINT>/limes/.server-storage/files/TARGET_FILE.nt</ENDPOINT>
+        <VAR>?y</VAR>
+        <PAGESIZE>2000</PAGESIZE>
+        <RESTRICTION>?y a lgdo:BicycleParking</RESTRICTION>
+        <PROPERTY>geos:geometry/geos:asWKT RENAME wkt</PROPERTY>
+        <TYPE>N-TRIPLE</TYPE>
+    </TARGET>
+    <METRIC>geo_mean(x.wkt, y.wkt)</METRIC>
+    <ACCEPTANCE>
+        <THRESHOLD>0.987</THRESHOLD>
+        <FILE>sameas.nt</FILE>
+        <RELATION>owl:sameAs</RELATION>
+    </ACCEPTANCE>
+    <REVIEW>
+        <THRESHOLD>0.9</THRESHOLD>
+        <FILE>near.nt</FILE>
+        <RELATION>lgdo:near</RELATION>
+    </REVIEW>
+    <EXECUTION>
+        <REWRITER>default</REWRITER>
+        <PLANNER>default</PLANNER>
+        <ENGINE>default</ENGINE>
+    </EXECUTION>
+    <GRANULARITY>2</GRANULARITY>
+    <OUTPUT>N-TRIPLE</OUTPUT>
+</LIMES>
